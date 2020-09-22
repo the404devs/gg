@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "Gilroy";
+    src: url("font/Gilroy-ExtraBold.otf");
+}
+
+@font-face {
+    font-family: "Gilroy Light";
+    src: url("font/Gilroy-Light.otf");
+}
+
+body {
+    background-color: rgb(40, 156, 160);
+}
+
+.blob {
+    border: 2px solid white;
+    padding: 5px;
+    overflow: hidden;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    width: 60%;
+    background-color: rgba(21, 24, 36, 0.25);
+}
+
+.blob h3 {
+    font-size: 24px;
+    font-family: "Gilroy";
+    color: white;
+    text-shadow: 1px 1px 5px black, -1px 2px 5px black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.blob h5,
+.blob a {
+    margin: 2px;
+    font-family: "Gilroy Light";
+    font-size: 16px;
+    /* text-shadow: 1px 1px 3px black, -1px 2px 3px black; */
+}
+
+.blob a,
+.blob a:visited {
+    color: white;
+}
