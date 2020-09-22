@@ -12,13 +12,26 @@ body {
     background-color: rgb(40, 156, 160);
 }
 
+#main {
+    width: 60%;
+    position: absolute;
+    float: left;
+}
+
+#side {
+    width: 30%;
+    position: fixed;
+    float: right;
+    right: 10px;
+}
+
 .blob {
     border: 2px solid white;
     padding: 5px;
     overflow: hidden;
     padding-left: 10px;
     margin-bottom: 10px;
-    width: 60%;
+    /* width: 60%; */
     background-color: rgba(21, 24, 36, 0.25);
 }
 
@@ -43,4 +56,12 @@ body {
 .blob a,
 .blob a:visited {
     color: white;
+    word-break: break-all;
+}
+
+#errmsg {
+    color: rgb(224, 9, 9);
+    opacity: 0;
+    transition: 0.2s opacity;
+    padding-top: 2px;
 }

@@ -11,6 +11,16 @@
     <div id="main">
 
     </div>
+    <div id="side">
+        <div class="blob">
+            <h3>Jump to Date:</h3>
+            <input id="date-sel" type="date" onkeypress="function k(e){if (e.keyCode==13)scrollToElem($('#date-sel').val())} k(event)">
+            <button onclick="scrollToElem($('#date-sel').val())">Go</button>
+            <h5 id="errmsg">Nothing for that date!</h5>
+            <button onclick="window.scrollTo({top: 0,behavior: 'smooth'})">Top</button>
+            <button onclick="window.scrollTo({top: 999999999,behavior: 'smooth'})">Bottom</button>
+        </div>
+    </div>
     <script src="js/hist.js"></script>
 </body>
 
