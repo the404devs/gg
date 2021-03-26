@@ -9,19 +9,35 @@
 
 <body>
     <div id="main">
-
+        <div class="blob" id="loading-box" style="height: 150px;">
+            <h5 style="color:white">Hold on, loading...</h5>
+            <div id="loading-anim"></div>
+        </div>
     </div>
     <div id="side">
         <div class="blob">
             <h3>Jump to Date:</h3>
-            <input id="date-sel" type="date" onkeypress="function k(e){if (e.keyCode==13)scrollToElem($('#date-sel').val())} k(event)">
-            <button onclick="scrollToElem($('#date-sel').val())">Go</button>
-            <h5 id="errmsg">Nothing for that date!</h5>
-            <button onclick="window.scrollTo({top: 0,behavior: 'smooth'})">Top</button>
-            <button onclick="window.scrollTo({top: 999999999,behavior: 'smooth'})">Bottom</button>
-            <br>
-            <br>
-            <button onclick="location.href='history-printable.pdf'">700 page PDF of fun</button>
+            <div id="controls">
+                <input id="date-sel" type="date" onkeypress="function k(e){if (e.keyCode==13)scrollToElem($('#date-sel').val())} k(event)">
+                <button class="button" onclick="scrollToElem($('#date-sel').val())">
+                    <span>Go</span>
+                </button>
+                <h5 id="errmsg">Nothing for that date!</h5>
+                <button class="button" style="width:70px" onclick="window.scrollTo({top: 0,behavior: 'smooth'})">
+                    <span>Top</span>
+                </button>
+                <button class="button" style="width:90px" onclick="window.scrollTo({top: 999999999,behavior: 'smooth'})">
+                    <span>Bottom</span>
+                </button>
+                <br>
+                <br>
+                <button class="button" style="width:180px" onclick="location.href='history-printable.pdf'">
+                    <span>Printable PDF</span>
+                </button>
+                <br>
+                <br>
+                <h5 style="color:white">v0.0.3 (03/26/2021)</h5>
+            </div>
         </div>
     </div>
     <script src="js/hist.js"></script>

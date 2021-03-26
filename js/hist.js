@@ -1,37 +1,34 @@
 var loadHistFromJSON = function() {
-    var request = new XMLHttpRequest();
-    request.open("GET", "./js/BrowserHistory.json", false);
-    request.overrideMimeType("application/json");
-    request.send(null);
-    var jsonData = JSON.parse(request.responseText);
-    // console.log(jsonData);
-    // console.log(jsonData.History[0]);
+    $.getJSON("./js/BrowserHistory.json", function(jsonData) {
+        // console.log(data)
+        // var jsonData = JSON.parse(data);
+        var ids = [];
 
-    var ids = [];
-
-    jsonData.History.forEach(entry => {
-        if (!ids.includes(entry.client_id)) {
-            ids.push(entry.client_id);
-        }
-        var source = "";
-        if (entry.client_id == "GOsaQkbKv2pHIBa4tKCfHA==") {
-            source = "Phone";
-        } else if (entry.client_id == "WU91epkrKwLcHbD0DQGQnw==") {
-            source = "Home PC"
-        } else {
-            source = "Unknown"
-        }
-        $("#main").append(
-            $("<div>").addClass("blob").append(
-                $("<h3>").html(entry.title)
-            ).append(
-                $("<h5>").html(convertedDate(entry.time_usec))
-            ).append(
-                $("<h5>").html("Accessed from: <b>" + source + "</b>")
-            ).append(
-                $("<a>").attr("href", entry.url).html(entry.url)
-            ).attr("id", dateTagGen(entry.time_usec))
-        );
+        jsonData.History.forEach(entry => {
+            if (!ids.includes(entry.client_id)) {
+                ids.push(entry.client_id);
+            }
+            var source = "";
+            if (entry.client_id == "GOsaQkbKv2pHIBa4tKCfHA==") {
+                source = "Phone";
+            } else if (entry.client_id == "WU91epkrKwLcHbD0DQGQnw==") {
+                source = "Home PC"
+            } else {
+                source = "Unknown"
+            }
+            $("#main").append(
+                $("<div>").addClass("blob").append(
+                    $("<h3>").html(entry.title)
+                ).append(
+                    $("<h5>").html(convertedDate(entry.time_usec))
+                ).append(
+                    $("<h5>").html("Accessed from: <b>" + source + "</b>")
+                ).append(
+                    $("<a>").attr("href", entry.url).html(entry.url)
+                ).attr("id", dateTagGen(entry.time_usec))
+            );
+        });
+        $("#loading-box").hide()
     });
 }
 
@@ -74,6 +71,20 @@ var scrollToElem = function(id) {
     });
 }
 
+var getJSON = function(url, callback) {
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', url, true);
+    xhr.responseType = 'json';
+    xhr.onload = function() {
+        var status = xhr.status;
+        if (status === 200) {
+            callback(null, xhr.responseText);
+        } else {
+            callback(status, xhr.responseText);
+        }
+    };
+    xhr.send();
+};
 
 
 loadHistFromJSON();
