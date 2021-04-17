@@ -1,7 +1,7 @@
 var loadHoursFromJSON = function() {
     $.getJSON("./js/hours.json", function(jsonData) {
-
         var years = Object.keys(jsonData).sort();
+        $("#loading-box").hide();
         for (let y = 0; y < years.length; y++) {
             // $("#main").append($("<div>").addClass("blob").attr("id", years[y]).append($("<h3>").html(years[y])))
             var months = Object.keys(jsonData[years[y]]).sort();

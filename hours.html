@@ -9,7 +9,10 @@
 
 <body>
     <div id="main">
-
+        <div class="blob" id="loading-box" style="height: 150px;">
+            <h5 style="color:white">Hold on, loading...</h5>
+            <div id="loading-anim"></div>
+        </div>
     </div>
     <div id="side">
         <div class="blob">
@@ -25,7 +28,13 @@
 
             </div>
             <br>
-            <h5 style="color:white; width: 100%; text-align: center;">v0.0.2 (04/17/2021)</h5>
+            <div style="text-align: center; width: 100%;">
+                <h5 style="color:white;">v0.0.2 (04/17/2021)</h5>
+                <button class="button" onclick="location.href='./index.html'" style="width:160px">
+                    <span>History Browser</span>
+                </button>
+            </div>
+
         </div>
     </div>
     <script src="js/hours.js"></script>
