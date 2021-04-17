@@ -13,10 +13,23 @@
     </div>
     <div id="side">
         <div class="blob">
+            <h3>Jump to Date:</h3>
+            <div id="controls">
+                <input id="date-sel" type="date" onkeypress="function k(e){if (e.keyCode==13)scrollToElem($('#date-sel').val())} k(event)">
+                <button class="button" onclick="scrollToElem($('#date-sel').val())">
+                    <span>Go</span>
+                </button>
+                <h5 id="errmsg">Nothing for that date!</h5>
+            </div>
+            <div id="link-zone">
 
+            </div>
+            <br>
+            <h5 style="color:white; width: 100%; text-align: center;">v0.0.2 (04/17/2021)</h5>
         </div>
     </div>
     <script src="js/hours.js"></script>
+    <script src="js/common.js"></script>
 </body>
 
 </html>

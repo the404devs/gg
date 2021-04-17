@@ -3,44 +3,69 @@ var loadHoursFromJSON = function() {
 
         var years = Object.keys(jsonData).sort();
         for (let y = 0; y < years.length; y++) {
-            $("#main").append($("<div>").addClass("blob").attr("id", years[y]).append($("<h3>").html(years[y])))
+            // $("#main").append($("<div>").addClass("blob").attr("id", years[y]).append($("<h3>").html(years[y])))
             var months = Object.keys(jsonData[years[y]]).sort();
             for (let m = 0; m < months.length; m++) {
-                $("#" + years[y]).append($("<div>").addClass("blob").attr("id", years[y] + "-" + months[m]).append($("<h3>").html(monthNames[parseInt(months[m])] + " " + years[y])));
+                $("#main").append(
+                    $("<div>").addClass("blob").attr("id", years[y] + "-" + months[m]).append(
+                        $("<h3>").html(monthNames[parseInt(months[m])] + " " + years[y])
+                    )
+                );
+
+                $("#link-zone").append(
+                    $("<a>").html(monthNames[parseInt(months[m])] + " " + years[y]).addClass("link").attr("onclick", "scrollToElem('" + years[y] + "-" + months[m] + "')")
+                ).append($("<br>")).append($("<br>"))
                 var days = Object.keys(jsonData[years[y]][months[m]]).sort();
+                var monthlyHourTotal = 0;
+
+                $("#" + years[y] + "-" + months[m]).append(
+                    $("<div>").addClass("month-totals")
+                );
                 for (let d = 0; d < days.length; d++) {
                     var date = new Date(years[y] + "-" + months[m] + "-" + days[d]);
+                    var totalHours = 0;
+
                     $("#" + years[y] + "-" + months[m]).append(
                         $("<div>").addClass("blob").append(
                             $("<h3>").html(years[y] + "-" + months[m] + "-" + days[d] + " (" + weekdays[date.getDay()] + ")")
-                        ).append(
-                            $("<h6>").html("G&G: " + jsonData[years[y]][months[m]][days[d]]["gg"] + " hours")
                         ).attr("id", years[y] + "-" + months[m] + "-" + days[d])
                     );
+
+                    if (jsonData[years[y]][months[m]][days[d]]["gg"]) {
+                        $("#" + years[y] + "-" + months[m] + "-" + days[d]).append(
+                            $("<h6>").html("G&G: " + jsonData[years[y]][months[m]][days[d]]["gg"] + " hours").css("font-weight", "normal")
+                        );
+                        totalHours += jsonData[years[y]][months[m]][days[d]]["gg"];
+                    }
+
+                    if (jsonData[years[y]][months[m]][days[d]]["bn"]) {
+                        $("#" + years[y] + "-" + months[m] + "-" + days[d]).append(
+                            $("<h6>").html("Bruce: " + jsonData[years[y]][months[m]][days[d]]["bn"] + " hours").css("font-weight", "normal")
+                        );
+                        totalHours += jsonData[years[y]][months[m]][days[d]]["bn"];
+                    }
+
+                    $("#" + years[y] + "-" + months[m] + "-" + days[d]).append(
+                        $("<h6>").html("Total: " + totalHours + " hours").css("font-weight", "bold").css("color", "yellow")
+                    );
+
+                    monthlyHourTotal += totalHours;
                 }
+
+                var monthBlob = $("#" + years[y] + "-" + months[m]);
+                var monthlyAverage = monthlyHourTotal / days.length;
+                monthBlob.children(".month-totals").append(
+                    $("<h6>").html(days.length + " days worked.").css("font-weight", "normal")
+                ).append(
+                    $("<h6>").html(monthlyHourTotal + " hours worked.").css("font-weight", "normal")
+                ).append(
+                    $("<h6>").html(monthlyAverage.toFixed(2) + " hours/day, average").css("font-weight", "bold").css("color", "yellow")
+                );
+
             }
         }
     });
 }
-
-
-
-
-
-var getJSON = function(url, callback) {
-    var xhr = new XMLHttpRequest();
-    xhr.open('GET', url, true);
-    xhr.responseType = 'json';
-    xhr.onload = function() {
-        var status = xhr.status;
-        if (status === 200) {
-            callback(null, xhr.responseText);
-        } else {
-            callback(status, xhr.responseText);
-        }
-    };
-    xhr.send();
-};
 
 var weekdays = {
     "0": "Monday",
