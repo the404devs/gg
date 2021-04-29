@@ -215,7 +215,7 @@ input::-webkit-datetime-edit-minute-field:focus {
 
 #link-zone {
     overflow-y: scroll;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     padding: 8px;
 }
 
