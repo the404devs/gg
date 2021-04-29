@@ -31,6 +31,24 @@ var loadHoursFromJSON = function() {
                         ).attr("id", years[y] + "-" + months[m] + "-" + days[d])
                     );
 
+                    if (jsonData[years[y]][months[m]][days[d]]["D"]) {
+                        $("#" + years[y] + "-" + months[m] + "-" + days[d]).append(
+                            $("<h6>").html("Left for work at: " + jsonData[years[y]][months[m]][days[d]]["D"]).css("font-weight", "bold")
+                        );
+                    }
+
+                    if (jsonData[years[y]][months[m]][days[d]]["A"]) {
+                        $("#" + years[y] + "-" + months[m] + "-" + days[d]).append(
+                            $("<h6>").html("Arrived home at: " + jsonData[years[y]][months[m]][days[d]]["A"]).css("font-weight", "bold")
+                        );
+                    }
+
+                    if (jsonData[years[y]][months[m]][days[d]]["H"]) {
+                        $("#" + years[y] + "-" + months[m] + "-" + days[d]).append(
+                            $("<h6>").html("Worked from home.").css("font-weight", "bold").css("color", "lime")
+                        );
+                    }
+
                     if (jsonData[years[y]][months[m]][days[d]]["gg"]) {
                         $("#" + years[y] + "-" + months[m] + "-" + days[d]).append(
                             $("<h6>").html("G&G: " + jsonData[years[y]][months[m]][days[d]]["gg"] + " hours").css("font-weight", "normal")
@@ -45,9 +63,21 @@ var loadHoursFromJSON = function() {
                         totalHours += jsonData[years[y]][months[m]][days[d]]["bn"];
                     }
 
+                    var hourColour = "yellow";
+                    if (totalHours == 0) {
+                        hourColour = "red";
+                    }
                     $("#" + years[y] + "-" + months[m] + "-" + days[d]).append(
-                        $("<h6>").html("Total: " + totalHours + " hours").css("font-weight", "bold").css("color", "yellow")
+                        $("<h6>").html("Total: " + totalHours + " hours").css("font-weight", "bold").css("color", hourColour)
                     );
+
+                    if (jsonData[years[y]][months[m]][days[d]]["N"]) {
+                        $("#" + years[y] + "-" + months[m] + "-" + days[d]).append(
+                            $("<h6>").html("Notes: " + jsonData[years[y]][months[m]][days[d]]["N"]).css("font-weight", "normal")
+                        );
+                    }
+
+
 
                     monthlyHourTotal += totalHours;
                 }
