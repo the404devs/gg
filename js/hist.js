@@ -32,11 +32,13 @@ var loadHistFromJSON = function() {
     }).then(() => {
         const urlParams = new URLSearchParams(window.location.search);
         const requestedDate = urlParams.get('d');
-        if (document.getElementById(requestedDate)) {
-            console.log("Scrolling to " + requestedDate);
-            scrollToElem(requestedDate);
-        } else {
-            alert("No history for " + requestedDate + "!");
+        if (requestedDate != null) {
+            if (document.getElementById(requestedDate)) {
+                console.log("Scrolling to " + requestedDate);
+                scrollToElem(requestedDate);
+            } else {
+                alert("No history for " + requestedDate + "!");
+            }
         }
     });
 }
