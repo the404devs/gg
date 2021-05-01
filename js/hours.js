@@ -81,7 +81,7 @@ var loadHoursFromJSON = function() {
                     }
 
                     $("#" + years[y] + "-" + months[m] + "-" + days[d]).append(
-                        $("<button>").addClass("button").attr("onclick", "window.open('./index.html?d=" + years[y] + "-" + months[m] + "-" + days[d] + ")").css("width", "270px").append(
+                        $("<button>").addClass("button").attr("onclick", "window.open('./index.html?d=" + years[y] + "-" + months[m] + "-" + days[d] + "')").css("width", "270px").append(
                             $("<span>").html("Browsing History for this Day")
                         )
                     );
