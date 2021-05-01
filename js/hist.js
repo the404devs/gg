@@ -28,7 +28,11 @@ var loadHistFromJSON = function() {
                 ).attr("id", dateTagGen(entry.time_usec))
             );
         });
-        $("#loading-box").hide()
+        $("#loading-box").hide();
+        const urlParams = new URLSearchParams(window.location.search);
+        const requestedDate = urlParams.get('d');
+        console.log(requestedDate);
+        scrollToElem(requestedDate);
     });
 }
 
