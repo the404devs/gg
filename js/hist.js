@@ -28,12 +28,13 @@ var loadHistFromJSON = function() {
                 ).attr("id", dateTagGen(entry.time_usec))
             );
         });
-        $("#loading-box").hide();
+        $("#loading-box").hide().then(() => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const requestedDate = urlParams.get('d');
+            console.log(requestedDate);
+            scrollToElem(requestedDate);
+        });
     });
-    const urlParams = new URLSearchParams(window.location.search);
-    const requestedDate = urlParams.get('d');
-    console.log(requestedDate);
-    scrollToElem(requestedDate);
 }
 
 var convertedDate = function(UNIX_timestamp) {
