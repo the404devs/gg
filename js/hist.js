@@ -36,7 +36,7 @@ var loadHistFromJSON = function() {
             console.log("Scrolling to " + requestedDate);
             scrollToElem(requestedDate);
         } else {
-            alert("No history for " + requestedDate);
+            alert("No history for " + requestedDate + "!");
         }
     });
 }
