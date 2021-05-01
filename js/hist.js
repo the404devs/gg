@@ -32,7 +32,7 @@ var loadHistFromJSON = function() {
     }).then(() => {
         const urlParams = new URLSearchParams(window.location.search);
         const requestedDate = urlParams.get('d');
-        if (requestedDate) {
+        if (document.getElementById(requestedDate)) {
             console.log("Scrolling to " + requestedDate);
             scrollToElem(requestedDate);
         } else {
