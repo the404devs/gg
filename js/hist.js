@@ -29,11 +29,11 @@ var loadHistFromJSON = function() {
             );
         });
         $("#loading-box").hide();
-        const urlParams = new URLSearchParams(window.location.search);
-        const requestedDate = urlParams.get('d');
-        console.log(requestedDate);
-        scrollToElem(requestedDate);
     });
+    const urlParams = new URLSearchParams(window.location.search);
+    const requestedDate = urlParams.get('d');
+    console.log(requestedDate);
+    scrollToElem(requestedDate);
 }
 
 var convertedDate = function(UNIX_timestamp) {
