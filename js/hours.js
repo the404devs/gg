@@ -67,6 +67,9 @@ var loadHoursFromJSON = function() {
                     if (totalHours == 0) {
                         hourColour = "red";
                     }
+                    if (totalHours > 8) {
+                        hourColour = "orange";
+                    }
                     $("#" + years[y] + "-" + months[m] + "-" + days[d]).append(
                         $("<h6>").html("Total: " + totalHours + " hours").css("font-weight", "bold").css("color", hourColour)
                     );
