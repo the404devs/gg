@@ -32,8 +32,12 @@ var loadHistFromJSON = function() {
     }).then(() => {
         const urlParams = new URLSearchParams(window.location.search);
         const requestedDate = urlParams.get('d');
-        console.log(requestedDate);
-        scrollToElem(requestedDate);
+        if (requestedDate) {
+            console.log("Scrolling to " + requestedDate);
+            scrollToElem(requestedDate);
+        } else {
+            alert("No history for " + requestedDate);
+        }
     });
 }
 

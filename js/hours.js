@@ -80,6 +80,11 @@ var loadHoursFromJSON = function() {
                         );
                     }
 
+                    $("#" + years[y] + "-" + months[m] + "-" + days[d]).append(
+                        $("<button>").addClass("button").attr("onclick", "location.href='./index.html?d=" + years[y] + "-" + months[m] + "-" + days[d] + "'").css("width", "270px").append(
+                            $("<span>").html("Browsing History For This Day")
+                        )
+                    );
 
 
                     monthlyHourTotal += totalHours;
