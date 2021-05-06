@@ -1,3 +1,5 @@
+//common.js should always be linked before other scripts
+
 var scrollToElem = function(id) {
     console.log(id);
     var elem = document.getElementById(id);
