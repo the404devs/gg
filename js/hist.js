@@ -29,7 +29,7 @@ var loadHistFromJSON = function() {
             );
         });
         $("#loading-box").hide();
-    }).then(getDateFromURL());
+    }).then(() => { getDateFromURL() });
 }
 
 var convertedDate = function(UNIX_timestamp) {
