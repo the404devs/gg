@@ -27,3 +27,16 @@ var getJSON = function(url, callback) {
     };
     xhr.send();
 }
+
+var getDateFromURL = function() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const requestedDate = urlParams.get('d');
+    if (requestedDate != null) {
+        if (document.getElementById(requestedDate)) {
+            console.log("Scrolling to " + requestedDate);
+            scrollToElem(requestedDate);
+        } else {
+            alert("Nothing for " + requestedDate + "!");
+        }
+    }
+}

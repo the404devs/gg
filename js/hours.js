@@ -101,7 +101,7 @@ var loadHoursFromJSON = function() {
 
             }
         }
-    });
+    }).then(getDateFromURL());
 }
 
 var weekdays = {
