@@ -1,4 +1,9 @@
 var loadHoursFromJSON = function() {
+    var maxHours = 0;
+    var maxHoursDate = "";
+    var minHours = Infinity;
+    var minHoursDate = "";
+
     $.getJSON("./js/hours.json", function(jsonData) {
         var years = Object.keys(jsonData).sort();
         $("#loading-box").hide();
@@ -86,6 +91,13 @@ var loadHoursFromJSON = function() {
                         )
                     );
 
+                    if (totalHours > maxHours) {
+                        maxHours = totalHours;
+                        maxHoursDate = years[y] + "-" + months[m] + "-" + days[d]
+                    } else if (totalHours < minHours && totalHours > 0) {
+                        minHours = totalHours;
+                        minHoursDate = years[y] + "-" + months[m] + "-" + days[d]
+                    }
                     monthlyHourTotal += totalHours;
                 }
 
@@ -114,6 +126,8 @@ var loadHoursFromJSON = function() {
 
             }
         }
+        console.log("Max hours: " + maxHours + " on " + maxHoursDate);
+        console.log("Min hours: " + minHours + " on " + minHoursDate);
     }).then(() => { getDateFromURL() });
 }
 
