@@ -26,9 +26,9 @@ var loadHoursFromJSON = function() {
                     ).attr("id", years[y] + "-" + months[m] + "-blob")
                 );
 
-                $("#month-select-body").append(
+                $("#month-select-body").prepend($("<br>")).prepend($("<br>")).prepend(
                     $("<a>").html(monthNames[parseInt(months[m])] + " " + years[y]).addClass("link").attr("onclick", "showCalendar('" + years[y] + "-" + months[m] + "-blob')")
-                ).append($("<br>")).append($("<br>"))
+                )
 
                 var days = Object.keys(jsonData[years[y]][months[m]]).sort();
                 var monthlyHourTotal = 0;
