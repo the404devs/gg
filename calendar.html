@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Glenn Goodwin, CPA, CGA</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="main" style="width:99%; text-align: center;">
+        <div class="blob" id="loading-box" style="height: 150px;">
+            <h5 style="color:white">Hold on, loading...</h5>
+            <div id="loading-anim"></div>
+        </div>
+    </div>
+    <div class="modal" id="month-select" onclick="hideModal('#month-select')">
+        <div class="modal-content">
+            <div class="modal-header">Select Month:</div>
+            <div class="modal-body" id="month-select-body"></div>
+            <div class="modal-footer">
+                <h5 style="color:white;">v0.0.1 (06/06/2021)</h5>
+                <button class="button" onclick="location.href='./index.html'" style="width:160px">
+                    <span>History Browser</span>
+                </button>
+                <br>
+                <br>
+                <button class="button" onclick="location.href='./hours.html'" style="width:160px">
+                    <span>Hours Viewer</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="js/common.js"></script>
+    <!-- <script src="js/hours.js"></script> -->
+    <script src="js/cal.js"></script>
+</body>
+
+</html>

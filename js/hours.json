@@ -1,9 +1,388 @@
 {
     "2017": {
+        "08": {
+            "01": {
+                "gg": 1.75,
+                "bn": 3.5
+            },
+            "02": {
+                "gg": 0,
+                "H": true
+            },
+            "03": {
+                "gg": 0.5,
+                "bn": 2
+            },
+            "04": {
+                "gg": 3
+            },
+            "08": {
+                "bn": 3.5,
+                "N": "Calendar says 'out of office', 14:30 - 17:00"
+            },
+            "09": {
+                "gg": 5.75,
+                "N": "At Outlook Eyewear"
+            },
+            "10": {
+                "gg": 5.25,
+                "bn": 1
+            },
+            "11": {
+                "gg": 4
+            },
+            "14": {
+                "gg": 5.75,
+                "bn": 0.5
+            },
+            "15": {
+                "gg": 4.5
+            },
+            "16": {
+                "gg": 0,
+                "N": "Calendar says 'out of office', 9:00 - 17:00"
+            },
+            "17": {
+                "gg": 5.75
+            },
+            "21": {
+                "gg": 4.25,
+                "bn": 1.5
+            },
+            "22": {
+                "gg": 0,
+                "N": "Calendar says 'out of office', 9:00 - 17:00"
+            },
+            "23": {
+                "gg": 4.5,
+                "bn": 1
+            },
+            "24": {
+                "gg": 3
+            },
+            "25": {
+                "bn": 1
+            },
+            "28": {
+                "gg": 0.5,
+                "bn": 4
+            },
+            "29": {
+                "bn": 2,
+                "N": "Calendar says 'out of office', 9:00 - 17:00"
+            },
+            "30": {
+                "gg": 2.25
+            },
+            "31": {
+                "gg": 1.5,
+                "bn": 4
+            }
+        },
+        "09": {
+            "01": {
+                "gg": 0,
+                "N": "Calendar says 'out of office', 9:00 - 17:00"
+            },
+            "05": {
+                "gg": 0.5,
+                "bn": 2.5,
+                "N": "Calendar says 'out of office', 14:30 - 17:00"
+            },
+            "06": {
+                "gg": 0,
+                "N": "Calendar says 'out of office', 9:00 - 17:00"
+            },
+            "07": {
+                "gg": 3.5,
+                "bn": 2.5
+            },
+            "08": {
+                "gg": 6.5,
+                "N": "At Outlook Eyewear"
+            },
+            "11": {
+                "gg": 5,
+                "bn": 0.5
+            },
+            "12": {
+                "gg": 0,
+                "N": "Calendar says 'out of office', 9:00 - 17:00"
+            },
+            "13": {
+                "gg": 5.25,
+                "bn": 1
+            },
+            "14": {
+                "gg": 4.5,
+                "bn": 1.5
+            },
+            "15": {
+                "gg": 0,
+                "N": "Calendar says 'out of office', 9:00 - 17:00"
+            },
+            "18": {
+                "gg": 3,
+                "N": "Calendar says 'out of office', 9:00 - 12:00"
+            },
+            "19": {
+                "gg": 3,
+                "N": "AJAG course, 8:30 - 12:45"
+            },
+            "20": {
+                "gg": 0,
+                "N": "Calendar says 'out of office', 9:00 - 17:00"
+            },
+            "21": {
+                "gg": 2.5,
+                "bn": 2
+            },
+            "22": {
+                "gg": 0,
+                "N": "Calendar says 'out of office', 9:00 - 17:00"
+            },
+            "25": {
+                "gg": 5.5,
+                "bn": 0.5
+            },
+            "26": {
+                "gg": 0,
+                "N": "Calendar says 'out of office', 9:00 - 17:00"
+            },
+            "27": {
+                "gg": 4.75,
+                "bn": 0.5
+            },
+            "28": {
+                "gg": 4.25,
+                "bn": 1.5
+            },
+            "29": {
+                "gg": 0,
+                "N": "Calendar says 'out of office', 9:00 - 17:00"
+            }
+        },
+        "10": {
+            "02": {
+                "gg": 0.5,
+                "bn": 2
+            },
+            "03": {
+                "gg": 0,
+                "N": "AJAG course, 8:30"
+            },
+            "04": {
+                "gg": 1.75,
+                "bn": 0.5,
+                "N": "Calendar says 'out of office', 9:00 - 15:00"
+            },
+            "05": {
+                "gg": 6.5,
+                "bn": 0.5,
+                "N": "At Outlook Eyewear"
+            },
+            "06": {
+                "gg": 3.75,
+                "bn": 1.5,
+                "N": "Calendar says 'out of office', 9:00 - 10:30"
+            },
+            "09": {
+                "bn": 3.5
+            },
+            "10": {
+                "gg": 4.75,
+                "bn": 2,
+                "N": "Calendar says 'out of office', 9:00 - 10:00"
+            },
+            "11": {
+                "gg": 0,
+                "N": "Calendar says 'out of office', 9:00 - 17:00"
+            },
+            "12": {
+                "gg": 3.5,
+                "bn": 1.5
+            },
+            "13": {
+                "gg": 1.25,
+                "bn": 1,
+                "N": "Calendar says 'out of office', 9:00 - 17:00"
+            },
+            "14": {
+                "gg": 2.25
+            },
+            "15": {
+                "gg": 1.75
+            },
+            "16": {
+                "gg": 3.75,
+                "bn": 2
+            },
+            "17": {
+                "gg": 0,
+                "N": "Calendar says 'out of office', 9:00 - 17:00"
+            },
+            "18": {
+                "gg": 3,
+                "bn": 3
+            },
+            "19": {
+                "gg": 0
+            },
+            "20": {
+                "gg": 6.75,
+                "bn": 2,
+                "N": "Calendar says 'out of office', 9:00 - 10:30"
+            },
+            "23": {
+                "gg": 1.5,
+                "bn": 4
+            },
+            "24": {
+                "gg": 0,
+                "N": "Calendar says 'out of office', 9:00 - 17:00"
+            },
+            "25": {
+                "gg": 4.75,
+                "bn": 1.5
+            },
+            "26": {
+                "gg": 0,
+                "N": "Calendar says 'out of office', 9:00 - 17:00"
+            },
+            "27": {
+                "gg": 3.75,
+                "bn": 1
+            },
+            "28": {
+                "bn": 1
+            },
+            "29": {
+                "gg": 1,
+                "bn": 1
+            },
+            "30": {
+                "gg": 4.75,
+                "bn": 2
+            },
+            "31": {
+                "bn": 1,
+                "N": "Calendar says 'out of office', 9:00 - 17:00"
+            }
+        },
+        "11": {
+            "01": {
+                "gg": 4.25,
+                "bn": 1.5,
+                "N": "Calendar says 'out of office', 9:00 - 10:30"
+            },
+            "02": {
+                "gg": 3,
+                "bn": 5
+            },
+            "03": {
+                "gg": 0,
+                "N": "Calendar says 'out of office', 9:00 - 17:00"
+            },
+            "04": {
+                "gg": 2
+            },
+            "06": {
+                "gg": 3,
+                "bn": 2.5
+            },
+            "07": {
+                "gg": 7.75,
+                "N": "At Outlook Eyewear"
+            },
+            "08": {
+                "gg": 1.5,
+                "N": "Calendar says 'out of office', 9:00 - 17:00"
+            },
+            "09": {
+                "gg": 5.25,
+                "bn": 2
+            },
+            "10": {
+                "gg": 2,
+                "bn": 2.5,
+                "N": "Calendar says 'out of office', 9:00 - 14:00"
+            },
+            "11": {
+                "gg": 1.5
+            },
+            "12": {
+                "gg": 1.5
+            },
+            "13": {
+                "gg": 4,
+                "bn": 3
+            },
+            "14": {
+                "gg": 2.5,
+                "bn": 1,
+                "N": "AJAG course, 8:30 - 12:45"
+            },
+            "15": {
+                "gg": 0.75,
+                "N": "Tax seminar, 8:00 - 11:30 <br>Calendar says 'out of office', 12:00 - 17:00"
+            },
+            "16": {
+                "gg": 5.25,
+                "bn": 2
+            },
+            "17": {
+                "gg": 1.5,
+                "bn": 1,
+                "N": "Calendar says 'out of office', 9:00 - 13:00"
+            },
+            "18": {
+                "bn": 1.5
+            },
+            "19": {
+                "gg": 2.25
+            },
+            "20": {
+                "gg": 8,
+                "N": "At Dolvin Mechanical"
+            },
+            "21": {
+                "gg": 0,
+                "N": "AJAG course, 8:30 - 17:00"
+            },
+            "22": {
+                "gg": 7.75,
+                "N": "At Dolvin Mechanical"
+            },
+            "23": {
+                "gg": 6.75,
+                "bn": 1
+            },
+            "24": {
+                "bn": 2,
+                "N": "AJAG course, 8:30 - 12:45 <br>Calendar says 'out of office', 13:00 - 16:00"
+            },
+            "27": {
+                "gg": 3.25,
+                "bn": 5
+            },
+            "28": {
+                "gg": 2.25,
+                "bn": 4.5
+            },
+            "29": {
+                "gg": 5,
+                "bn": 1.5
+            },
+            "30": {
+                "gg": 2.25,
+                "bn": 4
+            }
+        },
         "12": {
             "01": {
                 "gg": 6.25,
-                "bn": 2
+                "bn": 2,
+                "N": "At Dolvin Mechanical"
             },
             "02": {
                 "bn": 2
@@ -28,7 +407,8 @@
                 "bn": 3
             },
             "08": {
-                "gg": 7
+                "gg": 7,
+                "N": "At Outlook Eyewear"
             },
             "09": {
                 "gg": 1
@@ -43,11 +423,13 @@
             },
             "12": {
                 "gg": 1.75,
-                "bn": 2
+                "bn": 2,
+                "N": "AJAG course, 8:30 - 12:45"
             },
             "13": {
                 "gg": 1.25,
-                "bn": 2
+                "bn": 2,
+                "N": "Tax seminar, 8:00 - 11:30"
             },
             "14": {
                 "gg": 5.25,
@@ -62,13 +444,15 @@
             },
             "18": {
                 "gg": 5.25,
-                "bn": 1.5
+                "bn": 1.5,
+                "N": "At Dolvin Mechanical"
             },
             "19": {
                 "gg": 3.5
             },
             "20": {
-                "gg": 5.5
+                "gg": 5.5,
+                "N": "At Outlook Eyewear"
             },
             "21": {
                 "gg": 3.5,
@@ -113,7 +497,8 @@
                 "bn": 1
             },
             "09": {
-                "gg": 2.5
+                "gg": 2.5,
+                "N": "Calendar says 'out of office', 9:00 - 12:30"
             },
             "10": {
                 "gg": 3.5,
@@ -122,29 +507,35 @@
             },
             "11": {
                 "gg": 5,
-                "bn": 1
+                "bn": 1,
+                "N": "At Dolvin Mechanical"
             },
             "12": {
-                "gg": 0.5
+                "gg": 0.5,
+                "N": "Calendar says 'out of office', 9:00 - 11:00"
             },
             "15": {
                 "gg": 4.25,
                 "bn": 1.5
             },
             "16": {
-                "gg": 7.25
+                "gg": 7.25,
+                "N": "At Outlook Eyewear"
             },
             "17": {
                 "gg": 2,
-                "bn": 2
+                "bn": 2,
+                "N": "Tax seminar, 8:00 - 11:30"
             },
             "18": {
                 "gg": 2.75,
-                "bn": 2
+                "bn": 2,
+                "N": "Calendar says 'out of office', 9:00 - 11:00"
             },
             "19": {
                 "gg": 2.25,
-                "bn": 1.5
+                "bn": 1.5,
+                "N": "Calendar says 'out of office', 9:00 - 12:00"
             },
             "20": {
                 "gg": 1
@@ -166,7 +557,8 @@
             },
             "26": {
                 "gg": 5.75,
-                "bn": 1
+                "bn": 1,
+                "N": "At Dolvin Mechanical"
             },
             "27": {
                 "gg": 4.5
@@ -194,7 +586,8 @@
             },
             "02": {
                 "gg": 2.25,
-                "bn": 1
+                "bn": 1,
+                "N": "Calendar says 'out of office', 9:00 - 12:30"
             },
             "03": {
                 "gg": 5
@@ -215,7 +608,8 @@
                 "gg": 3.25
             },
             "09": {
-                "gg": 7.5
+                "gg": 7.5,
+                "N": "At Outlook Eyewear"
             },
             "10": {
                 "gg": 2.75
@@ -235,7 +629,8 @@
             },
             "15": {
                 "gg": 2.75,
-                "bn": 0.5
+                "bn": 0.5,
+                "N": "Calendar says 'out of office', 9:00 - 12:30"
             },
             "16": {
                 "gg": 2.75,
@@ -257,7 +652,8 @@
             },
             "22": {
                 "gg": 4,
-                "bn": 3.5
+                "bn": 3.5,
+                "N": "Calendar says 'out of office', 9:00 - 10:30"
             },
             "23": {
                 "gg": 2.5,
@@ -281,6 +677,10 @@
             }
         },
         "03": {
+            "01": {
+                "gg": 0,
+                "N": "Calendar says 'out of office', 9:00 - 12:30"
+            },
             "02": {
                 "gg": 3.25,
                 "bn": 1
@@ -298,7 +698,8 @@
                 "gg": 6.25
             },
             "08": {
-                "gg": 6.5
+                "gg": 6.5,
+                "N": "At Outlook Eyewear"
             },
             "09": {
                 "gg": 4.25,
@@ -317,7 +718,8 @@
                 "bn": 3.5
             },
             "14": {
-                "gg": 2.75
+                "gg": 2.75,
+                "N": "Calendar says 'out of office', 9:00 - 13:00"
             },
             "15": {
                 "gg": 4.75,
@@ -358,7 +760,8 @@
             },
             "27": {
                 "gg": 1.75,
-                "bn": 2
+                "bn": 2,
+                "N": "Calendar says 'out of office', 9:00 - 12:00"
             },
             "28": {
                 "gg": 6.5,
@@ -486,6 +889,10 @@
             }
         },
         "05": {
+            "02": {
+                "gg": 0,
+                "N": "Calendar says 'out of office', 9:00 - 17:00"
+            },
             "03": {
                 "gg": 4.25
             },
@@ -495,10 +902,12 @@
             },
             "07": {
                 "gg": 4.25,
-                "bn": 2.5
+                "bn": 2.5,
+                "N": "Calendar says 'out of office', 9:00 - 10:30"
             },
             "08": {
-                "gg": 5.75
+                "gg": 5.75,
+                "N": "At Outlook Eyewear"
             },
             "09": {
                 "gg": 3.25,
@@ -506,7 +915,8 @@
             },
             "10": {
                 "gg": 1.5,
-                "bn": 1.5
+                "bn": 1.5,
+                "N": "Calendar says 'out of office', 15:00 - 17:00"
             },
             "11": {
                 "gg": 3.5,
@@ -520,6 +930,10 @@
             },
             "16": {
                 "gg": 4
+            },
+            "17": {
+                "gg": 0,
+                "N": "Calendar says 'out of office', 9:00 - 17:00"
             },
             "18": {
                 "gg": 3.5
@@ -572,10 +986,15 @@
                 "gg": 5.5
             },
             "07": {
-                "gg": 5.75
+                "gg": 5.75,
+                "N": "At Outlook Eyewear"
             },
             "08": {
                 "gg": 3.75
+            },
+            "11": {
+                "gg": 0,
+                "N": "Calendar says 'out of office', 9:00 - 17:00"
             },
             "12": {
                 "gg": 4.75
@@ -603,6 +1022,10 @@
             "21": {
                 "gg": 4.75
             },
+            "22": {
+                "gg": 0,
+                "N": "Calendar says 'out of office', 9:00 - 17:00"
+            },
             "25": {
                 "gg": 1.75,
                 "bn": 3
@@ -618,6 +1041,10 @@
                 "gg": 3,
                 "bn": 1.5,
                 "N": "Spent $5.65 at McDonalds"
+            },
+            "29": {
+                "gg": 0,
+                "N": "Calendar says 'out of office', 9:00 - 17:00"
             }
         },
         "07": {
@@ -644,7 +1071,8 @@
                 "N": "Spent $4.20 at McDonalds"
             },
             "11": {
-                "gg": 5.5
+                "gg": 5.5,
+                "N": "At Outlook Eyewear"
             },
             "12": {
                 "gg": 4.75
@@ -655,6 +1083,10 @@
             },
             "17": {
                 "gg": 6.25
+            },
+            "18": {
+                "gg": 0,
+                "N": "Calendar says 'out of office', 9:00 - 17:00"
             },
             "19": {
                 "gg": 2.5,
@@ -681,6 +1113,10 @@
             }
         },
         "08": {
+            "01": {
+                "gg": 0,
+                "N": "Calendar says 'out of office', 9:00 - 17:00"
+            },
             "02": {
                 "bn": 2
             },
@@ -696,7 +1132,8 @@
                 "bn": 4.5
             },
             "09": {
-                "gg": 5
+                "gg": 5,
+                "N": "At Outlook Eyewear"
             },
             "10": {
                 "gg": 4,
@@ -708,18 +1145,21 @@
             },
             "14": {
                 "gg": 4.75,
-                "bn": 1.5
+                "bn": 1.5,
+                "N": "Calendar says 'out of office', 9:00 - 10:30"
             },
             "15": {
                 "bn": 3,
-                "N": "Spent $3.15 at McDonalds"
+                "N": "Spent $3.15 at McDonalds <br>Calendar says 'out of office', 9:00 - 10:30"
             },
             "16": {
-                "gg": 1
+                "gg": 1,
+                "N": "Calendar says 'out of office', 12:30 - 17:00"
             },
             "20": {
                 "gg": 1.25,
-                "bn": 3.5
+                "bn": 3.5,
+                "N": "Calendar says 'out of office', 15:30 - 17:00"
             },
             "21": {
                 "bn": 5.5
@@ -739,6 +1179,10 @@
             "28": {
                 "gg": 4.5,
                 "bn": 0.5
+            },
+            "29": {
+                "gg": 0,
+                "N": "Calendar says 'out of office', 9:00 - 17:00"
             },
             "30": {
                 "gg": 2.25,
@@ -775,8 +1219,13 @@
                 "gg": 3.5,
                 "bn": 2.5
             },
+            "12": {
+                "gg": 0,
+                "N": "Calendar says 'out of office', 9:00 - 17:00"
+            },
             "13": {
-                "gg": 7
+                "gg": 7,
+                "N": "At Outlook Eyewear"
             },
             "14": {
                 "gg": 4.25,
@@ -792,11 +1241,13 @@
                 "bn": 1.5
             },
             "19": {
-                "gg": 3.25
+                "gg": 3.25,
+                "N": "Calendar says 'out of office', 9:00 - 17:00"
             },
             "20": {
                 "gg": 2.5,
-                "bn": 2.5
+                "bn": 2.5,
+                "N": "Calendar says 'out of office', 9:00 - 11:00"
             },
             "21": {
                 "gg": 2.75,
@@ -816,7 +1267,8 @@
             },
             "27": {
                 "gg": 3.75,
-                "bn": 1
+                "bn": 1,
+                "N": "Calendar says 'out of office', 9:00 - 11:30"
             },
             "28": {
                 "gg": 2.25,
@@ -845,7 +1297,8 @@
                 "bn": 2
             },
             "09": {
-                "gg": 5.75
+                "gg": 5.75,
+                "N": "At Outlook Eyewear"
             },
             "10": {
                 "gg": 5,
@@ -857,10 +1310,12 @@
             },
             "12": {
                 "gg": 3.75,
-                "bn": 1.5
+                "bn": 1.5,
+                "N": "Calendar says 'out of office', 9:00 - 12:00"
             },
             "15": {
-                "gg": 3
+                "gg": 3,
+                "N": "Calendar says 'out of office', 9:00 - 13:30"
             },
             "16": {
                 "gg": 5.75,
@@ -901,7 +1356,8 @@
                 "gg": 3.75
             },
             "31": {
-                "N": "Spent $11.70 at Galleria. No hours recorded for this day."
+                "gg": 0,
+                "N": "Spent $11.70 at Galleria. No hours recorded for this day. <br>Calendar states 'out of office, all day'"
             }
         },
         "11": {
@@ -917,7 +1373,8 @@
                 "gg": 4.75
             },
             "06": {
-                "gg": 6
+                "gg": 6,
+                "N": "At Outlook Eyewear"
             },
             "07": {
                 "gg": 2.5,
@@ -964,10 +1421,12 @@
             },
             "21": {
                 "gg": 6.5,
-                "bn": 1
+                "bn": 1,
+                "N": "At Dolvin Mechanical"
             },
             "22": {
-                "gg": 7.75
+                "gg": 7.75,
+                "N": "At Dolvin Mechanical"
             },
             "23": {
                 "gg": 4.75,
@@ -976,7 +1435,8 @@
             },
             "26": {
                 "gg": 6.75,
-                "bn": 0.5
+                "bn": 0.5,
+                "N": "At Dolvin Mechanical"
             },
             "27": {
                 "gg": 2,
@@ -984,15 +1444,18 @@
             },
             "28": {
                 "gg": 5.75,
-                "bn": 2.5
+                "bn": 2.5,
+                "N": "At Dolvin Mechanical"
             },
             "29": {
                 "gg": 0.75,
-                "bn": 4
+                "bn": 4,
+                "N": "Calendar says 'out of office', 9:00 - 12:00"
             },
             "30": {
                 "gg": 1,
-                "bn": 3.5
+                "bn": 3.5,
+                "N": "Calendar says 'out of office', 9:00 - 11:00"
             }
         },
         "12": {
@@ -1008,13 +1471,16 @@
                 "gg": 4.25
             },
             "06": {
-                "gg": 7.25
+                "gg": 7.25,
+                "N": "At Outlook Eyewear"
             },
             "07": {
-                "gg": 4.5
+                "gg": 4.5,
+                "N": "Calendar says 'out of office', 9:00 - 11:30"
             },
             "10": {
-                "gg": 4
+                "gg": 4,
+                "N": "Calendar says 'out of office', 9:00 - 11:00"
             },
             "11": {
                 "gg": 4,
@@ -1024,10 +1490,12 @@
                 "gg": 3.5
             },
             "13": {
-                "gg": 1
+                "gg": 1,
+                "H": true
             },
             "14": {
-                "gg": 6.5
+                "gg": 6.5,
+                "N": "At Dolvin Mechanical"
             },
             "17": {
                 "gg": 3,
@@ -1035,10 +1503,12 @@
             },
             "18": {
                 "gg": 3.5,
-                "bn": 1
+                "bn": 1,
+                "N": "Calendar says 'out of office', 9:00 - 10:30"
             },
             "19": {
-                "gg": 5.75
+                "gg": 5.75,
+                "N": "At Outlook Eyewear"
             },
             "20": {
                 "gg": 3.5,
@@ -1071,7 +1541,15 @@
             "03": {
                 "gg": 2.25,
                 "bn": 1.5,
-                "N": "Spent $5.05 at McDonalds"
+                "N": "Spent $5.05 at McDonalds <br>Calendar says 'out of office', 9:00 - 11:00"
+            },
+            "04": {
+                "gg": 0,
+                "H": true
+            },
+            "07": {
+                "gg": 0,
+                "N": "Calendar says 'out of office', 9:00 - 12:00"
             },
             "08": {
                 "gg": 2.75,
@@ -1087,7 +1565,8 @@
             },
             "11": {
                 "gg": 6.5,
-                "bn": 3
+                "bn": 3,
+                "N": "At Outlook Eyewear"
             },
             "12": {
                 "gg": 1.5
@@ -1112,13 +1591,15 @@
                 "bn": 4.5
             },
             "18": {
-                "gg": 5.75
+                "gg": 5.75,
+                "N": "At Dolvin Mechanical"
             },
             "19": {
                 "gg": 2.25
             },
             "21": {
-                "gg": 2.25
+                "gg": 2.25,
+                "H": true
             },
             "22": {
                 "gg": 2.25,
@@ -1169,7 +1650,8 @@
             },
             "05": {
                 "gg": 0.75,
-                "bn": 3.5
+                "bn": 3.5,
+                "N": "Calendar says 'out of office', 9:00 - 12:00"
             },
             "06": {
                 "gg": 4.5,
@@ -1180,7 +1662,8 @@
                 "bn": 2
             },
             "08": {
-                "gg": 6.5
+                "gg": 6.5,
+                "N": "At Outlook Eyewear"
             },
             "09": {
                 "gg": 4.75,
@@ -1271,7 +1754,8 @@
                 "gg": 2
             },
             "08": {
-                "gg": 6.25
+                "gg": 6.25,
+                "N": "At Outlook Eyewear"
             },
             "09": {
                 "gg": 5.25
@@ -1288,10 +1772,12 @@
                 "bn": 2
             },
             "14": {
-                "gg": 4.5
+                "gg": 4.5,
+                "N": "Calendar says 'out of office', 9:00 - 11:00"
             },
             "15": {
-                "gg": 3.25
+                "gg": 3.25,
+                "N": "Calendar says 'out of office', 9:00 - 10:30"
             },
             "16": {
                 "gg": 4
@@ -1307,7 +1793,8 @@
             },
             "21": {
                 "gg": 4.5,
-                "bn": 1
+                "bn": 1,
+                "N": "Calendar says 'out of office', 9:00 - 11:30"
             },
             "22": {
                 "gg": 5.75,
@@ -1371,11 +1858,13 @@
             },
             "08": {
                 "gg": 9,
-                "bn": 1.5
+                "bn": 1.5,
+                "N": "At Outlook Eyewear"
             },
             "09": {
                 "gg": 6.75,
-                "bn": 3
+                "bn": 3,
+                "N": "Calendar says 'out of office', 9:00 - 10:30"
             },
             "10": {
                 "gg": 8.25,
@@ -1403,7 +1892,8 @@
             },
             "16": {
                 "gg": 5,
-                "bn": 2
+                "bn": 2,
+                "N": "Calendar says 'out of office', 9:00 - 11:00"
             },
             "17": {
                 "gg": 6.25,
@@ -1470,7 +1960,8 @@
                 "gg": 3
             },
             "07": {
-                "gg": 6.5
+                "gg": 6.5,
+                "N": "At Outlook Eyewear"
             },
             "08": {
                 "gg": 6
@@ -1503,7 +1994,8 @@
             },
             "21": {
                 "gg": 1.5,
-                "bn": 0.5
+                "bn": 0.5,
+                "N": "Calendar says 'out of office', 9:00 - 12:00"
             },
             "22": {
                 "gg": 3.75,
@@ -1549,10 +2041,12 @@
             },
             "06": {
                 "gg": 1.75,
-                "bn": 2.5
+                "bn": 2.5,
+                "N": "18:00: Drink with Ed, Yongho, Jay"
             },
             "07": {
-                "gg": 6.75
+                "gg": 6.75,
+                "N": "At Outlook Eyewear"
             },
             "10": {
                 "gg": 3.25
@@ -1564,14 +2058,16 @@
                 "gg": 4.5
             },
             "13": {
-                "gg": 2
+                "gg": 2,
+                "N": "Calendar says 'out of office', 9:00 - 12:00"
             },
             "14": {
                 "gg": 3.25,
                 "N": "Spent $17.70 at Big Smoke"
             },
             "17": {
-                "gg": 1.5
+                "gg": 1.5,
+                "N": "Took this day off."
             },
             "18": {
                 "gg": 4
@@ -1600,12 +2096,13 @@
             },
             "26": {
                 "gg": 2,
-                "bn": 0.5
+                "bn": 0.5,
+                "N": "Calendar says 'out of office', 9:00 - 12:00"
             },
             "27": {
                 "gg": 1.25,
                 "bn": 0.5,
-                "N": "Spent $4.20 at McDonalds"
+                "N": "Spent $4.20 at McDonalds <br>Calendar says 'out of office', 9:00 - 12:00"
             },
             "28": {
                 "bn": 3.5,
@@ -1623,12 +2120,13 @@
                 "gg": 2
             },
             "04": {
-                "gg": 1.25
+                "gg": 1.25,
+                "N": "Calendar says 'out of office', 9:00 - 12:00"
             },
             "08": {
                 "gg": 2.75,
                 "bn": 0.5,
-                "N": "Spent $5.65 at McDonalds"
+                "N": "Spent $5.65 at McDonalds <br>Calendar says 'out of office', 9:00 - 12:00"
             },
             "09": {
                 "gg": 5.75
@@ -1669,7 +2167,7 @@
             "23": {
                 "gg": 3,
                 "bn": 2,
-                "N": "Spent $4.20 at McDonalds"
+                "N": "Spent $4.20 at McDonalds <br>Calendar says 'out of office', 9:00 - 10:30"
             },
             "24": {
                 "gg": 5.25,
@@ -1726,7 +2224,8 @@
                 "N": "Spent $5.07 at McDonalds"
             },
             "13": {
-                "bn": 1.5
+                "bn": 1.5,
+                "N": "Calendar says 'out of office', 9:00 - 17:00"
             },
             "14": {
                 "gg": 3.5,
@@ -1751,7 +2250,8 @@
             },
             "21": {
                 "gg": 3.5,
-                "bn": 2
+                "bn": 2,
+                "N": "17:00: Drink with Ed, Yongho, Brandon G, Brandon H, Jay"
             },
             "22": {
                 "gg": 3,
@@ -1763,7 +2263,8 @@
             },
             "27": {
                 "gg": 4.5,
-                "bn": 0.5
+                "bn": 0.5,
+                "N": "Calendar says 'out of office', 9:00 - 12:00"
             },
             "28": {
                 "gg": 3.75,
@@ -1808,7 +2309,8 @@
                 "bn": 1
             },
             "12": {
-                "gg": 6.5
+                "gg": 6.5,
+                "N": "At Outlook Eyewear"
             },
             "13": {
                 "gg": 7.75,
@@ -1836,7 +2338,8 @@
             },
             "20": {
                 "gg": 3.25,
-                "bn": 2.5
+                "bn": 2.5,
+                "N": "Calendar says 'out of office', 9:00 - 11:30"
             },
             "23": {
                 "gg": 4.75,
@@ -1882,7 +2385,8 @@
                 "bn": 2
             },
             "07": {
-                "gg": 6.75
+                "gg": 6.75,
+                "N": "At Outlook Eyewear"
             },
             "08": {
                 "gg": 3.5,
@@ -1912,7 +2416,8 @@
                 "bn": 3
             },
             "18": {
-                "bn": 2
+                "bn": 2,
+                "N": "AJAG course, 8:30 - 12:00"
             },
             "21": {
                 "gg": 0.75,
@@ -1924,7 +2429,7 @@
             },
             "23": {
                 "gg": 2.5,
-                "N": "Spent $15.81 at Galleria"
+                "N": "Spent $15.81 at Galleria <br>Tax Seminar, 9:00 - 11:30"
             },
             "24": {
                 "gg": 4.75,
@@ -1947,7 +2452,8 @@
                 "bn": 2
             },
             "31": {
-                "bn": 2.5
+                "bn": 2.5,
+                "H": true
             }
         },
         "11": {
@@ -1963,7 +2469,7 @@
             "05": {
                 "gg": 0.75,
                 "bn": 4.5,
-                "N": "Spent $7.53 at McDonalds"
+                "N": "Spent $7.53 at McDonalds <br>Calendar says 'out of office', 9:00 - 10:30"
             },
             "06": {
                 "gg": 3.25,
@@ -1974,7 +2480,8 @@
                 "bn": 3.5
             },
             "08": {
-                "gg": 8
+                "gg": 8,
+                "N": "At Outlook Eyewear"
             },
             "09": {
                 "gg": 1
@@ -1985,11 +2492,13 @@
             },
             "12": {
                 "gg": 1.25,
-                "bn": 5.5
+                "bn": 5.5,
+                "N": "At Dolvin Mechanical"
             },
             "13": {
                 "gg": 2.25,
-                "bn": 1
+                "bn": 1,
+                "N": "Tax seminar, 8:00 - 12:00"
             },
             "14": {
                 "gg": 2,
@@ -2026,13 +2535,16 @@
                 "bn": 2.5
             },
             "26": {
-                "gg": 7.5
+                "gg": 7.5,
+                "N": "At Dolvin Mechanical"
             },
             "27": {
-                "gg": 7
+                "gg": 7,
+                "N": "At Dolvin Mechanical"
             },
             "28": {
-                "gg": 3.25
+                "gg": 3.25,
+                "N": "Calendar says 'out of office', 9:00 - 12:00"
             },
             "29": {
                 "gg": 3,
@@ -2055,12 +2567,17 @@
             "04": {
                 "gg": 5
             },
+            "05": {
+                "gg": 0,
+                "N": "At Dolvin Mechanical"
+            },
             "06": {
                 "bn": 3,
                 "N": "Spent $12.42 at Galleria"
             },
             "09": {
-                "gg": 7.5
+                "gg": 7.5,
+                "N": "At Outlook Eyewear"
             },
             "10": {
                 "gg": 3
@@ -2071,12 +2588,12 @@
             },
             "12": {
                 "bn": 7,
-                "N": "Spent $4.08 at McDonalds"
+                "N": "Spent $4.08 at McDonalds <br>17:30: Drink with Ed, Yongho, Brandon H, Jay"
             },
             "13": {
                 "gg": 1,
                 "bn": 2,
-                "N": "Spent $15.81 at Galleria"
+                "N": "Spent $15.81 at Galleria <br> AJAG course, 9:00 - 12:00"
             },
             "16": {
                 "gg": 3.5,
@@ -2093,7 +2610,8 @@
             },
             "19": {
                 "gg": 4.5,
-                "bn": 1.5
+                "bn": 1.5,
+                "N": "At Outlook Eyewear"
             },
             "20": {
                 "gg": 1.25,
@@ -2119,6 +2637,10 @@
                 "gg": 2.75,
                 "bn": 1.5
             },
+            "03": {
+                "gg": 0,
+                "N": "Took this day off."
+            },
             "06": {
                 "gg": 2.25,
                 "bn": 2
@@ -2143,11 +2665,13 @@
                 "gg": 3
             },
             "14": {
-                "gg": 6.5
+                "gg": 6.5,
+                "N": "At Outlook Eyewear"
             },
             "15": {
                 "gg": 1,
-                "bn": 2
+                "bn": 2,
+                "N": "Company Social Event, 16:00 - 18:00"
             },
             "16": {
                 "gg": 3.75,
@@ -2239,7 +2763,8 @@
                 "bn": 2
             },
             "12": {
-                "gg": 7.25
+                "gg": 7.25,
+                "N": "At Dolvin Mechanical"
             },
             "13": {
                 "gg": 3.75
@@ -2257,7 +2782,8 @@
                 "bn": 1.5
             },
             "18": {
-                "gg": 4
+                "gg": 4,
+                "N": "Calendar says 'out of office', 9:00 - 10:30"
             },
             "19": {
                 "gg": 4,
@@ -2305,6 +2831,10 @@
 
         },
         "03": {
+            "02": {
+                "gg": 0,
+                "H": true
+            },
             "03": {
                 "gg": 2.25,
                 "bn": 2,
@@ -2318,7 +2848,8 @@
             },
             "06": {
                 "gg": 4.25,
-                "bn": 1
+                "bn": 1,
+                "N": "At Outlook Eyewear"
             },
             "07": {
                 "gg": 3.25
@@ -2826,7 +3357,7 @@
                 "gg": 4,
                 "D": "8:00",
                 "A": "18:00",
-                "N": "Dentist ap. in the morning."
+                "N": "Dentist ap. in the morning. <br>Calendar says 'out of office', 9:00 - 10:00"
             },
             "25": {
                 "bn": 4,
@@ -2982,7 +3513,7 @@
                 "bn": 2.5,
                 "D": "8:15",
                 "A": "18:03",
-                "N": "Had a course @ 9AM."
+                "N": "AJAG course, 9:00 - 12:00"
             }
         },
         "10": {
@@ -3100,7 +3631,8 @@
             },
             "30": {
                 "gg": 1.5,
-                "H": true
+                "H": true,
+                "N": "AJAG course, 9:00 - 12:00"
             }
         },
         "11": {
@@ -3200,7 +3732,8 @@
                 "gg": 5.25,
                 "bn": 1,
                 "D": "8:14",
-                "A": "18:07"
+                "A": "18:07",
+                "N": "AJAG course, 9:00 - 12:00"
             },
             "25": {
                 "gg": 5.5,
@@ -3248,7 +3781,8 @@
             "04": {
                 "gg": 0.75,
                 "bn": 5,
-                "H": true
+                "H": true,
+                "N": "AJAG course, 9:00 - 12:00"
             },
             "07": {
                 "gg": 3.5,
@@ -3261,7 +3795,7 @@
                 "bn": 2,
                 "D": "8:29",
                 "A": "18:20",
-                "N": "Put password on office PC this evening."
+                "N": "Put password on office PC this evening. <br> AJAG course, 9:00 - 12:00"
             },
             "09": {
                 "gg": 3,
