@@ -112,6 +112,28 @@ var loadHoursFromJSON = function() {
                     }
                     monthlyHourTotal += totalHours;
                 }
+
+                var monthBlob = $("#" + years[y] + "-" + months[m]);
+                var monthlyAverage = monthlyHourTotal / days.length;
+                monthBlob.append(
+                    $("<div>").addClass("grid-item").append(
+                        $("<h3>").html("Totals")
+                    ).append(
+                        $("<h6>").html(days.length + " days worked.").css("font-weight", "normal")
+                    ).append(
+                        $("<h6>").html(monthlyHourTotal + " hours worked.").css("font-weight", "normal")
+                    ).append(
+                        $("<h6>").html(monthlyAverage.toFixed(2) + " hours/day, average").css("font-weight", "bold").css("color", "yellow")
+                    ).append(
+                        $("<button>").addClass("button").attr("onclick", "window.open('time/gg/" + years[y] + "-" + months[m] + "-GG.png')").css("width", "100px").append(
+                            $("<span>").html("G&G")
+                        )
+                    ).append(
+                        $("<button>").addClass("button").attr("onclick", "window.open('time/bn/" + years[y] + "-" + months[m] + "-BN.pdf')").css("width", "100px").css("margin-left", "5px").append(
+                            $("<span>").html("Bruce")
+                        )
+                    )
+                );
             }
         }
         console.log("Max hours: " + maxHours + " on " + maxHoursDate);
