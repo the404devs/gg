@@ -371,7 +371,7 @@ input::-webkit-datetime-edit-minute-field:focus {
     border: 1px solid white;
     overflow: auto;
     width: 500px;
-    height: 95vh;
+    height: 90.5vh;
     transition: all 0.5s;
     overflow-x: hidden;
     text-align: left;
@@ -396,7 +396,7 @@ input::-webkit-datetime-edit-minute-field:focus {
     display: inline-block;
     font-size: 18px;
     width: 100%;
-    height: calc(90vh - 210px);
+    height: calc(90.5vh - 220px);
     overflow-y: scroll;
 }
 
