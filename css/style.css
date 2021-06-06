@@ -272,7 +272,8 @@ input::-webkit-datetime-edit-minute-field:focus {
     grid-template-columns: auto auto auto auto auto auto auto;
     /* background-color: #2196F3; */
     padding: 10px;
-    grid-gap: 2px
+    grid-gap: 2px;
+    overflow-x: scroll;
 }
 
 .grid-item {
