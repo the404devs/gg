@@ -273,7 +273,12 @@ input::-webkit-datetime-edit-minute-field:focus {
     /* background-color: #2196F3; */
     padding: 10px;
     grid-gap: 2px;
-    overflow-x: scroll;
+}
+
+@media (max-width: 930px) {
+    .grid-container {
+        overflow-x: scroll;
+    }
 }
 
 .grid-item {
@@ -289,8 +294,8 @@ input::-webkit-datetime-edit-minute-field:focus {
     cursor: pointer;
     position: absolute;
     top: 10px;
-    width: auto;
-    height: auto;
+    width: 15px;
+    height: 21px;
     /* margin-top: -190px; */
     padding-top: 15px;
     padding-bottom: 17px;
@@ -391,7 +396,7 @@ input::-webkit-datetime-edit-minute-field:focus {
     display: inline-block;
     font-size: 18px;
     width: 100%;
-    height: calc(94vh - 210px);
+    height: calc(90vh - 210px);
     overflow-y: scroll;
 }
 
