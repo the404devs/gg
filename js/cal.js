@@ -27,7 +27,7 @@ var loadHoursFromJSON = function() {
                 );
 
                 $("#month-select-body").prepend($("<br>")).prepend($("<br>")).prepend(
-                    $("<a>").html(monthNames[parseInt(months[m])] + " " + years[y]).addClass("link").attr("onclick", "showCalendar('" + years[y] + "-" + months[m] + "-blob')")
+                    $("<a>").html(monthNames[parseInt(months[m])] + " " + years[y]).addClass("link").attr("onclick", "showCalendar('" + years[y] + "-" + months[m] + "')")
                 )
 
                 var days = Object.keys(jsonData[years[y]][months[m]]).sort();
@@ -197,7 +197,7 @@ function showCalendar(id) {
     var cals = document.getElementsByClassName("month-view");
     for (i = 0; i < cals.length; i++) {
         cals[i].style.display = "none";
-        if (id == cals[i].id) {
+        if (id + "-blob" == cals[i].id) {
             cals[i].style.display = "block";
             console.log(i)
             calIndex = i + 1;
