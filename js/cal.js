@@ -187,7 +187,6 @@ function showCalendars(n) {
     // for (i = 0; i < dots.length; i++) {
     //     dots[i].className = dots[i].className.replace(" active", "");
     // }
-    console.log(cals[calIndex - 1])
     cals[calIndex - 1].style.display = "block";
     // dots[calIndex - 1].className += " active";
 }
