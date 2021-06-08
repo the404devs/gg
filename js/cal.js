@@ -129,7 +129,9 @@ var loadHoursFromJSON = function() {
                             $("<span>").html("G&G")
                         )
                     ).append(
-                        $("<button>").addClass("button").attr("onclick", "window.open('time/bn/" + years[y] + "-" + months[m] + "-BN.pdf')").css("width", "100px").css("margin-left", "5px").append(
+                        $("<br>")
+                    ).append(
+                        $("<button>").addClass("button").attr("onclick", "window.open('time/bn/" + years[y] + "-" + months[m] + "-BN.pdf')").css("width", "100px").append(
                             $("<span>").html("Bruce")
                         )
                     )
@@ -177,18 +179,13 @@ function switchView(n) {
 function showCalendars(n) {
     var i;
     var cals = document.getElementsByClassName("month-view");
-    // var dots = document.getElementsByClassName("dot");
     calIndex = n;
     if (n > cals.length) { calIndex = 1 }
     if (n < 1) { calIndex = cals.length }
     for (i = 0; i < cals.length; i++) {
         cals[i].style.display = "none";
     }
-    // for (i = 0; i < dots.length; i++) {
-    //     dots[i].className = dots[i].className.replace(" active", "");
-    // }
     cals[calIndex - 1].style.display = "block";
-    // dots[calIndex - 1].className += " active";
 }
 
 function showCalendar(id) {
@@ -198,7 +195,6 @@ function showCalendar(id) {
         cals[i].style.display = "none";
         if (id + "-blob" == cals[i].id) {
             cals[i].style.display = "block";
-            console.log(i)
             calIndex = i + 1;
         }
     }
