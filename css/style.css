@@ -137,7 +137,7 @@ input::-webkit-datetime-edit-minute-field:focus {
     content: '\00bb';
     position: absolute;
     opacity: 0;
-    top: -2px;
+    top: -1px;
     right: -50px;
     transition: 0.2s;
 }
