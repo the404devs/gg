@@ -5350,25 +5350,45 @@
                 "N": "Sat in the office doing nothing 16:30 - 17:00"
             },
             "21": {
-                "gg": 2.25
+                "gg": 2.25,
+                "bn": 1.5,
+                "D": "8:35",
+                "A": "17:52"
             },
             "22": {
-                "gg": 2.5
+                "gg": 2.5,
+                "bn": 1.5,
+                "D": "8:34",
+                "A": "17:50",
+                "N": "Went to Shoppers at work, snacks?"
             },
             "23": {
                 "gg": 0,
-                "H": true
+                "H": true,
+                "N": "13:30 - 16:45 napping upstairs<br> 16:45 - 18:00 napping downstairs"
             },
             "24": {
                 "gg": 5.25,
-                "N": "At Lowe Label"
+                "bn": 2,
+                "N": "At Lowe Label",
+                "D": "8:34",
+                "A": "17:45"
             },
             "25": {
                 "gg": 4.75,
-                "H": true
+                "H": true,
+                "N": "16:30 - 17:25 napping."
             },
             "28": {
-                "gg": 4.25
+                "gg": 4.25,
+                "bn": 1,
+                "D": "8:32",
+                "A": "17:44",
+                "N": "Spent $3.15 at McDonalds"
+            },
+            "29": {
+                "gg": 0,
+                "D": "8:36"
             },
             "30": {
                 "H": true,
