@@ -175,7 +175,7 @@ var monthNames = {
 
 var weekHTML = "<div class='grid-item'><h2>Sunday</h2></div><div class='grid-item'><h2>Monday</h2></div><div class='grid-item'><h2>Tuesday</h2></div><div class='grid-item'><h2>Wednesday</h2></div><div class='grid-item'><h2>Thursday</h2></div><div class='grid-item'><h2>Friday</h2></div><div class='grid-item'><h2>Saturday</h2></div>"
 
-var calIndex = 1;
+var calIndex = 0;
 
 function switchView(n) {
     showCalendars(calIndex += n);
@@ -185,12 +185,12 @@ function showCalendars(n) {
     var i;
     var cals = document.getElementsByClassName("month-view");
     calIndex = n;
-    if (n > cals.length) { calIndex = 1 }
-    if (n < 1) { calIndex = cals.length }
+    if (n >= cals.length) { calIndex = 0 }
+    if (n < 0) { calIndex = cals.length - 1 }
     for (i = 0; i < cals.length; i++) {
         cals[i].style.display = "none";
     }
-    cals[calIndex - 1].style.display = "block";
+    cals[calIndex - 0].style.display = "block";
 }
 
 function showCalendar(id) {
@@ -200,14 +200,14 @@ function showCalendar(id) {
     for (i = 0; i < cals.length; i++) {
         if (id + "-blob" == cals[i].id) {
             cals[i].style.display = "block";
-            calIndex = i + 1;
+            calIndex = i + 0;
             found = true;
         } else {
             cals[i].style.display = "none";
         }
     }
     if (!found) {
-        showCalendars(1);
+        showCalendars(0);
         console.log("No data for specified month, defaulting to latest one.");
     }
 }
