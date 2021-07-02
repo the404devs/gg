@@ -142,7 +142,7 @@ var loadHoursFromJSON = function() {
         console.log("Min hours: " + minHours + " on " + minHoursDate);
     }).then(() => {
         var d = new Date();
-        var currentMonthID = d.getFullYear() + "-" + ('0' + d.getMonth()).slice(-2);
+        var currentMonthID = d.getFullYear() + "-" + ('0' + (d.getMonth() + 1)).slice(-2);
         console.log(currentMonthID);
         showCalendar(currentMonthID);
     });
@@ -207,8 +207,8 @@ function showCalendar(id) {
         }
     }
     if (!found) {
-        showCalendars(0);
-        console.log("No data for specified month, defaulting to first one.");
+        showCalendars(1);
+        console.log("No data for specified month, defaulting to latest one.");
     }
 }
 
