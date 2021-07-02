@@ -190,7 +190,7 @@ function showCalendars(n) {
     for (i = 0; i < cals.length; i++) {
         cals[i].style.display = "none";
     }
-    cals[calIndex - 0].style.display = "block";
+    cals[calIndex].style.display = "block";
 }
 
 function showCalendar(id) {
@@ -200,7 +200,7 @@ function showCalendar(id) {
     for (i = 0; i < cals.length; i++) {
         if (id + "-blob" == cals[i].id) {
             cals[i].style.display = "block";
-            calIndex = i + 0;
+            calIndex = i;
             found = true;
         } else {
             cals[i].style.display = "none";
