@@ -140,7 +140,12 @@ var loadHoursFromJSON = function() {
         }
         console.log("Max hours: " + maxHours + " on " + maxHoursDate);
         console.log("Min hours: " + minHours + " on " + minHoursDate);
-    }).then(() => { showCalendars(0) });
+    }).then(() => {
+        var d = new Date();
+        var currentMonthID = d.getFullYear() + "-" + ('0' + d.getMonth()).slice(-2);
+        console.log(currentMonthID);
+        showCalendar(currentMonthID);
+    });
 }
 
 var weekdays = {
@@ -191,12 +196,19 @@ function showCalendars(n) {
 function showCalendar(id) {
     var i;
     var cals = document.getElementsByClassName("month-view");
+    var found = false;
     for (i = 0; i < cals.length; i++) {
-        cals[i].style.display = "none";
         if (id + "-blob" == cals[i].id) {
             cals[i].style.display = "block";
             calIndex = i + 1;
+            found = true;
+        } else {
+            cals[i].style.display = "none";
         }
+    }
+    if (!found) {
+        showCalendars(0);
+        console.log("No data for specified month, defaulting to first one.");
     }
 }
 
