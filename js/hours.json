@@ -5365,7 +5365,7 @@
             "23": {
                 "gg": 0,
                 "H": true,
-                "N": "13:30 - 16:45 napping upstairs<br> 16:45 - 18:00 napping downstairs"
+                "N": "13:30 - 16:45 napping upstairs<br>16:45 - 18:00 napping downstairs"
             },
             "24": {
                 "gg": 5.25,
@@ -5387,11 +5387,14 @@
                 "N": "Spent $3.15 at McDonalds"
             },
             "29": {
-                "gg": 0,
+                "gg": 2.25,
+                "bn": 3,
                 "D": "8:36",
                 "A": "17:53"
             },
             "30": {
+                "gg": 2,
+                "bn": 2,
                 "H": true,
                 "N": "COVID shots, 14:00"
             }
