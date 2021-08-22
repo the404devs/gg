@@ -80,11 +80,18 @@ var loadHoursFromJSON = function() {
                         totalHours += jsonData[years[y]][months[m]][days[d]]["bn"];
                     }
 
+                    if (jsonData[years[y]][months[m]][days[d]]["ag"]) {
+                        $("#" + years[y] + "-" + months[m] + "-" + days[d]).append(
+                            $("<h6>").html("Alex: " + jsonData[years[y]][months[m]][days[d]]["ag"] + " hours").css("font-weight", "normal")
+                        );
+                        totalHours += jsonData[years[y]][months[m]][days[d]]["ag"];
+                    }
+
                     var hourColour = "yellow";
                     if (totalHours == 0) {
                         hourColour = "red";
                     }
-                    if (totalHours > 8) {
+                    if (totalHours >= 8) {
                         hourColour = "orange";
                     }
                     $("#" + years[y] + "-" + months[m] + "-" + days[d]).append(
