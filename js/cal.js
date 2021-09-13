@@ -104,11 +104,11 @@ var loadHoursFromJSON = function() {
                         );
                     }
 
-                    $("#" + years[y] + "-" + months[m] + "-" + days[d]).append(
-                        $("<button>").addClass("button").attr("onclick", "window.open('./hours.html?d=" + years[y] + "-" + months[m] + "-" + days[d] + "')").css("width", "100px").append(
-                            $("<span>").html("Details")
-                        )
-                    );
+                    // $("#" + years[y] + "-" + months[m] + "-" + days[d]).append(
+                    //     $("<button>").addClass("button").attr("onclick", "window.open('./hours.html?d=" + years[y] + "-" + months[m] + "-" + days[d] + "')").css("width", "100px").append(
+                    //         $("<span>").html("Details")
+                    //     )
+                    // );
 
                     if (totalHours > maxHours) {
                         maxHours = totalHours;
