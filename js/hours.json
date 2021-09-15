@@ -8910,32 +8910,47 @@
         "08": {
             "03": {
                 "gg": 3.5,
-                "bn": 2
+                "bn": 2,
+                "D": "8:25",
+                "A": "17:43",
+                "N": "Dropped R at dentist before heading to work."
             },
             "04": {
                 "gg": 4.25,
-                "bn": 1.5
+                "bn": 1.5,
+                "D": "8:33",
+                "A": "17:43"
             },
             "05": {
                 "gg": 1.75,
                 "H": true,
-                "bn": 4
+                "bn": 4,
+                "N": "Finished working by 16:30"
             },
             "06": {
                 "gg": 3.5,
-                "bn": 2
+                "bn": 2,
+                "D": "8:32",
+                "A": "17:20",
+                "N": "Went to Walmart on the way home, left work around 16:10. <br>Spent $2.63 at McDonalds, $6.77 at Tim Hortons."
             },
             "09": {
                 "gg": 4,
-                "bn": 1
+                "bn": 1,
+                "D": "8:31",
+                "A": "17:35"
             },
             "10": {
                 "gg": 5.25,
-                "H": true
+                "H": true,
+                "N": "Finished working by 16:30.<br>Didn't bring any files home."
             },
             "11": {
                 "gg": 4.75,
-                "bn": 1
+                "bn": 1,
+                "D": "8:32",
+                "A": "17:37",
+                "N": "Won lottery $76.60"
             },
             "12": {
                 "gg": 0,
@@ -8944,52 +8959,83 @@
             },
             "13": {
                 "bn": 1,
-                "gg": 5
+                "gg": 5,
+                "D": "8:33",
+                "A": "16:53",
+                "N": "Spent $11.84 at Tim Hortons."
             },
             "16": {
-                "gg": 6.5
+                "gg": 6.5,
+                "D": "8:38",
+                "A": "17:38",
+                "N": "Went to St. Louis with his buddies, 12:45 - 14:30.<br>Could not have possibly worked for 6.5 hours, given ~7.5 hours at the office and ~2 hours out for lunch"
             },
             "17": {
-                "gg": 5.75
+                "gg": 5.75,
+                "H": true,
+                "N": "Finished working by 16:00"
             },
             "18": {
                 "bn": 1.5,
-                "gg": 3.75
+                "gg": 3.75,
+                "D": "8:34",
+                "A": "17:34"
             },
             "19": {
                 "bn": 0.5,
-                "gg": 4.25
+                "gg": 4.25,
+                "H": true,
+                "N": "Finished working by 16:00"
             },
             "20": {
                 "bn": 3.5,
-                "gg": 2.25
+                "gg": 2.25,
+                "D": "9:30",
+                "A": "17:20",
+                "N": "Spent $3.15 at McDonalds. <br>Says he arrived at work at 10:05."
             },
             "23": {
                 "bn": 4.5,
-                "gg": 1
+                "gg": 1,
+                "D": "8:37",
+                "A": "17:40"
             },
             "24": {
-                "bn": 2
+                "bn": 2,
+                "H": true,
+                "N": "R's surgery.<br>Slept all afternoon, no work after 13:40."
             },
             "25": {
                 "gg": 3,
-                "bn": 2.5
+                "bn": 2.5,
+                "D": "8:34",
+                "A": "17:36"
             },
             "26": {
                 "gg": 2.75,
-                "bn": 2.5
+                "bn": 2.5,
+                "H": true,
+                "N": "Finished working by 15:15"
             },
             "27": {
                 "gg": 3,
-                "bn": 2.5
+                "bn": 2.5,
+                "N": "Spent $3.68 at McDonalds. <br>Went to Walmart on the way home.",
+                "D": "8:36",
+                "A": "17:26"
             },
             "30": {
                 "gg": 4.25,
-                "bn": 1.5
+                "bn": 1.5,
+                "D": "8:35",
+                "A": "17:39"
             },
             "31": {
                 "gg": 3.5,
-                "bn": 1.5
+                "bn": 1.5,
+                "D": "8:36",
+                "A": "17:45",
+                "N": "Looking at an apartment (755 York Mills Rd), ~12:00."
             }
         },
         "09": {
@@ -8999,11 +9045,13 @@
             },
             "02": {
                 "gg": 2.75,
-                "bn": 2
+                "bn": 2,
+                "H": true
             },
             "03": {
                 "gg": 1,
-                "bn": 2.5
+                "bn": 2.5,
+                "H": true
             },
             "07": {
                 "gg": 4.75,
@@ -9013,7 +9061,11 @@
                 "bn": 2.5
             },
             "10": {
-                "bn": 1.75
+                "bn": 1.75,
+                "H": true
+            },
+            "14": {
+                "H": true
             }
         }
     }
