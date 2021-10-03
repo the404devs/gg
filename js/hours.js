@@ -111,7 +111,7 @@ var loadHoursFromJSON = function() {
                     $("<h6>").html(monthlyAverage.toFixed(2) + " hours/day, average").css("font-weight", "bold").css("color", "yellow")
                 );
                 monthBlob.children(".month-totals").append(
-                    $("<button>").addClass("button").attr("onclick", "window.open('time/gg/" + years[y] + "-" + months[m] + "-GG.png')").css("width", "270px").append(
+                    $("<button>").addClass("button").attr("onclick", "window.open('time/gg/" + years[y] + "-" + months[m] + "-GG.pdf')").css("width", "270px").append(
                         $("<span>").html("G&G Timesheet for this Month")
                     )
                 ).append(

@@ -132,7 +132,7 @@ var loadHoursFromJSON = function() {
                     ).append(
                         $("<h6>").html(monthlyAverage.toFixed(2) + " hours/day, average").css("font-weight", "bold").css("color", "yellow")
                     ).append(
-                        $("<button>").addClass("button").attr("onclick", "window.open('time/gg/" + years[y] + "-" + months[m] + "-GG.png')").css("width", "100px").append(
+                        $("<button>").addClass("button").attr("onclick", "window.open('time/gg/" + years[y] + "-" + months[m] + "-GG.pdf')").css("width", "100px").append(
                             $("<span>").html("G&G")
                         )
                     ).append(
