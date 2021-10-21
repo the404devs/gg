@@ -42,3 +42,39 @@ var getDateFromURL = function() {
         }
     }
 }
+
+var showPanes = function(n) {
+    var i;
+    var panes = document.getElementsByClassName("pane");
+    var tabs = document.getElementsByClassName("tab");
+
+    if (n > panes.length) { n = 1; } //don't fuck up
+    if (n < 1) { n = panes.length; }
+
+    for (i = 0; i < panes.length; i++) {
+        if (i != n - 1) {
+            //yeet all the other panes out of existence
+            var id = "#" + panes[i].id;
+            $(id).css("opacity", "0");
+            $(id).css("height", "0");
+            $(id).css("z-index", "-1");
+            $(id).css("display", "none");
+        }
+    }
+    for (i = 0; i < tabs.length; i++) {
+        //remove the "active" class from all the tabs
+        tabs[i].className = tabs[i].className.replace(" active", "");
+    }
+
+    //fade in the correct pane
+    var id = "#" + panes[n - 1].id;
+    $(id).css("display", "block");
+    $(id).css("height", "auto");
+    var h = $(id).height();
+    $(id).css("height", h);
+    $(id).css("opacity", "1");
+    $(id).css("z-index", "auto");
+
+    //give the corresponding tab the "active" class
+    tabs[n - 1].className += " active";
+}

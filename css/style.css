@@ -18,6 +18,8 @@ body {
     /* background-color: white; */
     background: linear-gradient(to right, rgba(111, 203, 254, 1) 0%, rgba(112, 155, 252, 1) 15%, rgba(111, 106, 237, 1) 30%, rgba(108, 78, 203, 1) 48%, rgba(104, 65, 140, 1) 65%, rgba(99, 60, 81, 1) 82%, rgba(98, 59, 57, 1) 100%);
     margin: 8px;
+    height: auto;
+    display: inline-block;
 }
 
 #main {
@@ -413,4 +415,102 @@ input::-webkit-datetime-edit-minute-field:focus {
     font-size: 16px;
     text-shadow: none;
     margin: 5px;
+}
+
+.header {
+    font-family: "Gilroy";
+    font-size: 2em;
+    color: #0ab2cb;
+    width: 100%;
+    position: fixed;
+    text-shadow: 1px 2px 3px black, -1px 2px 3px black;
+    box-shadow: black 0px 2px 10px, black 0px -2px 10px;
+    top: 0;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 10;
+    height: 3.2em;
+    border-bottom: solid white 2px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0) 50%, var(--foreground) 50%, var(--foreground) calc(50% + 2px), rgba(255, 255, 255, 0) calc(50% + 2px));
+}
+
+#header-text {
+    margin: 0px 20px 20px 2.5%;
+    padding-top: 8px;
+    font-weight: normal;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke: black 1px;
+    paint-order: fill stroke;
+    width: max-content;
+    cursor: pointer;
+}
+
+#header-text:after {
+    position: absolute;
+    /* background-color: var(--background); */
+    background-color: #0ab2cb;
+    width: 461px;
+    height: 10px;
+    left: 2.5%;
+    box-shadow: 1px 2px 3px black, -1px 2px 3px black;
+    top: 75px;
+    z-index: -1;
+    margin: -1px;
+    border: 1px solid black;
+    content: " ";
+}
+
+.tabWrapper {
+    /* bottom: 0; */
+    /* height: 30px; */
+    text-align: center;
+    color: black;
+    /* background-color: black; */
+    text-shadow: none;
+    /* border-bottom-style: solid; */
+    /* border-bottom-color: white; */
+    /* border-bottom-width: 2 px; */
+}
+
+.tab {
+    width: auto;
+    margin: 2 px;
+    font-size: 24px;
+    font-family: "Gilroy";
+    background-color: rgba(24, 21, 36, 0.7);
+    /* border-radius: 10px 10px 0 0; */
+    border-color: white;
+    color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-bottom-style: none;
+    display: inline-block;
+    position: relative;
+    transition: background-color 0.2s ease;
+    vertical-align: bottom;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    top: 2 px;
+    cursor: pointer;
+}
+
+.tab:hover,
+.tab.active {
+    background-color: rgba(0, 128, 128, 0.8);
+}
+
+.pane {
+    transition: 0.25s all;
+    position: absolute;
+    margin-right: 2.5%;
+    opacity: 0;
+    overflow: hidden;
+    width: 95%;
+}
+
+.invlink {
+    font-weight: bold;
+    color: gold;
+    font-size: 18px!important;
 }

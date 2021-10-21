@@ -22,6 +22,7 @@ var loadHoursFromJSON = function() {
                 ).append($("<br>")).append($("<br>"))
                 var days = Object.keys(jsonData[years[y]][months[m]]).sort();
                 var monthlyHourTotal = 0;
+                var numberOfNAVGDays = 0;
 
                 $("#" + years[y] + "-" + months[m]).append(
                     $("<div>").addClass("month-totals")
@@ -68,6 +69,13 @@ var loadHoursFromJSON = function() {
                         totalHours += jsonData[years[y]][months[m]][days[d]]["bn"];
                     }
 
+                    if (jsonData[years[y]][months[m]][days[d]]["ag"]) {
+                        $("#" + years[y] + "-" + months[m] + "-" + days[d]).append(
+                            $("<h6>").html("Alex: " + jsonData[years[y]][months[m]][days[d]]["ag"] + " hours").css("font-weight", "normal")
+                        );
+                        totalHours += jsonData[years[y]][months[m]][days[d]]["ag"];
+                    }
+
                     var hourColour = "yellow";
                     if (totalHours == 0) {
                         hourColour = "red";
@@ -86,7 +94,7 @@ var loadHoursFromJSON = function() {
                     }
 
                     $("#" + years[y] + "-" + months[m] + "-" + days[d]).append(
-                        $("<button>").addClass("button").attr("onclick", "window.open('./index.html?d=" + years[y] + "-" + months[m] + "-" + days[d] + "')").css("width", "270px").append(
+                        $("<button>").addClass("button").attr("onclick", "window.open('./history.html?d=" + years[y] + "-" + months[m] + "-" + days[d] + "')").css("width", "270px").append(
                             $("<span>").html("Browsing History for this Day")
                         )
                     );
@@ -98,13 +106,18 @@ var loadHoursFromJSON = function() {
                         minHours = totalHours;
                         minHoursDate = years[y] + "-" + months[m] + "-" + days[d]
                     }
-                    monthlyHourTotal += totalHours;
+
+                    if (!jsonData[years[y]][months[m]][days[d]]["NAVG"]) {
+                        monthlyHourTotal += totalHours;
+                    } else {
+                        numberOfNAVGDays++;
+                    }
                 }
 
                 var monthBlob = $("#" + years[y] + "-" + months[m]);
-                var monthlyAverage = monthlyHourTotal / days.length;
+                var monthlyAverage = monthlyHourTotal / (days.length - numberOfNAVGDays);
                 monthBlob.children(".month-totals").append(
-                    $("<h6>").html(days.length + " days worked.").css("font-weight", "normal")
+                    $("<h6>").html((days.length - numberOfNAVGDays) + " days worked.").css("font-weight", "normal")
                 ).append(
                     $("<h6>").html(monthlyHourTotal + " hours worked.").css("font-weight", "normal")
                 ).append(
