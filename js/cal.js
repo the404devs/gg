@@ -4,7 +4,7 @@ var loadHoursFromJSON = function() {
     var minHours = Infinity;
     var minHoursDate = "";
 
-    $.getJSON("./js/hours.json", function(jsonData) {
+    $.getJSON("./js/data/hours.json", function(jsonData) {
         var years = Object.keys(jsonData).sort().reverse();
         $("#loading-box").hide();
         for (let y = 0; y < years.length; y++) {
@@ -227,12 +227,14 @@ function showCalendar(id) {
 
 function showModal(id) {
     $('#main').css('filter', 'blur(25px)');
+    $('#head').css('filter', 'blur(25px)');
     $(id).fadeIn();
     $(id).css('filter', 'none');
 }
 
 function hideModal(id) {
     $('#main').css('filter', 'none');
+    $('#head').css('filter', 'none');
     $(".modal").fadeOut();
 }
 

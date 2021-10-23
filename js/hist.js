@@ -1,5 +1,5 @@
 var loadHistFromJSON = function() {
-    $.getJSON("./js/BrowserHistory.json", function(jsonData) {
+    $.getJSON("./js/data/BrowserHistory.json", function(jsonData) {
         // console.log(data)
         // var jsonData = JSON.parse(data);
         var ids = [];

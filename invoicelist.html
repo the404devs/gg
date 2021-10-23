@@ -8,22 +8,25 @@
 </head>
 
 <body onload="generateInvoiceLists()">
-    <div id="main" style="width:100%; text-align: center; margin-left: 1.5%;">
-        <div class="tabWrapper" id="tabs" style="text-align:center; width: 96%;">
+    <div class="header">
+        <h1 id="header-text" onclick="location.href='./index.html'">Glenn Goodwin</h1>
+    </div>
+    <div id="main" style="width:-webkit-fill-available; text-align: center; margin-left: 1.5%;">
+        <div class="tabWrapper" id="tabs">
             <span class="tab active" onclick="showPanes(1)"><b>G & G</b></span>
             <span class="tab" onclick="showPanes(2)"><b>Bruce Nelson</b></span>
             <span class="tab" onclick="showPanes(3)"><b>Alex Grossman</b></span>
         </div>
-        <div class="blob pane" id="gg" style="width: 95%; display: block; opacity: 1;">
+        <div class="blob pane" id="gg" style="display: block; opacity: 1;">
             <h3 style="color: gold;">G & G Invoices and Timesheets</h3>
             <div class="grid-container" style="grid-template-columns: auto auto auto auto auto">
-                <div class="grid-item">
+                <div class="grid-item" id="2013-gg">
                     <h3 class="invyear">2013</h3>
                     <a class="invlink">2013-01-20</a><br>
                     <a class="invlink">2013-10-21</a><br>
                     <a class="invlink">2013-11-11</a><br>
                 </div>
-                <div class="grid-item">
+                <div class="grid-item" id="2014-gg">
                     <h3 class="invyear">2014</h3>
                     <a class="invlink">2014-01-15</a><br>
                     <a class="invlink">2014-01-29</a><br>
@@ -46,7 +49,7 @@
                     <a class="invlink">2014-12-02</a><br>
                     <a class="invlink">2014-12-15</a><br>
                 </div>
-                <div class="grid-item">
+                <div class="grid-item" id="2015-gg">
                     <h3 class="invyear">2015</h3>
                     <a class="invlink">2015-01-12</a><br>
                     <a class="invlink">2015-01-26</a><br>
@@ -67,7 +70,7 @@
                     <a class="invlink">2015-11-23</a><br>
                     <a class="invlink">2015-12-14</a><br>
                 </div>
-                <div class="grid-item">
+                <div class="grid-item" id="2016-gg">
                     <h3 class="invyear">2016</h3>
                     <a class="invlink">2016-01-04</a><br>
                     <a class="invlink">2016-01-18</a><br>
@@ -90,7 +93,7 @@
                     <a class="invlink">2016-11-21</a><br>
                     <a class="invlink">2016-12-12</a><br>
                 </div>
-                <div class="grid-item">
+                <div class="grid-item" id="2017-gg">
                     <h3 class="invyear">2017</h3>
                     <a class="invlink">2017-01-05</a><br>
                     <a class="invlink">2017-01-17</a><br>
@@ -116,7 +119,7 @@
                     <a class="invlink">2017-11-16</a><br>
                     <a class="invlink">2017-12-04</a><br>
                 </div>
-                <div class="grid-item">
+                <div class="grid-item" id="2018-gg">
                     <h3 class="invyear">2018</h3>
                     <a class="invlink">2018-01-02</a><br>
                     <a class="invlink">2018-01-16</a><br>
@@ -141,7 +144,7 @@
                     <a class="invlink">2018-11-21</a><br>
                     <a class="invlink">2018-12-03</a><br>
                 </div>
-                <div class="grid-item">
+                <div class="grid-item" id="2019-gg">
                     <h3 class="invyear">2019</h3>
                     <a class="invlink">2019-01-02</a><br>
                     <a class="invlink">2019-01-21</a><br>
@@ -165,7 +168,7 @@
                     <a class="invlink">2019-12-06</a><br>
                     <a class="invlink">2019-12-31</a><br>
                 </div>
-                <div class="grid-item">
+                <div class="grid-item" id="2020-gg">
                     <h3 class="invyear">2020</h3>
                     <a class="invlink">2020-01-24</a><br>
                     <a class="invlink">2020-02-07</a><br>
@@ -189,7 +192,7 @@
                     <a class="invlink">2020-12-01</a><br>
                     <a class="invlink">2020-12-15</a><br>
                 </div>
-                <div class="grid-item">
+                <div class="grid-item" id="2021-gg">
                     <h3 class="invyear">2021</h3>
                     <a class="invlink">2021-01-04</a><br>
                     <a class="invlink">2021-01-25</a><br>
@@ -209,19 +212,20 @@
                     <a class="invlink">2021-09-08</a><br>
                     <a class="invlink">2021-09-22</a><br>
                     <a class="invlink">2021-10-06</a><br>
+                    <a class="invlink">2021-10-22</a><br>
                 </div>
             </div>
         </div>
-        <div class="blob pane" id="bn" style="width: 95%;">
+        <div class="blob pane" id="bn">
             <h3 style="color: gold;">Bruce Invoices</h3>
             <div class="grid-container" style="grid-template-columns: auto auto auto auto auto" id="bni">
-                <div class="grid-item">
+                <div class="grid-item" id="2009-bni">
                     <h3 class="invyear">2009 & 2010</h3>
                     <a class="invlink">2009-05-18</a><br>
                     <a class="invlink">2010-05-03</a><br>
                     <a class="invlink">2010-10-18</a><br>
                 </div>
-                <div class="grid-item">
+                <div class="grid-item" id="2013-bni">
                     <h3 class="invyear">2013</h3>
                     <a class="invlink">2013-01-14</a><br>
                     <a class="invlink">2013-08-16</a><br>
@@ -229,7 +233,7 @@
                     <a class="invlink">2013-11-18</a><br>
                     <a class="invlink">2013-12-31</a><br>
                 </div>
-                <div class="grid-item">
+                <div class="grid-item" id="2014-bni">
                     <h3 class="invyear">2014</h3>
                     <a class="invlink">2014-02-06</a><br>
                     <a class="invlink">2014-04-01</a><br>
@@ -242,7 +246,7 @@
                     <a class="invlink">2014-11-02</a><br>
                     <a class="invlink">2014-12-01</a><br>
                 </div>
-                <div class="grid-item">
+                <div class="grid-item" id="2015-bni">
                     <h3 class="invyear">2015</h3>
                     <a class="invlink">2015-01-12</a><br>
                     <a class="invlink">2015-02-02</a><br>
@@ -255,7 +259,7 @@
                     <a class="invlink">2015-11-01</a><br>
                     <a class="invlink">2015-12-01</a><br>
                 </div>
-                <div class="grid-item">
+                <div class="grid-item" id="2016-bni">
                     <h3 class="invyear">2016</h3>
                     <a class="invlink">2016-02-01</a><br>
                     <a class="invlink">2016-04-04</a><br>
@@ -267,7 +271,7 @@
                     <a class="invlink">2016-11-01</a><br>
                     <a class="invlink">2016-12-01</a><br>
                 </div>
-                <div class="grid-item">
+                <div class="grid-item" id="2017-bni">
                     <h3 class="invyear">2017</h3>
                     <a class="invlink">2017-02-01</a><br>
                     <a class="invlink">2017-05-02</a><br>
@@ -278,7 +282,7 @@
                     <a class="invlink">2017-11-02</a><br>
                     <a class="invlink">2017-12-04</a><br>
                 </div>
-                <div class="grid-item">
+                <div class="grid-item" id="2018-bni">
                     <h3 class="invyear">2018</h3>
                     <a class="invlink">2018-01-12</a><br>
                     <a class="invlink">2018-04-02</a><br>
@@ -289,7 +293,7 @@
                     <a class="invlink">2018-11-01</a><br>
                     <a class="invlink">2018-12-03</a><br>
                 </div>
-                <div class="grid-item">
+                <div class="grid-item" id="2019-bni">
                     <h3 class="invyear">2019</h3>
                     <a class="invlink">2019-02-04</a><br>
                     <a class="invlink">2019-05-01</a><br>
@@ -299,7 +303,7 @@
                     <a class="invlink">2019-11-04</a><br>
                     <a class="invlink">2019-12-02</a><br>
                 </div>
-                <div class="grid-item">
+                <div class="grid-item" id="2020-bni">
                     <h3 class="invyear">2020</h3>
                     <a class="invlink">2020-02-03</a><br>
                     <a class="invlink">2020-05-04</a><br>
@@ -309,7 +313,7 @@
                     <a class="invlink">2020-12-01</a><br>
                     <a class="invlink">2020-12-31</a><br>
                 </div>
-                <div class="grid-item">
+                <div class="grid-item" id="2021-bni">
                     <h3 class="invyear">2021</h3>
                     <a class="invlink">2021-04-05</a><br>
                     <a class="invlink">2021-05-05</a><br>
@@ -321,12 +325,12 @@
             </div>
             <h3 style="color: gold;">Bruce Timesheets</h3>
             <div class="grid-container" style="grid-template-columns: auto auto auto auto auto" id="bnt">
-                <div class="grid-item">
+                <div class="grid-item" id="2013-bnt">
                     <h3 class="invyear">2013</h3>
                     <a class="invlink">2013-11</a><br>
                     <a class="invlink">2013-12</a><br>
                 </div>
-                <div class="grid-item">
+                <div class="grid-item" id="2014-bnt">
                     <h3 class="invyear">2014</h3>
                     <a class="invlink">2014-01</a><br>
                     <a class="invlink">2014-02</a><br>
@@ -341,7 +345,7 @@
                     <a class="invlink">2014-11</a><br>
                     <a class="invlink">2014-12</a><br>
                 </div>
-                <div class="grid-item">
+                <div class="grid-item" id="2015-bnt">
                     <h3 class="invyear">2015</h3>
                     <a class="invlink">2015-01</a><br>
                     <a class="invlink">2015-02</a><br>
@@ -356,7 +360,7 @@
                     <a class="invlink">2015-11</a><br>
                     <a class="invlink">2015-12</a><br>
                 </div>
-                <div class="grid-item">
+                <div class="grid-item" id="2016-bnt">
                     <h3 class="invyear">2016</h3>
                     <a class="invlink">2016-01</a><br>
                     <a class="invlink">2016-02</a><br>
@@ -371,7 +375,7 @@
                     <a class="invlink">2016-11</a><br>
                     <a class="invlink">2016-12</a><br>
                 </div>
-                <div class="grid-item">
+                <div class="grid-item" id="2017-bnt">
                     <h3 class="invyear">2017</h3>
                     <a class="invlink">2017-01</a><br>
                     <a class="invlink">2017-02</a><br>
@@ -386,7 +390,7 @@
                     <a class="invlink">2017-11</a><br>
                     <a class="invlink">2017-12</a><br>
                 </div>
-                <div class="grid-item">
+                <div class="grid-item" id="2018-bnt">
                     <h3 class="invyear">2018</h3>
                     <a class="invlink">2018-01</a><br>
                     <a class="invlink">2018-02</a><br>
@@ -401,7 +405,7 @@
                     <a class="invlink">2018-11</a><br>
                     <a class="invlink">2018-12</a><br>
                 </div>
-                <div class="grid-item">
+                <div class="grid-item" id="2019-bnt">
                     <h3 class="invyear">2019</h3>
                     <a class="invlink">2019-01</a><br>
                     <a class="invlink">2019-02</a><br>
@@ -416,7 +420,7 @@
                     <a class="invlink">2019-11</a><br>
                     <a class="invlink">2019-12</a><br>
                 </div>
-                <div class="grid-item">
+                <div class="grid-item" id="2020-bnt">
                     <h3 class="invyear">2020</h3>
                     <a class="invlink">2020-01</a><br>
                     <a class="invlink">2020-02</a><br>
@@ -431,7 +435,7 @@
                     <a class="invlink">2020-11</a><br>
                     <a class="invlink">2020-12</a><br>
                 </div>
-                <div class="grid-item">
+                <div class="grid-item" id="2021-bnt">
                     <h3 class="invyear">2021</h3>
                     <a class="invlink">2021-01</a><br>
                     <a class="invlink">2021-02</a><br>
@@ -445,15 +449,15 @@
                 </div>
             </div>
         </div>
-        <div class="blob pane" id="ag" style="width: 95%;">
+        <div class="blob pane" id="ag">
             <h3 style="color: gold;">Alex Invoices</h3>
             <div class="grid-container" style="grid-template-columns: auto auto auto auto auto" id="agi">
-                <div class="grid-item">
+                <div class="grid-item" id="2009-ag">
                     <h3 class="invyear">2009</h3>
                     <a class="invlink">2009-04-07</a><br>
                     <a class="invlink">2009-12-21</a><br>
                 </div>
-                <div class="grid-item">
+                <div class="grid-item" id="2014-ag">
                     <h3 class="invyear">2014</h3>
                     <a class="invlink">2014-01-30</a><br>
                     <a class="invlink">2014-02-26</a><br>
@@ -473,7 +477,7 @@
                     <a class="invlink">2014-11-27</a><br>
                     <a class="invlink">2014-12-16</a><br>
                 </div>
-                <div class="grid-item">
+                <div class="grid-item" id="2015-ag">
                     <h3 class="invyear">2015</h3>
                     <a class="invlink">2015-02-24</a><br>
                     <a class="invlink">2015-03-25</a><br>
@@ -492,7 +496,7 @@
                     <a class="invlink">2015-11-23</a><br>
                     <a class="invlink">2015-12-21</a><br>
                 </div>
-                <div class="grid-item">
+                <div class="grid-item" id="2016-ag">
                     <h3 class="invyear">2016</h3>
                     <a class="invlink">2016-01-06</a><br>
                     <a class="invlink">2016-02-23</a><br>
@@ -513,7 +517,7 @@
                     <a class="invlink">2016-11-21</a><br>
                     <a class="invlink">2016-12-19</a><br>
                 </div>
-                <div class="grid-item">
+                <div class="grid-item" id="2017-ag">
                     <h3 class="invyear">2017</h3>
                     <a class="invlink">2017-01-17</a><br>
                     <a class="invlink">2017-02-28</a><br>
@@ -528,13 +532,13 @@
                     <a class="invlink">2017-11-16</a><br>
                     <a class="invlink">2017-12-13</a><br>
                 </div>
-                <div class="grid-item">
+                <div class="grid-item" id="2018-ag">
                     <h3 class="invyear">2018</h3>
                     <a class="invlink">2018-02-02</a><br>
                     <a class="invlink">2018-03-27</a><br>
                     <a class="invlink">2018-12-07</a><br>
                 </div>
-                <div class="grid-item">
+                <div class="grid-item" id="2019-ag">
                     <h3 class="invyear">2019</h3>
                     <a class="invlink">2019-01-02</a><br>
                     <a class="invlink">2019-04-16</a><br>

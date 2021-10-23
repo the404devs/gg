@@ -4,7 +4,7 @@ var loadHoursFromJSON = function() {
     var minHours = Infinity;
     var minHoursDate = "";
 
-    $.getJSON("./js/hours.json", function(jsonData) {
+    $.getJSON("./js/data/hours.json", function(jsonData) {
         var years = Object.keys(jsonData).sort();
         $("#loading-box").hide();
         for (let y = 0; y < years.length; y++) {
@@ -93,11 +93,17 @@ var loadHoursFromJSON = function() {
                         );
                     }
 
-                    $("#" + years[y] + "-" + months[m] + "-" + days[d]).append(
-                        $("<button>").addClass("button").attr("onclick", "window.open('./history.html?d=" + years[y] + "-" + months[m] + "-" + days[d] + "')").css("width", "270px").append(
-                            $("<span>").html("Browsing History for this Day")
-                        )
-                    );
+                    var currentDate = new Date(years[y] + "-" + months[m] + "-" + days[d]);
+                    const histStart = new Date("2019-09-28");
+                    const histEnd = new Date("2020-09-20");
+                    if (currentDate >= histStart && currentDate <= histEnd) {
+                        $("#" + years[y] + "-" + months[m] + "-" + days[d]).append(
+                            $("<button>").addClass("button").attr("onclick", "window.open('./history.html?d=" + years[y] + "-" + months[m] + "-" + days[d] + "')").css("width", "270px").append(
+                                $("<span>").html("Browsing History for this Day")
+                            )
+                        );
+                    }
+
 
                     if (totalHours > maxHours) {
                         maxHours = totalHours;
