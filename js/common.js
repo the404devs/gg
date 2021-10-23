@@ -78,3 +78,11 @@ var showPanes = function(n) {
     //give the corresponding tab the "active" class
     tabs[n - 1].className += " active";
 }
+
+var firefoxCheck = function() {
+    if (navigator.userAgent.indexOf("Firefox") > -1) {
+        //Firefox doesn't support CSS backdrop-filter out of the box yet.
+        $(".header").css("background-color", "rgba(24, 21, 36, 1)");
+    }
+}
+firefoxCheck();

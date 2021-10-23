@@ -26,6 +26,7 @@ body {
 
 #main {
     width: -webkit-fill-available;
+    width: -moz-available;
     text-align: center;
     position: absolute;
     float: left;
@@ -477,6 +478,7 @@ input::-webkit-datetime-edit-minute-field:focus {
     /* border-bottom-color: white; */
     /* border-bottom-width: 2 px; */
     width: -webkit-fill-available;
+    width: -moz-available;
 }
 
 .tab {
@@ -512,6 +514,7 @@ input::-webkit-datetime-edit-minute-field:focus {
     opacity: 0;
     overflow: hidden;
     width: -webkit-fill-available;
+    width: -moz-available;
 }
 
 .invlink {
