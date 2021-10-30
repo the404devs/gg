@@ -51,7 +51,7 @@ var loadHoursFromJSON = function() {
 
                     if (jsonData[years[y]][months[m]][days[d]]["D"]) {
                         $("#" + years[y] + "-" + months[m] + "-" + days[d]).append(
-                            $("<h6>").html("Left: " + jsonData[years[y]][months[m]][days[d]]["D"]).css("font-weight", "bold")
+                            $("<h6>").html("Work: " + jsonData[years[y]][months[m]][days[d]]["D"]).css("font-weight", "bold")
                         );
                     }
 

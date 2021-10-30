@@ -1,4 +1,25 @@
 {
+    "2012": {
+        "02": {
+            "06": {
+                "gg": 3.5,
+                "N": "Missing all data for this month, just happened to find a random timesheet."
+            },
+            "07": {
+                "gg": 2.5
+            },
+            "08": {
+                "gg": 6.5,
+                "N": "At Outlook Eyewear"
+            },
+            "09": {
+                "gg": 2.5
+            },
+            "10": {
+                "gg": 3.5
+            }
+        }
+    },
     "2013": {
         "09": {
             "19": {
@@ -8781,9 +8802,10 @@
             },
             "29": {
                 "gg": 2.25,
-                "bn": 3,
+                "bn": 2.5,
                 "D": "8:36",
-                "A": "17:53"
+                "A": "17:53",
+                "N": "Bruce hours changed to 3 on the 30th. This is assumed to be a lie rather than a correction."
             },
             "30": {
                 "gg": 2,
@@ -8832,7 +8854,8 @@
             "12": {
                 "bn": 1,
                 "D": "8:34",
-                "A": "17:40"
+                "A": "17:40",
+                "N": "This was changed to 2.5 hours on July 28th. This is assumed to be a lie rather than a correction."
             },
             "13": {
                 "H": true,
@@ -9124,9 +9147,10 @@
             },
             "21": {
                 "gg": 3.25,
-                "bn": 3.25,
+                "bn": 3,
                 "D": "8:30",
-                "A": "17:47"
+                "A": "17:47",
+                "N": "Bruce hours changed to 3.25 between 22nd and 30th. This is assumed to be a lie and not a correction."
             },
             "22": {
                 "bn": 1.75,
@@ -9244,30 +9268,56 @@
             },
             "18": {
                 "gg": 2.25,
-                "D": "8:24",
-                "A": "17:43"
+                "D": "9:03",
+                "A": "17:19",
+                "N": "From this day all times are the times he <i>arrived at work</i> and <i>left work for home</i>."
             },
             "19": {
                 "gg": 3,
-                "D": "8:23",
-                "A": "17:38",
+                "D": "10:22",
+                "A": "17:14",
                 "N": "Dentist app. @ 9AM."
             },
             "20": {
                 "gg": 4.75,
-                "D": "8:03",
-                "A": "17:36",
+                "D": "8:35",
+                "A": "17:10",
                 "N": "AJAG course, 9:00 - 12:00"
             },
             "21": {
                 "N": "AJAG course, 9:00 - 12:00",
-                "D": "8:08",
+                "D": "9:01",
                 "gg": 5.5,
-                "A": "17:40"
+                "A": "17:15"
             },
             "22": {
                 "H": true,
                 "gg": 5.25
+            },
+            "25": {
+                "D": "8:56",
+                "A": "17:13",
+                "gg": 2.25
+            },
+            "26": {
+                "D": "9:09",
+                "A": "17:22",
+                "gg": 4
+            },
+            "27": {
+                "D": "9:01",
+                "A": "17:08",
+                "gg": 3.5
+            },
+            "28": {
+                "D": "9:17",
+                "A": "17:09",
+                "gg": 1.25
+            },
+            "29": {
+                "H": true,
+                "N": "Likely ended his workday sometime around 16:30, since he did not read the email from his lawyer that arrived shortly thereafter.",
+                "gg": 4.5
             }
         }
     }
