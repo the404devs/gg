@@ -4802,7 +4802,7 @@
             },
             "08": {
                 "gg": 6.5,
-                "N": "At Outlook Eyewear"
+                "N": "At Outlook Eyewear<br>Went to E's after work, 16:30"
             },
             "09": {
                 "gg": 4.25,
@@ -9224,7 +9224,8 @@
                 "gg": 3.5,
                 "bn": 2.25,
                 "D": "8:31",
-                "A": "17:46"
+                "A": "17:46",
+                "N": "Bruce hours changed to 3.25 later in the month, after the 15th. This is assumed to be a lie rather than a correction."
             },
             "08": {
                 "gg": 4.75,
@@ -9251,7 +9252,7 @@
             },
             "14": {
                 "gg": 1.25,
-                "bn": 5.5,
+                "bn": 1,
                 "N": "Bruce hours were originally 1, changed to 5.5 on the next day.<br>Meeting Speakman at the condo to pick up key, 18:00.",
                 "D": "8:32",
                 "A": "19:06"
@@ -9270,54 +9271,64 @@
                 "gg": 2.25,
                 "D": "9:03",
                 "A": "17:19",
-                "N": "From this day all times are the times he <i>arrived at work</i> and <i>left work for home</i>."
+                "N": "From this day all times are the times he <i>arrived at work</i> and <i>left work for home</i>.",
+                "bn": 3
             },
             "19": {
                 "gg": 3,
                 "D": "10:22",
                 "A": "17:14",
-                "N": "Dentist app. @ 9AM."
+                "N": "Dentist app. @ 9AM.",
+                "bn": 2
             },
             "20": {
                 "gg": 4.75,
                 "D": "8:35",
                 "A": "17:10",
-                "N": "AJAG course, 9:00 - 12:00"
+                "N": "AJAG course, 9:00 - 12:00",
+                "bn": 1
             },
             "21": {
                 "N": "AJAG course, 9:00 - 12:00",
                 "D": "9:01",
                 "gg": 5.5,
-                "A": "17:15"
+                "A": "17:15",
+                "bn": 1.5
             },
             "22": {
                 "H": true,
-                "gg": 5.25
+                "gg": 5.25,
+                "bn": 1
             },
             "25": {
                 "D": "8:56",
                 "A": "17:13",
-                "gg": 2.25
+                "gg": 2.25,
+                "bn": 3.5
             },
             "26": {
                 "D": "9:09",
                 "A": "17:22",
-                "gg": 4
+                "gg": 4,
+                "bn": 2.5
             },
             "27": {
                 "D": "9:01",
                 "A": "17:08",
-                "gg": 3.5
+                "gg": 3.5,
+                "bn": 2.75
             },
             "28": {
                 "D": "9:17",
                 "A": "17:09",
-                "gg": 1.25
+                "gg": 1.25,
+                "bn": 5.25
             },
             "29": {
                 "H": true,
                 "N": "Likely ended his workday sometime around 16:30, since he did not read the email from his lawyer that arrived shortly thereafter.",
-                "gg": 4.5
+                "gg": 4.5,
+                "bn": 1.5
             }
         }
     }
