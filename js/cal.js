@@ -238,4 +238,10 @@ function hideModal(id) {
     $(".modal").fadeOut();
 }
 
+$(document).keyup(function(e) {
+    if (e.key === "Escape") {
+        hideModal('#month-select');
+    }
+});
+
 loadHoursFromJSON();

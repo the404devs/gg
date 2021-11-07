@@ -124,7 +124,8 @@ input::-webkit-datetime-edit-minute-field:focus {
     color: white;
     text-align: center;
     font-size: 16px;
-    width: 50px;
+    /* width: 50px; */
+    width: 180px;
     transition: all 0.2s;
     cursor: pointer;
     font-family: "Raleway";

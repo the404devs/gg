@@ -21,8 +21,8 @@
         <div class="blob">
             <h3>Jump to Date:</h3>
             <div id="controls">
-                <input id="date-sel" type="date" onkeypress="function k(e){if (e.keyCode==13)scrollToElem($('#date-sel').val())} k(event)">
-                <button class="button" onclick="scrollToElem($('#date-sel').val())">
+                <input id="date-sel" type="date" onkeypress="function k(e){if (e.key=='Enter')scrollToElem($('#date-sel').val())} k(event)">
+                <button class="button" style="width:50px" onclick="scrollToElem($('#date-sel').val())">
                     <span>Go</span>
                 </button>
                 <h5 id="errmsg">Nothing for that date!</h5>
@@ -41,16 +41,15 @@
                 <br>
                 <div style="text-align: center; width: 100%;">
                     <h5 style="color:white">v0.0.4 (05/01/2021)</h5>
-                    <button class="button" onclick="location.href='./hours.html'" style="width:160px">
+                    <button class="button" onclick="location.href='./hours.html'">
                         <span>Hours Viewer</span>
                     </button>
                     <br>
                     <br>
-                    <button class="button" onclick="location.href='./calendar.html'" style="width:160px">
+                    <button class="button" onclick="location.href='./calendar.html'">
                         <span>Hours Calendar</span>
                     </button>
                 </div>
-
             </div>
         </div>
     </div>
