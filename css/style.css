@@ -321,6 +321,12 @@ input::-webkit-datetime-edit-minute-field:focus {
     /* backdrop-filter: blur(5px); */
 }
 
+.prev.bottom,
+.next.bottom {
+    top: unset;
+    bottom: 20px;
+}
+
 .next {
     right: 10px;
     padding-left: 20px;
@@ -349,6 +355,7 @@ input::-webkit-datetime-edit-minute-field:focus {
 
 .month-view {
     display: none;
+    padding-bottom: 60px;
 }
 
 .modal {

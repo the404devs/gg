@@ -23,6 +23,14 @@ var loadHoursFromJSON = function() {
                         $("<div>").addClass("next button").attr("onclick", "switchView(-1)").append(
                             $("<span>").text("❯")
                         )
+                    ).append(
+                        $("<div>").addClass("prev bottom button").attr("onclick", "switchView(1)").append(
+                            $("<span>").text("❮")
+                        )
+                    ).append(
+                        $("<div>").addClass("next bottom button").attr("onclick", "switchView(-1)").append(
+                            $("<span>").text("❯")
+                        )
                     ).attr("id", years[y] + "-" + months[m] + "-blob")
                 );
 

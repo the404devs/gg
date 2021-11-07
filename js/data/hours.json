@@ -3,7 +3,7 @@
         "02": {
             "06": {
                 "gg": 3.5,
-                "N": "Missing all data for this month, just happened to find a random timesheet."
+                "N": "Missing all data for this month, <br>just happened to find a random timesheet."
             },
             "07": {
                 "gg": 2.5
@@ -9354,8 +9354,7 @@
             },
             "05": {
                 "D": "9:04",
-                "A": "17:10",
-                "N": "Test"
+                "A": "17:10"
             }
         }
     }
