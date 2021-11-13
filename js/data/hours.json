@@ -1,9 +1,72 @@
 {
     "2012": {
+        "01": {
+            "03": {
+                "gg": 1.5
+            },
+            "04": {
+                "gg": 1
+            },
+            "05": {
+                "gg": 1.5
+            },
+            "06": {
+                "gg": 1,
+                "N": "This is an assumed breakdown of this week's G&G hours, totalling 5 hours."
+            },
+            "09": {
+                "gg": 2
+            },
+            "10": {
+                "gg": 1.5
+            },
+            "11": {
+                "gg": 8.5,
+                "N": "At Outlook Eyewear"
+            },
+            "12": {
+                "gg": 2
+            },
+            "13": {
+                "gg": 1.5,
+                "N": "This is an assumed breakdown of this week's G&G hours, totalling 15.5 hours."
+            },
+            "16": {
+                "gg": 1.5
+            },
+            "17": {
+                "gg": 1
+            },
+            "18": {
+                "gg": 4.5
+            },
+            "19": {
+                "gg": 0.5
+            },
+            "20": {
+                "gg": 0.5,
+                "N": "This is an assumed breakdown of this week's G&G hours, totalling 8 hours."
+            },
+            "23": {
+                "gg": 1
+            },
+            "24": {
+                "gg": 1.5
+            },
+            "25": {
+                "gg": 1.5
+            },
+            "26": {
+                "gg": 1
+            },
+            "27": {
+                "gg": 2,
+                "N": "This is an assumed breakdown of this week's G&G hours, totalling 7 hours."
+            }
+        },
         "02": {
             "06": {
-                "gg": 3.5,
-                "N": "Missing all data for this month, <br>just happened to find a random timesheet."
+                "gg": 3.5
             },
             "07": {
                 "gg": 2.5
@@ -16,7 +79,779 @@
                 "gg": 2.5
             },
             "10": {
+                "gg": 3.5,
+                "N": "Just happened to find a random timesheet."
+            },
+            "13": {
+                "gg": 6.5
+            },
+            "14": {
+                "gg": 6.5
+            },
+            "15": {
+                "gg": 2.5
+            },
+            "16": {
+                "gg": 2.5
+            },
+            "17": {
+                "gg": 1,
+                "N": "This is an assumed breakdown of this week's G&G hours, totalling 19 hours."
+            },
+            "20": {
+                "gg": 1
+            },
+            "21": {
+                "gg": 1.5
+            },
+            "22": {
+                "gg": 1
+            },
+            "23": {
+                "gg": 2.5
+            },
+            "24": {
+                "gg": 2.5,
+                "N": "This is an assumed breakdown of this week's G&G hours, totalling 8.5 hours."
+            },
+            "27": {
+                "gg": 2
+            },
+            "28": {
+                "gg": 2
+            },
+            "29": {
+                "gg": 2
+            }
+        },
+        "03": {
+            "01": {
+                "gg": 2
+            },
+            "02": {
+                "gg": 1,
+                "N": "This is an assumed breakdown of this week's G&G hours, totalling 9 hours."
+            },
+            "05": {
+                "gg": 4.5
+            },
+            "06": {
+                "gg": 2.5
+            },
+            "07": {
+                "gg": 2
+            },
+            "08": {
+                "gg": 1
+            },
+            "09": {
+                "gg": 7,
+                "N": "At Outlook Eyewear. <br>This is an assumed breakdown of this week's G&G hours, totalling 17 hours."
+            },
+            "12": {
+                "gg": 6
+            },
+            "13": {
+                "gg": 2.5
+            },
+            "14": {
+                "gg": 2
+            },
+            "15": {
+                "gg": 1
+            },
+            "16": {
+                "gg": 1,
+                "N": "Calendar says 'out of office', 9:00 - 12:00<br>This is an assumed breakdown of this week's G&G hours, totalling 12.5 hours."
+            },
+            "19": {
+                "gg": 7
+            },
+            "20": {
+                "gg": 1
+            },
+            "21": {
+                "gg": 6
+            },
+            "22": {
+                "gg": 5
+            },
+            "23": {
+                "gg": 5,
+                "N": "At Dolvin Mechanical<br>This is an assumed breakdown of this week's G&G hours, totalling 24 hours."
+            },
+            "26": {
+                "gg": 5,
+                "N": "At Dolvin Mechanical"
+            },
+            "27": {
+                "gg": 1.5
+            },
+            "28": {
+                "gg": 5
+            },
+            "29": {
+                "gg": 5
+            },
+            "30": {
+                "gg": 5.5,
+                "N": "This is an assumed breakdown of this week's G&G hours, totalling 22 hours."
+            }
+        },
+        "04": {
+            "02": {
+                "gg": 6.25
+            },
+            "03": {
+                "gg": 6.25
+            },
+            "04": {
+                "gg": 6.25
+            },
+            "05": {
+                "gg": 6.5,
+                "N": "At Outlook Eyewear"
+            },
+            "06": {
+                "gg": 6.25,
+                "N": "This is an assumed breakdown of this week's absolutely absurd G&G hours, totalling 31.5 hours."
+            },
+            "09": {
+                "gg": 6
+            },
+            "10": {
+                "gg": 6
+            },
+            "11": {
+                "gg": 6
+            },
+            "12": {
+                "gg": 6
+            },
+            "13": {
+                "gg": 5.5,
+                "N": "This is an assumed breakdown of this week's absolutely absurd G&G hours, totalling 29.5 hours."
+            },
+            "16": {
+                "gg": 5
+            },
+            "17": {
+                "gg": 5
+            },
+            "18": {
+                "gg": 6
+            },
+            "19": {
+                "gg": 6
+            },
+            "20": {
+                "gg": 5,
+                "N": "This is an assumed breakdown of this week's absolutely absurd G&G hours, totalling 27 hours."
+            },
+            "23": {
+                "gg": 1
+            },
+            "24": {
+                "gg": 4
+            },
+            "25": {
+                "gg": 6
+            },
+            "26": {
+                "gg": 6
+            },
+            "27": {
+                "gg": 6,
+                "N": "This is an assumed breakdown of this week's absolutely absurd G&G hours, totalling 23 hours."
+            },
+            "30": {
+                "gg": 5.5
+            }
+        },
+        "05": {
+            "01": {
+                "gg": 4
+            },
+            "02": {
+                "gg": 1.5
+            },
+            "03": {
+                "gg": 4.5
+            },
+            "04": {
+                "gg": 2,
+                "N": "This is an assumed breakdown of this week's G&G hours, totalling 17.5 hours."
+            },
+            "07": {
+                "gg": 8
+            },
+            "08": {
+                "gg": 8.5,
+                "N": "At Outlook Eyewear"
+            },
+            "09": {
+                "gg": 3
+            },
+            "10": {
+                "gg": 4
+            },
+            "11": {
+                "gg": 3.5,
+                "N": "This is an assumed breakdown of this week's absolutely absurd G&G hours, totalling 27 hours."
+            },
+            "14": {
+                "gg": 3
+            },
+            "15": {
+                "gg": 2.5
+            },
+            "16": {
+                "gg": 4
+            },
+            "17": {
+                "gg": 2,
+                "N": "At Lowe Label"
+            },
+            "18": {
+                "gg": 3,
+                "N": "This is an assumed breakdown of this week's G&G hours, totalling 14.5 hours."
+            },
+            "21": {
+                "gg": 8
+            },
+            "22": {
+                "gg": 1.5
+            },
+            "23": {
+                "gg": 5
+            },
+            "24": {
+                "gg": 6
+            },
+            "25": {
+                "gg": 2,
+                "N": "This is an assumed breakdown of this week's absolutely absurd G&G hours, totalling 22.5 hours."
+            },
+            "28": {
+                "gg": 7
+            },
+            "29": {
+                "gg": 0,
+                "N": "Calendar states 'At Alex, all day'"
+            },
+            "30": {
+                "gg": 4.5
+            },
+            "31": {
+                "gg": 4.5
+            }
+        },
+        "06": {
+            "01": {
+                "gg": 0,
+                "N": "Calendar states 'At Alex, all day'<br>This is an assumed breakdown of this week's G&G hours, totalling 16 hours."
+            },
+            "04": {
+                "gg": 6
+            },
+            "05": {
+                "gg": 0,
+                "N": "Calendar states 'At Alex, all day'"
+            },
+            "06": {
+                "gg": 4
+            },
+            "07": {
+                "gg": 8,
+                "N": "At Outlook Eyewear"
+            },
+            "08": {
+                "gg": 4.5,
+                "N": "This is an assumed breakdown of this week's absolutely absurd G&G hours, totalling 22.5 hours."
+            },
+            "11": {
+                "gg": 5.5
+            },
+            "12": {
                 "gg": 3.5
+            },
+            "13": {
+                "gg": 6
+            },
+            "14": {
+                "gg": 2
+            },
+            "15": {
+                "gg": 3,
+                "N": "This is an assumed breakdown of this week's absolutely absurd G&G hours, totalling 20 hours."
+            },
+            "18": {
+                "gg": 5
+            },
+            "19": {
+                "gg": 0,
+                "N": "Calendar states 'At Alex, all day'"
+            },
+            "20": {
+                "gg": 8
+            },
+            "21": {
+                "gg": 5
+            },
+            "22": {
+                "gg": 6,
+                "N": "This is an assumed breakdown of this week's absolutely absurd G&G hours, totalling 24 hours."
+            },
+            "25": {
+                "gg": 6.5
+            },
+            "26": {
+                "gg": 1
+            },
+            "27": {
+                "gg": 2.5
+            },
+            "28": {
+                "gg": 3
+            },
+            "29": {
+                "gg": 0,
+                "N": "Calendar states 'At Alex, all day'<br>This is an assumed breakdown of this week's G&G hours, totalling 13 hours."
+            }
+        },
+        "07": {
+            "03": {
+                "gg": 1
+            },
+            "04": {
+                "gg": 1
+            },
+            "05": {
+                "gg": 1
+            },
+            "06": {
+                "gg": 7,
+                "N": "At Lowe Label <br>This is an assumed breakdown of this week's G&G hours, totalling 10 hours."
+            },
+            "09": {
+                "gg": 7.5
+            },
+            "10": {
+                "gg": 2
+            },
+            "11": {
+                "gg": 2
+            },
+            "12": {
+                "gg": 2
+            },
+            "13": {
+                "gg": 1,
+                "N": "This is an assumed breakdown of this week's G&G hours, totalling 14.5 hours."
+            },
+            "16": {
+                "gg": 3.5
+            },
+            "17": {
+                "gg": 1
+            },
+            "18": {
+                "gg": 1
+            },
+            "19": {
+                "gg": 0.5
+            },
+            "20": {
+                "gg": 0.5,
+                "N": "This is an assumed breakdown of this week's G&G hours, totalling 6.5 hours."
+            },
+            "23": {
+                "gg": 4
+            },
+            "24": {
+                "gg": 1.5
+            },
+            "25": {
+                "gg": 4.5
+            },
+            "26": {
+                "gg": 5
+            },
+            "27": {
+                "gg": 0,
+                "N": "Calendar states 'At Alex, all day'<br>This is an assumed breakdown of this week's G&G hours, totalling 15 hours."
+            },
+            "30": {
+                "gg": 2.5
+            },
+            "31": {
+                "gg": 2
+            }
+        },
+        "08": {
+            "01": {
+                "gg": 1
+            },
+            "02": {
+                "gg": 1
+            },
+            "03": {
+                "gg": 1.5,
+                "N": "This is an assumed breakdown of this week's G&G hours, totalling 8 hours."
+            },
+            "06": {
+                "gg": 0.5
+            },
+            "07": {
+                "gg": 1
+            },
+            "08": {
+                "gg": 6.5,
+                "N": "At Outlook Eyewear"
+            },
+            "09": {
+                "gg": 0.5
+            },
+            "10": {
+                "gg": 0.5,
+                "N": "This is an assumed breakdown of this week's G&G hours, totalling 9 hours."
+            },
+            "13": {
+                "gg": 1.5
+            },
+            "14": {
+                "gg": 0,
+                "N": "Calendar states 'At Alex, all day'"
+            },
+            "15": {
+                "gg": 1
+            },
+            "16": {
+                "gg": 1.5
+            },
+            "17": {
+                "gg": 6,
+                "N": "This is an assumed breakdown of this week's G&G hours, totalling 10 hours."
+            },
+            "20": {
+                "gg": 1
+            },
+            "21": {
+                "gg": 2
+            },
+            "22": {
+                "gg": 1
+            },
+            "23": {
+                "gg": 4
+            },
+            "24": {
+                "gg": 3,
+                "N": "This is an assumed breakdown of this week's G&G hours, totalling 11 hours."
+            },
+            "27": {
+                "gg": 7.5
+            },
+            "28": {
+                "gg": 0,
+                "N": "Calendar says 'out of office', all day"
+            },
+            "29": {
+                "gg": 7
+            },
+            "30": {
+                "gg": 0,
+                "N": "Took this day off."
+            },
+            "31": {
+                "gg": 0,
+                "N": "Took this day off.<br>This is an assumed breakdown of this week's G&G hours, totalling 14.5 hours."
+            }
+        },
+        "09": {
+            "04": {
+                "gg": 2.5
+            },
+            "05": {
+                "gg": 2.5
+            },
+            "06": {
+                "gg": 1.5
+            },
+            "07": {
+                "gg": 7.5,
+                "N": "At Outlook Eyewear<br>This is an assumed breakdown of this week's G&G hours, totalling 14 hours."
+            },
+            "10": {
+                "gg": 0,
+                "N": "Calendar states 'At Alex, all day'"
+            },
+            "11": {
+                "gg": 4
+            },
+            "12": {
+                "gg": 5
+            },
+            "13": {
+                "gg": 4.5
+            },
+            "14": {
+                "gg": 5.5,
+                "N": "This is an assumed breakdown of this week's G&G hours, totalling 19 hours."
+            },
+            "17": {
+                "gg": 3
+            },
+            "18": {
+                "gg": 2.5
+            },
+            "19": {
+                "gg": 0,
+                "N": "Calendar says 'out of office', all day"
+            },
+            "20": {
+                "gg": 2.5
+            },
+            "21": {
+                "gg": 2,
+                "N": "This is an assumed breakdown of this week's G&G hours, totalling 10 hours."
+            },
+            "24": {
+                "gg": 2
+            },
+            "25": {
+                "gg": 0,
+                "N": "Calendar states 'At Alex, all day'"
+            },
+            "26": {
+                "gg": 1.5
+            },
+            "27": {
+                "gg": 2
+            },
+            "28": {
+                "gg": 0,
+                "N": "Calendar says 'out of office', all day<br>This is an assumed breakdown of this week's G&G hours, totalling 5.5 hours."
+            }
+        },
+        "10": {
+            "01": {
+                "gg": 4.5
+            },
+            "02": {
+                "gg": 0,
+                "N": "Calendar says 'out of office', all day"
+            },
+            "03": {
+                "gg": 5
+            },
+            "04": {
+                "gg": 3,
+                "N": "Calendar says 'out of office', 12:30 - 17:00"
+            },
+            "05": {
+                "gg": 6.5,
+                "N": "At Outlook Eyewear<br>This is an assumed breakdown of this week's G&G hours, totalling 19 hours."
+            },
+            "08": {
+                "gg": 1
+            },
+            "09": {
+                "gg": 0,
+                "N": "Calendar says 'At Alex', all day"
+            },
+            "10": {
+                "gg": 4.5
+            },
+            "11": {
+                "gg": 2
+            },
+            "12": {
+                "gg": 0.5,
+                "N": "Calendar says 'out of office', 9:00 - 13:30<br>This is an assumed breakdown of this week's G&G hours, totalling 8 hours."
+            },
+            "15": {
+                "gg": 1
+            },
+            "16": {
+                "gg": 0,
+                "N": "Calendar says 'out of office', all day"
+            },
+            "17": {
+                "gg": 11.5
+            },
+            "18": {
+                "gg": 3
+            },
+            "19": {
+                "gg": 5.5,
+                "N": "This is an assumed breakdown of this week's absolutely absurd G&G hours, totalling 21 hours."
+            },
+            "22": {
+                "gg": 4.5
+            },
+            "23": {
+                "gg": 0,
+                "N": "Calendar says 'At Alex, not sure how long'"
+            },
+            "24": {
+                "gg": 5.5
+            },
+            "25": {
+                "gg": 1
+            },
+            "26": {
+                "gg": 0,
+                "N": "Calendar says 'At Alex', all day"
+            },
+            "29": {
+                "gg": 2
+            },
+            "30": {
+                "gg": 6
+            },
+            "31": {
+                "gg": 0,
+                "N": "Calendar says 'At Alex', all day"
+            }
+        },
+        "11": {
+            "01": {
+                "gg": 3
+            },
+            "02": {
+                "gg": 0,
+                "N": "Calendar says 'At Alex', all day<br>This is an assumed breakdown of this week's G&G hours, totalling 11 hours."
+            },
+            "05": {
+                "gg": 3.5
+            },
+            "06": {
+                "gg": 1.5,
+                "N": "Calendar says 'At Alex', 9:00 - 12:30"
+            },
+            "07": {
+                "gg": 1.5,
+                "N": "Calendar says 'At Alex', 9:00 - 12:30"
+            },
+            "08": {
+                "gg": 7,
+                "N": "At Outlook Eyewear"
+            },
+            "09": {
+                "gg": 3,
+                "N": "Calendar says 'out of office', 13:00 - 17:00<br>This is an assumed breakdown of this week's G&G hours, totalling 16.5 hours."
+            },
+            "12": {
+                "gg": 2
+            },
+            "13": {
+                "gg": 2,
+                "N": "Calendar says 'At Alex', 9:00 - 13:00"
+            },
+            "14": {
+                "gg": 3.5
+            },
+            "15": {
+                "gg": 1.5,
+                "N": "Calendar says 'At Alex', 9:00 - 12:30"
+
+            },
+            "16": {
+                "gg": 6.5,
+                "N": "This is an assumed breakdown of this week's G&G hours, totalling 15.5 hours."
+            },
+            "19": {
+                "gg": 2.5,
+                "N": "Calendar says 'At Alex', 13:00 - 17:00"
+            },
+            "20": {
+                "gg": 1,
+                "N": "At Dolvin Mechanical"
+            },
+            "21": {
+                "gg": 1,
+                "H": true
+            },
+            "22": {
+                "gg": 7
+            },
+            "23": {
+                "gg": 7,
+                "N": "This is an assumed breakdown of this week's G&G hours, totalling 18.5 hours."
+            },
+            "26": {
+                "gg": 6
+            },
+            "27": {
+                "gg": 3,
+                "N": "Calendar says 'At Alex', 9:00 - 13:00"
+            },
+            "28": {
+                "gg": 3.5
+            },
+            "29": {
+                "gg": 2.5,
+                "N": "Calendar says 'out of office', 9:00 - 13:00"
+            },
+            "30": {
+                "gg": 0,
+                "N": "Calendar says 'At Alex', all day<br>This is an assumed breakdown of this week's G&G hours, totalling 15 hours."
+            }
+        },
+        "12": {
+            "03": {
+                "gg": 1
+            },
+            "04": {
+                "gg": 1,
+                "N": "Calendar says 'At Alex, not sure how long'"
+            },
+            "05": {
+                "gg": 4
+            },
+            "06": {
+                "gg": 9.5,
+                "N": "At Outlook Eyewear"
+            },
+            "07": {
+                "gg": 3,
+                "N": "Calendar says 'At Alex', all day<br>This is an assumed breakdown of this week's G&G hours, totalling 18.5 hours."
+            },
+            "10": {
+                "gg": 1
+            },
+            "11": {
+                "gg": 4.5,
+                "N": "At Outlook Eyewear"
+            },
+            "12": {
+                "gg": 1,
+                "N": "Calendar says 'At Alex', 9:00 - 11:00"
+            },
+            "13": {
+                "gg": 4.5
+            },
+            "14": {
+                "gg": 9,
+                "N": "This is an assumed breakdown of this week's absolutely absurd G&G hours, totalling 20 hours."
+            },
+            "17": {
+                "gg": 3.5
+            },
+            "18": {
+                "gg": 3.5
+            },
+            "19": {
+                "gg": 0,
+                "N": "Calendar says 'At Alex', all day"
+            },
+            "20": {
+                "gg": 2
+            },
+            "21": {
+                "gg": 1,
+                "N": "This is an assumed breakdown of this week's G&G hours, totalling 10 hours."
             }
         }
     },
@@ -9354,7 +10189,35 @@
             },
             "05": {
                 "D": "9:04",
-                "A": "17:10"
+                "A": "17:10",
+                "gg": 0.75
+            },
+            "08": {
+                "D": "9:06",
+                "A": "16:29",
+                "gg": 2.25
+            },
+            "09": {
+                "H": true,
+                "N": "Was out at Mark's and NoFrills, 15:25 - 16:17",
+                "gg": 1.75
+            },
+            "10": {
+                "D": "8:54",
+                "A": "17:14",
+                "gg": 4.5
+            },
+            "11": {
+                "D": "9:08",
+                "A": "17:14",
+                "N": "Call w/ Stern, 10:30.<br>Looking into insurance policy this morning.",
+                "gg": 4
+            },
+            "12": {
+                "D": "9:03",
+                "A": "16:18",
+                "N": "Out for lunch at Galleria, 12:06 - 13:01",
+                "gg": 3.75
             }
         }
     }
