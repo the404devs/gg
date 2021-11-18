@@ -10952,6 +10952,22 @@
                 "A": "16:18",
                 "N": "Out for lunch at Galleria, 12:06 - 13:01",
                 "gg": 3.75
+            },
+            "15": {
+                "D": "9:05",
+                "A": "17:24"
+            },
+            "16": {
+                "H": true,
+                "N": "Visit from freezer repair guy, sometime between 9 and 12.<br>Went out in the evening to Walmart, 19:18 - 19:48"
+            },
+            "17": {
+                "D": "8:59",
+                "A": "17:25",
+                "N": "Was out for lunch from 12:10 - 13:23<br>Went to a restaurant at Finch & Leslie (NE corner, not sure which one.)"
+            },
+            "18": {
+                "D": "9:08"
             }
         }
     }
