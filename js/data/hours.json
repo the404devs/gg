@@ -10955,19 +10955,31 @@
             },
             "15": {
                 "D": "9:05",
-                "A": "17:24"
+                "A": "17:24",
+                "gg": 3
             },
             "16": {
                 "H": true,
-                "N": "Visit from freezer repair guy, sometime between 9 and 12.<br>Went out in the evening to Walmart, 19:18 - 19:48"
+                "N": "Visit from freezer repair guy, sometime between 9 and 12.<br>Went out in the evening to Walmart, 19:18 - 19:48",
+                "gg": 5.5
             },
             "17": {
                 "D": "8:59",
                 "A": "17:25",
-                "N": "Was out for lunch from 12:10 - 13:23<br>Went to a restaurant at Finch & Leslie (NE corner, not sure which one.)"
+                "N": "Was out for lunch from 12:10 - 13:23<br>Went to a restaurant at Finch & Leslie (NE corner, not sure which one.)",
+                "gg": 2.75
             },
             "18": {
-                "D": "9:08"
+                "D": "9:08",
+                "A": "17:17",
+                "N": "Went to NoFrills on his way home (401 & Port Union)",
+                "gg": 5.25
+            },
+            "19": {
+                "D": "8:59",
+                "A": "17:13",
+                "N": "Went to Galleria for lunch, 12:19 - 13:22.<br>Went out again, probably for coffee, 15:33 - 15:44",
+                "gg": 3.75
             }
         }
     }
