@@ -10979,7 +10979,16 @@
                 "D": "8:59",
                 "A": "17:13",
                 "N": "Went to Galleria for lunch, 12:19 - 13:22.<br>Went out again, probably for coffee, 15:33 - 15:44",
-                "gg": 3.75
+                "gg": 4.75
+            },
+            "21": {
+                "H": true,
+                "N": "A very strange instance of 'working' on a Sunday.<br>Sent an email to Jim Owen (Outlook) at 15:20<br>Was out at Home Depot, 15:30 - 15:52.<br>Submitted his G&G invoice (dated 22nd) at 20:13",
+                "gg": 2.25
+            },
+            "22": {
+                "N": "Came up to Stouffville to get tires changed, etc ~8:15.",
+                "H": true
             }
         }
     }
