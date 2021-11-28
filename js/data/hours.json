@@ -10987,8 +10987,33 @@
                 "gg": 2.25
             },
             "22": {
-                "N": "Came up to Stouffville to get tires changed, etc ~8:15.",
-                "H": true
+                "N": "Came up to Stouffville to get tires changed, etc 7:43 - 12:04",
+                "H": true,
+                "gg": 1.25
+            },
+            "23": {
+                "H": true,
+                "gg": 4.75
+            },
+            "24": {
+                "gg": 3,
+                "D": "9:02",
+                "A": "17:08"
+            },
+            "25": {
+                "gg": 2.25,
+                "D": "9:07",
+                "A": "17:19"
+            },
+            "26": {
+                "gg": 2,
+                "D": "8:24",
+                "A": "17:06",
+                "N": "Went to Galleria for lunch, 12:15 - 13:10.<br>Went to NoFrills on the way home (401 & Port Union)<br>Furnace breaks down, no heat until Tuesday.<br>New furnace would cost ~$5400."
+            },
+            "27": {
+                "NAVG": true,
+                "N": "Admitted to buying a new TV this evening.<br>Supposedly $225, bought at a store in the mall.<br>Claims to have bought it on the 21st, but he did not go to the mall on that day.<br>Likely purchased on the 20th or today.<br>Was at a spot near the mall, 11:18 - 11:26<br>Went to Walmart, 11:32 - 12:11<br>Drove up to used car place in Gormley, 13:29 - 15:03.<br>Went for a haircut (407 & Donald Cousens), 15:25 - 15:43<br>Could possibly have went to the mall upon arriving home as well, not sure.<br><b>This day is not included in the monthly average.</b>"
             }
         }
     }

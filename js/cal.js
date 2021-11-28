@@ -131,6 +131,7 @@ var loadHoursFromJSON = function() {
                         monthlyHourTotal += totalHours;
                     } else {
                         numberOfNAVGDays++;
+                        // console.log("NAVG day: " + years[y] + "-" + months[m] + "-" + days[d]);
                     }
                 }
 
