@@ -10904,59 +10904,71 @@
             "01": {
                 "gg": 1.5,
                 "D": "9:02",
-                "A": "17:19"
+                "A": "17:19",
+                "bn": 4.5,
+                "N": "Bruce hours for this month seem massively inflated, when compared to previous months and previous Novembers. Numbers should be taken with an equally inflated grain of salt."
             },
             "02": {
                 "gg": 5,
                 "D": "9:12",
-                "A": "17:18"
+                "A": "17:18",
+                "bn": 1.5
             },
             "03": {
                 "gg": 3.5,
                 "D": "9:16",
                 "A": "17:30",
-                "N": "Dinner with buddies, 18:00 - 21:00"
+                "N": "Dinner with buddies, 18:00 - 21:00",
+                "bn": 1.5
             },
             "04": {
                 "gg": 2,
-                "H": true
+                "H": true,
+                "bn": 2.5
             },
             "05": {
                 "D": "9:04",
                 "A": "17:10",
-                "gg": 0.75
+                "gg": 0.75,
+                "bn": 4.5
             },
             "08": {
                 "D": "9:06",
                 "A": "16:29",
-                "gg": 2.25
+                "gg": 2.25,
+                "bn": 3.5
             },
             "09": {
                 "H": true,
                 "N": "Was out at Mark's and NoFrills, 15:25 - 16:17",
-                "gg": 1.75
+                "gg": 1.75,
+                "bn": 2.5
             },
             "10": {
                 "D": "8:54",
                 "A": "17:14",
-                "gg": 4.5
+                "gg": 4.5,
+                "bn": 1.5
             },
             "11": {
                 "D": "9:08",
                 "A": "17:14",
                 "N": "Call w/ Stern, 10:30.<br>Looking into insurance policy this morning.",
-                "gg": 4
+                "gg": 4,
+                "bn": 2
             },
             "12": {
                 "D": "9:03",
                 "A": "16:18",
                 "N": "Out for lunch at Galleria, 12:06 - 13:01",
-                "gg": 3.75
+                "gg": 3.75,
+                "bn": 3
             },
             "15": {
                 "D": "9:05",
                 "A": "17:24",
-                "gg": 3
+                "gg": 3,
+                "bn": 3.5
             },
             "16": {
                 "H": true,
@@ -10967,19 +10979,22 @@
                 "D": "8:59",
                 "A": "17:25",
                 "N": "Was out for lunch from 12:10 - 13:23<br>Went to a restaurant at Finch & Leslie (NE corner, not sure which one.)",
-                "gg": 2.75
+                "gg": 2.75,
+                "bn": 3.5
             },
             "18": {
                 "D": "9:08",
                 "A": "17:17",
                 "N": "Went to NoFrills on his way home (401 & Port Union)",
-                "gg": 5.25
+                "gg": 5.25,
+                "bn": 1
             },
             "19": {
                 "D": "8:59",
                 "A": "17:13",
                 "N": "Went to Galleria for lunch, 12:19 - 13:22.<br>Went out again, probably for coffee, 15:33 - 15:44",
-                "gg": 4.75
+                "gg": 4.75,
+                "bn": 2
             },
             "21": {
                 "H": true,
@@ -10989,31 +11004,69 @@
             "22": {
                 "N": "Came up to Stouffville to get tires changed, etc 7:43 - 12:04",
                 "H": true,
-                "gg": 1.25
+                "gg": 1.25,
+                "bn": 2
             },
             "23": {
                 "H": true,
-                "gg": 4.75
+                "gg": 4.75,
+                "bn": 1.25
             },
             "24": {
                 "gg": 3,
                 "D": "9:02",
-                "A": "17:08"
+                "A": "17:08",
+                "bn": 4
             },
             "25": {
                 "gg": 2.25,
                 "D": "9:07",
-                "A": "17:19"
+                "A": "17:19",
+                "bn": 4
             },
             "26": {
                 "gg": 2,
                 "D": "8:24",
                 "A": "17:06",
-                "N": "Went to Galleria for lunch, 12:15 - 13:10.<br>Went to NoFrills on the way home (401 & Port Union)<br>Furnace breaks down, no heat until Tuesday.<br>New furnace would cost ~$5400."
+                "N": "Went to Galleria for lunch, 12:15 - 13:10.<br>Went to NoFrills on the way home (401 & Port Union)<br>Furnace breaks down, no heat until Tuesday.<br>New furnace would cost ~$5400.",
+                "bn": 4.5
             },
             "27": {
                 "NAVG": true,
                 "N": "Admitted to buying a new TV this evening.<br>Supposedly $225, bought at a store in the mall.<br>Claims to have bought it on the 21st, but he did not go to the mall on that day.<br>Likely purchased on the 20th or today.<br>Was at a spot near the mall, 11:18 - 11:26<br>Went to Walmart, 11:32 - 12:11<br>Drove up to used car place in Gormley, 13:29 - 15:03.<br>Went for a haircut (407 & Donald Cousens), 15:25 - 15:43<br>Could possibly have went to the mall upon arriving home as well, not sure.<br><b>This day is not included in the monthly average.</b>"
+            },
+            "29": {
+                "bn": 3.5,
+                "N": "Was out, taking R to doctor, grocery pickup, etc: 8:46 - 11:55",
+                "D": "11:55",
+                "A": "17:35",
+                "gg": 1
+            },
+            "30": {
+                "bn": 4,
+                "D": "9:15",
+                "A": "17:23",
+                "N": "Course in the morning, 9:00 - 10:30",
+                "gg": 2.75
+            }
+        },
+        "12": {
+            "01": {
+                "D": "9:10",
+                "A": "17:25",
+                "N": "Was out, probably for coffee, 13:59 - 14:07<br>Went to Canadian Tire after work, 17:57 - 18:05",
+                "gg": 2.25
+            },
+            "02": {
+                "D": "8:51",
+                "A": "17:30",
+                "N": "AJAG course, 9:00 - 12:00",
+                "gg": 5.25
+            },
+            "03": {
+                "N": "Was in Stouffville doing various tasks (Dog grooming, grocery pickup, pet store, dog pickup, more groceries): 9:13 - 13:17",
+                "H": true,
+                "gg": 2.25
             }
         }
     }
