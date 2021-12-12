@@ -11078,6 +11078,29 @@
                 "D": "8:58",
                 "A": "17:30",
                 "N": "Went out 14:08 - 14:32, for coffee probably."
+            },
+            "07": {
+                "D": "8:57",
+                "A": "17:32",
+                "N": "Tax seminar, 9:00 - 10:30.<br>I believe he went out for coffee early afternoon.<br>Went for a walk around the block, 19:51 - 20:08",
+                "gg": 4.75
+            },
+            "08": {
+                "D": "9:01",
+                "A": "17:18",
+                "N": "Year-end lunch & party, 13:00 - 15:00",
+                "gg": 3.5
+            },
+            "09": {
+                "D": "9:04",
+                "A": "17:26",
+                "gg": 3.75
+            },
+            "10": {
+                "D": "8:55",
+                "A": "16:39",
+                "N": "Went to Home Depot after work, 17:03 - 17:13",
+                "gg": 2.25
             }
         }
     }
