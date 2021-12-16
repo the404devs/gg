@@ -11099,8 +11099,24 @@
             "10": {
                 "D": "8:55",
                 "A": "16:39",
-                "N": "Went to Home Depot after work, 17:03 - 17:13",
+                "N": "Went to Home Depot(?) after work, 17:03 - 17:13",
                 "gg": 2.25
+            },
+            "13": {
+                "D": "9:04",
+                "A": "17:14",
+                "N": "Went to Home Depot(?) after work, 17:40 - 17:55",
+                "gg": 2.75
+            },
+            "14": {
+                "D": "9:09",
+                "A": "17:27",
+                "N": "Went to some plaza after work ~18:00, 1550 Kingston Road, Pickering.",
+                "gg": 3.75
+            },
+            "15": {
+                "H": true,
+                "gg": 4.25
             }
         }
     }
