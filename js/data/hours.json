@@ -10712,14 +10712,15 @@
                 "gg": 3.75,
                 "bn": 2.75,
                 "D": "8:36",
-                "A": "17:46"
+                "A": "17:46",
+                "N": "Spent $31.95 at Subway."
             },
             "21": {
                 "gg": 3.25,
                 "bn": 3,
                 "D": "8:30",
                 "A": "17:47",
-                "N": "Bruce hours changed to 3.25 between 22nd and 30th. This is assumed to be a lie and not a correction."
+                "N": "Bruce hours changed to 3.25 between 22nd and 30th. This is assumed to be a lie and not a correction.<br>Spent $3.29 at McDonalds."
             },
             "22": {
                 "bn": 1.75,
@@ -10854,11 +10855,11 @@
                 "gg": 4.75,
                 "D": "8:35",
                 "A": "17:10",
-                "N": "AJAG course, 9:00 - 12:00",
+                "N": "AJAG course, 9:00 - 12:00<br>Spent $13.98 at Dollarama.",
                 "bn": 1
             },
             "21": {
-                "N": "AJAG course, 9:00 - 12:00",
+                "N": "AJAG course, 9:00 - 12:00<br>Spent $9.41 at Dollarama.",
                 "D": "9:01",
                 "gg": 5.5,
                 "A": "17:15",
@@ -10873,7 +10874,8 @@
                 "D": "8:56",
                 "A": "17:13",
                 "gg": 2.25,
-                "bn": 3.5
+                "bn": 3.5,
+                "N": "Spent $5.70 at McDonalds.<br>Spent $10.77 at Bulk Barn."
             },
             "26": {
                 "D": "9:09",
@@ -10906,7 +10908,7 @@
                 "D": "9:02",
                 "A": "17:19",
                 "bn": 4.5,
-                "N": "Bruce hours for this month seem massively inflated, when compared to previous months and previous Novembers. Numbers should be taken with an equally inflated grain of salt."
+                "N": "Bruce hours for this month seem massively inflated, when compared to previous months and previous Novembers. Numbers should be taken with an equally inflated grain of salt.<br>Spent $29.45 at the Beer Store."
             },
             "02": {
                 "gg": 5,
@@ -10918,7 +10920,7 @@
                 "gg": 3.5,
                 "D": "9:16",
                 "A": "17:30",
-                "N": "Dinner with buddies, 18:00 - 21:00",
+                "N": "Went out for coffee around noon, spent $5.22 at McDonalds.<br>Dinner with buddies, 18:00 - 21:00",
                 "bn": 1.5
             },
             "04": {
@@ -10930,13 +10932,15 @@
                 "D": "9:04",
                 "A": "17:10",
                 "gg": 0.75,
-                "bn": 4.5
+                "bn": 4.5,
+                "N": "Spent $44.72 at Shoppers Drug Mart."
             },
             "08": {
                 "D": "9:06",
                 "A": "16:29",
                 "gg": 2.25,
-                "bn": 3.5
+                "bn": 3.5,
+                "N": "Spent $3.23 at Tim Horton's"
             },
             "09": {
                 "H": true,
@@ -10960,7 +10964,7 @@
             "12": {
                 "D": "9:03",
                 "A": "16:18",
-                "N": "Out for lunch at Galleria, 12:06 - 13:01",
+                "N": "Out for lunch at Galleria, 12:06 - 13:01 (Spent $11.29)<br>Also spent $2.10 at McDonalds this day, unsure if it was before or after Galleria. Probably was coffee, either way.",
                 "gg": 3.75,
                 "bn": 3
             },
@@ -10985,14 +10989,14 @@
             "18": {
                 "D": "9:08",
                 "A": "17:17",
-                "N": "Went to NoFrills on his way home (401 & Port Union)",
+                "N": "Went out for coffee around noon, spent $3.15 at McDonalds.<br>Went to NoFrills on his way home (401 & Port Union)",
                 "gg": 5.25,
                 "bn": 1
             },
             "19": {
                 "D": "8:59",
                 "A": "17:13",
-                "N": "Went to Galleria for lunch, 12:19 - 13:22.<br>Went out again, probably for coffee, 15:33 - 15:44",
+                "N": "Went to Galleria for lunch, 12:19 - 13:22 (Spent $11.29).<br>Went out again, probably for coffee, 15:33 - 15:44 (Maybe not coffee? Spent $14.21 at Longo's)",
                 "gg": 4.75,
                 "bn": 2
             },
@@ -11016,7 +11020,8 @@
                 "gg": 3,
                 "D": "9:02",
                 "A": "17:08",
-                "bn": 4
+                "bn": 4,
+                "N": "Went out for coffee around noon, spent $3.23 at McDonalds."
             },
             "25": {
                 "gg": 2.25,
@@ -11054,13 +11059,13 @@
             "01": {
                 "D": "9:10",
                 "A": "17:25",
-                "N": "Was out, probably for coffee, 13:59 - 14:07<br>Went to Canadian Tire after work, 17:57 - 18:05",
+                "N": "Was out, probably for coffee, 13:59 - 14:07, spent $3.23 at McDonalds.<br>Went to Canadian Tire after work, 17:57 - 18:05",
                 "gg": 2.25
             },
             "02": {
                 "D": "8:51",
                 "A": "17:30",
-                "N": "AJAG course, 9:00 - 12:00",
+                "N": "AJAG course, 9:00 - 12:00<br>Went out for coffee, spent $3.23 at McDonalds",
                 "gg": 5.25
             },
             "03": {
@@ -11077,7 +11082,7 @@
                 "gg": 4.5,
                 "D": "8:58",
                 "A": "17:30",
-                "N": "Went out 14:08 - 14:32, for coffee probably."
+                "N": "Went out 14:08 - 14:32, for coffee probably.<br>Spent $5.22 at McDonalds."
             },
             "07": {
                 "D": "8:57",
@@ -11094,7 +11099,8 @@
             "09": {
                 "D": "9:04",
                 "A": "17:26",
-                "gg": 3.75
+                "gg": 3.75,
+                "N": "Went out for coffee around noon, spent $3.45 at McDonalds.<br>Spent $56.72 at Shoppers Drug Mart."
             },
             "10": {
                 "D": "8:55",
@@ -11111,12 +11117,48 @@
             "14": {
                 "D": "9:09",
                 "A": "17:27",
-                "N": "Went to some plaza after work ~18:00, 1550 Kingston Road, Pickering.",
+                "N": "Went out for coffee around noon, spent $3.23 at McDonalds.<br>Went to some plaza after work ~18:00, 1550 Kingston Road, Pickering.",
                 "gg": 3.75
             },
             "15": {
                 "H": true,
                 "gg": 4.25
+            },
+            "16": {
+                "N": "Was out for coffee, 12:51 - 13:02<br>Went out for a walk in the evening, 19:59 - 20:15",
+                "gg": 5.25
+            },
+            "17": {
+                "gg": 4.25,
+                "N": "Dropped stuff off and/or picked stuff up at Bruce's(?) house in the morning before work, ~8:45<br>Again visiting the Home Depot plaza on his way home, 17:11 - 17:21",
+                "D": "8:52",
+                "A": "16:43"
+            },
+            "20": {
+                "gg": 4.75,
+                "N": "Got gas in the morning before work, ~8:40<br>Went out for coffee, spent $3.68 at McDonalds.",
+                "D": "9:00",
+                "A": "17:17"
+            },
+            "21": {
+                "gg": 5.5,
+                "D": "9:05",
+                "A": "17:04"
+            },
+            "22": {
+                "gg": 5.5,
+                "D": "9:03",
+                "A": "16:25"
+            },
+            "23": {
+                "gg": 5.25,
+                "N": "Ordered a burrito for lunch @ 12:05, went to pick it up around 12:20<br>Dropped off wine in Stouffville after work, 16:40<br>Got ambushed by me upon arrival, lol.",
+                "D": "8:59",
+                "A": "15:36"
+            },
+            "24": {
+                "N": "Went for a walk around the block, 13:56 - 14:18<br>Likely ordered dinner from Milos Greek or 6ixside Burger, both nearby restaurants.",
+                "NAVG": true
             }
         }
     }
