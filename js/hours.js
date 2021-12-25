@@ -117,6 +117,9 @@ var loadHoursFromJSON = function() {
                         monthlyHourTotal += totalHours;
                     } else {
                         numberOfNAVGDays++;
+                        $("#" + years[y] + "-" + months[m] + "-" + days[d]).append(
+                            $("<h6>").html("This day is not included in the monthly average.").css("font-weight", "bold")
+                        );
                     }
                 }
 
