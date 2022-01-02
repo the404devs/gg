@@ -11159,28 +11159,39 @@
             "24": {
                 "N": "Went for a walk around the block, 13:56 - 14:18<br>Likely ordered dinner from Milos Greek or 6ixside Burger, both nearby restaurants.<br>Thought about calling this a NAVG day, but since I had to work on this day there's no reason he couldn't have."
             },
+            "27": {
+                "gg": 2,
+                "H": true
+            },
             "28": {
                 "N": "Went to NoFrills, 15:37 - 16:32.",
-                "H": true
+                "H": true,
+                "gg": 2.75
             },
             "29": {
                 "N": "At Outlook Eyewear<br>Went to Turtle Jack's for dinner, 15:56 - 18:04",
                 "D": "9:31",
-                "A": "15:56"
+                "A": "15:56",
+                "gg": 5.5
             },
             "30": {
                 "H": true,
-                "N": "Went to Shoppers & Canadian Tire, 15:20 - 15:58<br>Went for a walk in the evening, 19:48 - 20:09"
+                "N": "Went to Shoppers & Canadian Tire, 15:20 - 15:58<br>Went for a walk in the evening, 19:48 - 20:09",
+                "gg": 2.5
             },
             "31": {
                 "H": true,
-                "N": "As with last Friday, if I can work on this day so can he.<br>Went to the mall, 14:30 - 15:00"
+                "N": "As with last Friday, if I can work on this day so can he.<br>Went to the mall, 14:30 - 15:00",
+                "gg": 1.5
             }
         }
     },
     "2022": {
         "01": {
-
+            "03": {
+                "gg": 0,
+                "N": "This marks 10 years of hours data."
+            }
         }
     }
 }
