@@ -11190,7 +11190,25 @@
         "01": {
             "03": {
                 "gg": 0,
-                "N": "This marks 10 years of hours data."
+                "N": "This marks 10 years of hours data.<br>Out 12:09 - 13:00",
+                "D": "9:05",
+                "A": "16:53"
+            },
+            "04": {
+                "H": true,
+                "N": "Went to get his 3rd dose, 9:09 - 9:55,<br>went to Mark's afterwards, 9:55 - 10:07,<br>Went to NoFrills, 10:09 - 10:37"
+            },
+            "05": {
+                "D": "8:59",
+                "A": "17:22"
+            },
+            "06": {
+                "N": "Got gas in the morning before work, ~8:25",
+                "D": "8:52",
+                "A": "17:35"
+            },
+            "07": {
+                "H": true
             }
         }
     }
