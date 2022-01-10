@@ -11059,14 +11059,16 @@
             "01": {
                 "D": "9:10",
                 "A": "17:25",
-                "N": "Was out, probably for coffee, 13:59 - 14:07, spent $3.23 at McDonalds.<br>Went to Canadian Tire after work, 17:57 - 18:05",
-                "gg": 2.25
+                "N": "Was out, probably for coffee, 13:59 - 14:07, spent $3.23 at McDonalds.<br>Went to Canadian Tire after work, 17:57 - 18:05<br>As is tradition, Bruce hours are likely random arbitrary numbers so that it looks like he's putting in ~5 hours each day. Bruce doesn't know, or care.",
+                "gg": 2.25,
+                "bn": 4
             },
             "02": {
                 "D": "8:51",
                 "A": "17:30",
                 "N": "AJAG course, 9:00 - 12:00<br>Went out for coffee, spent $3.23 at McDonalds",
-                "gg": 5.25
+                "gg": 5.25,
+                "bn": 1.5
             },
             "03": {
                 "N": "Was in Stouffville doing various tasks (Dog grooming, grocery pickup, pet store, dog pickup, more groceries): 9:13 - 13:17",
@@ -11082,73 +11084,86 @@
                 "gg": 4.5,
                 "D": "8:58",
                 "A": "17:30",
-                "N": "Went out 14:08 - 14:32, for coffee probably.<br>Spent $5.22 at McDonalds."
+                "N": "Went out 14:08 - 14:32, for coffee probably.<br>Spent $5.22 at McDonalds.",
+                "bn": 1.5
             },
             "07": {
                 "D": "8:57",
                 "A": "17:32",
                 "N": "Tax seminar, 9:00 - 10:30.<br>I believe he went out for coffee early afternoon.<br>Went for a walk around the block, 19:51 - 20:08",
-                "gg": 4.75
+                "gg": 4.75,
+                "bn": 2
             },
             "08": {
                 "D": "9:01",
                 "A": "17:18",
                 "N": "Year-end lunch & party, 13:00 - 15:00",
-                "gg": 3.5
+                "gg": 3.5,
+                "bn": 2
             },
             "09": {
                 "D": "9:04",
                 "A": "17:26",
                 "gg": 3.75,
-                "N": "Went out for coffee around noon, spent $3.45 at McDonalds.<br>Spent $56.72 at Shoppers Drug Mart."
+                "N": "Went out for coffee around noon, spent $3.45 at McDonalds.<br>Spent $56.72 at Shoppers Drug Mart.",
+                "bn": 2.5
             },
             "10": {
                 "D": "8:55",
                 "A": "16:39",
                 "N": "Went to Home Depot(?) after work, 17:03 - 17:13",
-                "gg": 2.25
+                "gg": 2.25,
+                "bn": 4
             },
             "13": {
                 "D": "9:04",
                 "A": "17:14",
                 "N": "Went to Home Depot(?) after work, 17:40 - 17:55",
-                "gg": 2.75
+                "gg": 2.75,
+                "bn": 1
             },
             "14": {
                 "D": "9:09",
                 "A": "17:27",
                 "N": "Went out for coffee around noon, spent $3.23 at McDonalds.<br>Went to some plaza after work ~18:00, 1550 Kingston Road, Pickering.",
-                "gg": 3.75
+                "gg": 3.75,
+                "bn": 2.5
             },
             "15": {
                 "H": true,
-                "gg": 4.25
+                "gg": 4.25,
+                "bn": 0.5
             },
             "16": {
                 "N": "Was out for coffee, 12:51 - 13:02<br>Went out for a walk in the evening, 19:59 - 20:15",
-                "gg": 5.25
+                "gg": 5.25,
+                "bn": 1.5
             },
             "17": {
                 "gg": 4.25,
                 "N": "Dropped stuff off and/or picked stuff up at Bruce's(?) house in the morning before work, ~8:45<br>Again visiting the Home Depot plaza on his way home, 17:11 - 17:21",
                 "D": "8:52",
-                "A": "16:43"
+                "A": "16:43",
+                "bn": 1
             },
             "20": {
                 "gg": 4.75,
                 "N": "Got gas in the morning before work, ~8:40<br>Went out for coffee, spent $3.68 at McDonalds.",
                 "D": "9:00",
-                "A": "17:17"
+                "A": "17:17",
+                "bn": 1
             },
             "21": {
                 "gg": 5.5,
                 "D": "9:05",
-                "A": "17:04"
+                "A": "17:04",
+                "bn": 0.5
             },
             "22": {
                 "gg": 5.5,
                 "D": "9:03",
-                "A": "16:25"
+                "A": "16:25",
+                "bn": 1
             },
             "23": {
                 "gg": 5.25,
@@ -11157,7 +11172,8 @@
                 "A": "15:36"
             },
             "24": {
-                "N": "Went for a walk around the block, 13:56 - 14:18<br>Likely ordered dinner from Milos Greek or 6ixside Burger, both nearby restaurants.<br>Thought about calling this a NAVG day, but since I had to work on this day there's no reason he couldn't have."
+                "N": "Went for a walk around the block, 13:56 - 14:18<br>Likely ordered dinner from Milos Greek or 6ixside Burger, both nearby restaurants.<br>Thought about calling this a NAVG day, but since I had to work on this day there's no reason he couldn't have.",
+                "bn": 3.5
             },
             "27": {
                 "gg": 2,
@@ -11166,7 +11182,8 @@
             "28": {
                 "N": "Went to NoFrills, 15:37 - 16:32.",
                 "H": true,
-                "gg": 2.75
+                "gg": 2.75,
+                "bn": 1.5
             },
             "29": {
                 "N": "At Outlook Eyewear<br>Went to Turtle Jack's for dinner, 15:56 - 18:04",
@@ -11177,12 +11194,14 @@
             "30": {
                 "H": true,
                 "N": "Went to Shoppers & Canadian Tire, 15:20 - 15:58<br>Went for a walk in the evening, 19:48 - 20:09",
-                "gg": 2.5
+                "gg": 2.5,
+                "bn": 1.5
             },
             "31": {
                 "H": true,
                 "N": "As with last Friday, if I can work on this day so can he.<br>Went to the mall, 14:30 - 15:00",
-                "gg": 1.5
+                "gg": 1.5,
+                "bn": 1.5
             }
         }
     },
