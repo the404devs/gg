@@ -11137,7 +11137,9 @@
             "16": {
                 "N": "Was out for coffee, 12:51 - 13:02<br>Went out for a walk in the evening, 19:59 - 20:15",
                 "gg": 5.25,
-                "bn": 1.5
+                "bn": 1.5,
+                "D": "9:12",
+                "A": "17:20"
             },
             "17": {
                 "gg": 4.25,
@@ -11173,7 +11175,8 @@
             },
             "24": {
                 "N": "Went for a walk around the block, 13:56 - 14:18<br>Likely ordered dinner from Milos Greek or 6ixside Burger, both nearby restaurants.<br>Thought about calling this a NAVG day, but since I had to work on this day there's no reason he couldn't have.",
-                "bn": 3.5
+                "bn": 3.5,
+                "H": true
             },
             "27": {
                 "gg": 2,
