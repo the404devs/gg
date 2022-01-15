@@ -11211,26 +11211,56 @@
     "2022": {
         "01": {
             "03": {
-                "gg": 0,
+                "gg": 4.5,
                 "N": "This marks 10 years of hours data.<br>Out 12:09 - 13:00",
                 "D": "9:05",
                 "A": "16:53"
             },
             "04": {
                 "H": true,
-                "N": "Went to get his 3rd dose, 9:09 - 9:55,<br>went to Mark's afterwards, 9:55 - 10:07,<br>Went to NoFrills, 10:09 - 10:37"
+                "N": "Went to get his 3rd dose, 9:09 - 9:55,<br>went to Mark's afterwards, 9:55 - 10:07,<br>Went to NoFrills, 10:09 - 10:37",
+                "gg": 6.5
             },
             "05": {
                 "D": "8:59",
-                "A": "17:22"
+                "A": "17:22",
+                "gg": 4.5
             },
             "06": {
                 "N": "Got gas in the morning before work, ~8:25",
                 "D": "8:52",
-                "A": "17:35"
+                "A": "17:35",
+                "gg": 5.25
             },
             "07": {
-                "H": true
+                "H": true,
+                "gg": 6
+            },
+            "10": {
+                "D": "8:54",
+                "A": "17:29",
+                "gg": 5
+            },
+            "11": {
+                "H": true,
+                "N": "Car likely couldn't start, was searching up 'Dodge Journey check engine lights' at 9:20",
+                "gg": 5.5
+            },
+            "12": {
+                "D": "8:57",
+                "A": "17:27",
+                "N": "Went out for coffee, 13:24 - 13:40<br>Went to Home Depot plaza on his way home, 17:48 - 17:53",
+                "gg": 4.5
+            },
+            "13": {
+                "gg": 5.75,
+                "D": "9:02",
+                "A": "17:27"
+            },
+            "14": {
+                "gg": 4.75,
+                "H": true,
+                "N": "Went out to dispose of old pain cans, 12:36 - 13:07"
             }
         }
     }
