@@ -11258,9 +11258,24 @@
                 "A": "17:27"
             },
             "14": {
-                "gg": 4.75,
+                "gg": 5.5,
                 "H": true,
-                "N": "Went out to dispose of old pain cans, 12:36 - 13:07"
+                "N": "Went out to dispose of old pain cans, 12:36 - 13:07<br>G&G hours increased from 4.75 to 5.5"
+            },
+            "17": {
+                "gg": 6,
+                "H": true
+            },
+            "18": {
+                "gg": 4.75,
+                "D": "9:07",
+                "A": "17:18",
+                "N": "Went to Home Depot after work, 17:42 - 17:48"
+            },
+            "19": {
+                "gg": 5,
+                "H": true,
+                "N": "Went for a walk, 17:30 - 17:51"
             }
         }
     }
