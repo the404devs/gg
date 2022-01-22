@@ -11276,6 +11276,17 @@
                 "gg": 5,
                 "H": true,
                 "N": "Went for a walk, 17:30 - 17:51"
+            },
+            "20": {
+                "D": "8:57",
+                "A": "17:22",
+                "N": "Home Depot again after work, 17:50 - 17:58, was actually shown to go into the store this time, confirming our suspicion.",
+                "gg": 1.25
+            },
+            "21": {
+                "H": true,
+                "N": "Had a repairman coming in today to fix heat in the apartment.",
+                "gg": 4.5
             }
         }
     }
