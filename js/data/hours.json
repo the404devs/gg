@@ -11287,6 +11287,33 @@
                 "H": true,
                 "N": "Had a repairman coming in today to fix heat in the apartment.",
                 "gg": 4.5
+            },
+            "24": {
+                "gg": 1.75,
+                "D": "9:27",
+                "A": "17:34"
+            },
+            "25": {
+                "gg": 3,
+                "D": "9:12",
+                "A": "17:35",
+                "N": "Went to NoFrills in Pickering in the evening, 19:29 - 20:01"
+            },
+            "26": {
+                "gg": 2.75,
+                "D": "9:08",
+                "A": "17:21"
+            },
+            "27": {
+                "gg": 2.75,
+                "H": true,
+                "N": "Went for a walk and got gas in the evening, 19:32 - 20:06"
+            },
+            "28": {
+                "gg": 3.5,
+                "D": "9:02",
+                "A": "17:24",
+                "N": "Went to Shoppers on the way home, 17:44 - 17:50<br>Is it possible that the previous trips to Home Depot were actually to Shoppers? Yes, but there's no proof of that."
             }
         }
     }
