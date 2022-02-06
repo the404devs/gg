@@ -11314,6 +11314,35 @@
                 "D": "9:02",
                 "A": "17:24",
                 "N": "Went to Shoppers on the way home, 17:44 - 17:50<br>Is it possible that the previous trips to Home Depot were actually to Shoppers? Yes, but there's no proof of that."
+            },
+            "31": {
+                "gg": 5.25,
+                "N": "Dentist app. @ 9AM.",
+                "D": "10:16",
+                "A": "17:28"
+            }
+        },
+        "02": {
+            "01": {
+                "gg": 3.75,
+                "D": "8:57",
+                "A": "17:02",
+                "N": "Went to NoFrills in the evening, 19:38 - 20:06"
+            },
+            "02": {
+                "gg": 3.25,
+                "D": "8:43",
+                "A": "16:56"
+            },
+            "03": {
+                "gg": 6.25,
+                "H": true,
+                "N": "Had plumber coming to fix leak."
+            },
+            "04": {
+                "gg": 5.5,
+                "H": true,
+                "N": "Had repairman coming to fix heater today, morning, took about \"half an hour\"."
             }
         }
     }
