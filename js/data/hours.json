@@ -11214,7 +11214,8 @@
                 "gg": 4.5,
                 "N": "This marks 10 years of hours data.<br>Out 12:09 - 13:00",
                 "D": "9:05",
-                "A": "16:53"
+                "A": "16:53",
+                "bn": 1
             },
             "04": {
                 "H": true,
@@ -11224,38 +11225,45 @@
             "05": {
                 "D": "8:59",
                 "A": "17:22",
-                "gg": 4.5
+                "gg": 4.5,
+                "bn": 0.5
             },
             "06": {
                 "N": "Got gas in the morning before work, ~8:25",
                 "D": "8:52",
                 "A": "17:35",
-                "gg": 5.25
+                "gg": 5.25,
+                "bn": 1
             },
             "07": {
                 "H": true,
-                "gg": 6
+                "gg": 6,
+                "bn": 0.5
             },
             "10": {
                 "D": "8:54",
                 "A": "17:29",
-                "gg": 5
+                "gg": 5,
+                "bn": 1.75
             },
             "11": {
                 "H": true,
                 "N": "Car likely couldn't start, was searching up 'Dodge Journey check engine lights' at 9:20",
-                "gg": 5.5
+                "gg": 5.5,
+                "bn": 1
             },
             "12": {
                 "D": "8:57",
                 "A": "17:27",
                 "N": "Went out for coffee, 13:24 - 13:40<br>Went to Home Depot plaza on his way home, 17:48 - 17:53",
-                "gg": 4.5
+                "gg": 4.5,
+                "bn": 1.5
             },
             "13": {
                 "gg": 5.75,
                 "D": "9:02",
-                "A": "17:27"
+                "A": "17:27",
+                "bn": 0.5
             },
             "14": {
                 "gg": 5.5,
@@ -11270,56 +11278,69 @@
                 "gg": 4.75,
                 "D": "9:07",
                 "A": "17:18",
-                "N": "Went to Home Depot after work, 17:42 - 17:48"
+                "N": "Went to Home Depot after work, 17:42 - 17:48",
+                "bn": 1.5
             },
             "19": {
                 "gg": 5,
                 "H": true,
-                "N": "Went for a walk, 17:30 - 17:51"
+                "N": "Went for a walk, 17:30 - 17:51",
+                "bn": 1.5
             },
             "20": {
                 "D": "8:57",
                 "A": "17:22",
                 "N": "Home Depot again after work, 17:50 - 17:58, was actually shown to go into the store this time, confirming our suspicion.",
-                "gg": 1.25
+                "gg": 1.25,
+                "bn": 3.5
             },
             "21": {
                 "H": true,
                 "N": "Had a repairman coming in today to fix heat in the apartment.",
-                "gg": 4.5
+                "gg": 4.5,
+                "bn": 1.5
             },
             "24": {
                 "gg": 1.75,
                 "D": "9:27",
-                "A": "17:34"
+                "A": "17:34",
+                "bn": 3.5
             },
             "25": {
                 "gg": 3,
                 "D": "9:12",
                 "A": "17:35",
-                "N": "Went to NoFrills in Pickering in the evening, 19:29 - 20:01"
+                "N": "Went to NoFrills in Pickering in the evening, 19:29 - 20:01",
+                "bn": 3
             },
             "26": {
                 "gg": 2.75,
                 "D": "9:08",
-                "A": "17:21"
+                "A": "17:21",
+                "bn": 3.25
             },
             "27": {
                 "gg": 2.75,
                 "H": true,
-                "N": "Went for a walk and got gas in the evening, 19:32 - 20:06"
+                "N": "Went for a walk and got gas in the evening, 19:32 - 20:06",
+                "bn": 3.75
             },
             "28": {
                 "gg": 3.5,
                 "D": "9:02",
                 "A": "17:24",
-                "N": "Went to Shoppers on the way home, 17:44 - 17:50<br>Is it possible that the previous trips to Home Depot were actually to Shoppers? Yes, but there's no proof of that."
+                "N": "Went to Shoppers on the way home, 17:44 - 17:50<br>Is it possible that the previous trips to Home Depot were actually to Shoppers? Yes, but there's no proof of that.",
+                "bn": 3
+            },
+            "29": {
+                "bn": 1.5
             },
             "31": {
                 "gg": 5.25,
                 "N": "Dentist app. @ 9AM.",
                 "D": "10:16",
-                "A": "17:28"
+                "A": "17:28",
+                "bn": 1
             }
         },
         "02": {
