@@ -1,15 +1,15 @@
-var loadHoursFromJSON = function() {
-    var maxHours = 0;
-    var maxHoursDate = "";
-    var minHours = Infinity;
-    var minHoursDate = "";
+function loadHoursFromJSON() {
+    let maxHours = 0;
+    let maxHoursDate = "";
+    let minHours = Infinity;
+    let minHoursDate = "";
 
     $.getJSON("./js/data/hours.json", function(jsonData) {
-        var years = Object.keys(jsonData).sort();
+        const years = Object.keys(jsonData).sort();
         $("#loading-box").hide();
         for (let y = 0; y < years.length; y++) {
             // $("#main").append($("<div>").addClass("blob").attr("id", years[y]).append($("<h3>").html(years[y])))
-            var months = Object.keys(jsonData[years[y]]).sort();
+            const months = Object.keys(jsonData[years[y]]).sort();
             for (let m = 0; m < months.length; m++) {
                 $("#main").append(
                     $("<div>").addClass("blob").attr("id", years[y] + "-" + months[m]).append(
@@ -20,16 +20,16 @@ var loadHoursFromJSON = function() {
                 $("#link-zone").append(
                     $("<a>").html(monthNames[parseInt(months[m])] + " " + years[y]).addClass("link").attr("onclick", "scrollToElem('" + years[y] + "-" + months[m] + "')")
                 ).append($("<br>")).append($("<br>"))
-                var days = Object.keys(jsonData[years[y]][months[m]]).sort();
-                var monthlyHourTotal = 0;
-                var numberOfNAVGDays = 0;
+                const days = Object.keys(jsonData[years[y]][months[m]]).sort();
+                let monthlyHourTotal = 0;
+                let numberOfNAVGDays = 0;
 
                 $("#" + years[y] + "-" + months[m]).append(
                     $("<div>").addClass("month-totals")
                 );
                 for (let d = 0; d < days.length; d++) {
-                    var date = new Date(years[y] + "-" + months[m] + "-" + days[d]);
-                    var totalHours = 0;
+                    const date = new Date(years[y] + "-" + months[m] + "-" + days[d]);
+                    let totalHours = 0;
 
                     $("#" + years[y] + "-" + months[m]).append(
                         $("<div>").addClass("blob").append(
@@ -76,7 +76,7 @@ var loadHoursFromJSON = function() {
                         totalHours += jsonData[years[y]][months[m]][days[d]]["ag"];
                     }
 
-                    var hourColour = "yellow";
+                    let hourColour = "yellow";
                     if (totalHours == 0) {
                         hourColour = "red";
                     }
@@ -93,7 +93,7 @@ var loadHoursFromJSON = function() {
                         );
                     }
 
-                    var currentDate = new Date(years[y] + "-" + months[m] + "-" + days[d]);
+                    const currentDate = new Date(years[y] + "-" + months[m] + "-" + days[d]);
                     const histStart = new Date("2019-09-28");
                     const histEnd = new Date("2020-09-20");
                     if (currentDate >= histStart && currentDate <= histEnd) {
@@ -123,8 +123,8 @@ var loadHoursFromJSON = function() {
                     }
                 }
 
-                var monthBlob = $("#" + years[y] + "-" + months[m]);
-                var monthlyAverage = monthlyHourTotal / (days.length - numberOfNAVGDays);
+                const monthBlob = $("#" + years[y] + "-" + months[m]);
+                const monthlyAverage = monthlyHourTotal / (days.length - numberOfNAVGDays);
                 monthBlob.children(".month-totals").append(
                     $("<h6>").html((days.length - numberOfNAVGDays) + " days worked.").css("font-weight", "normal")
                 ).append(
@@ -153,7 +153,7 @@ var loadHoursFromJSON = function() {
     }).then(() => { getDateFromURL() });
 }
 
-var weekdays = {
+const weekdays = {
     "0": "Monday",
     "1": "Tuesday",
     "2": "Wednesday",
@@ -163,7 +163,7 @@ var weekdays = {
     "6": "Sunday"
 }
 
-var monthNames = {
+const monthNames = {
     "1": "January",
     "2": "February",
     "3": "March",

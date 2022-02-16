@@ -1,26 +1,26 @@
 //common.js should always be linked before other scripts
 
-var scrollToElem = function(id) {
+function scrollToElem(id) {
     console.log(id);
-    var elem = document.getElementById(id);
+    const elem = document.getElementById(id);
     if (elem == null) {
         $("#errmsg").css("opacity", "1");
         setTimeout(() => { $("#errmsg").css("opacity", "0"); }, 2000);
         return;
     }
-    var offset = elem.offsetTop - 0;
+    const offset = elem.offsetTop - 0;
     window.scrollTo({
         top: offset,
         behavior: "smooth"
     });
 }
 
-var getJSON = function(url, callback) {
-    var xhr = new XMLHttpRequest();
+function getJSON(url, callback) {
+    const xhr = new XMLHttpRequest();
     xhr.open('GET', url, true);
     xhr.responseType = 'json';
     xhr.onload = function() {
-        var status = xhr.status;
+        let status = xhr.status;
         if (status === 200) {
             callback(null, xhr.responseText);
         } else {
@@ -30,7 +30,7 @@ var getJSON = function(url, callback) {
     xhr.send();
 }
 
-var getDateFromURL = function() {
+function getDateFromURL() {
     const urlParams = new URLSearchParams(window.location.search);
     const requestedDate = urlParams.get('d');
     if (requestedDate != null) {
@@ -43,10 +43,10 @@ var getDateFromURL = function() {
     }
 }
 
-var showPanes = function(n) {
-    var i;
-    var panes = document.getElementsByClassName("pane");
-    var tabs = document.getElementsByClassName("tab");
+function showPanes(n) {
+    let i;
+    const panes = document.getElementsByClassName("pane");
+    const tabs = document.getElementsByClassName("tab");
 
     if (n > panes.length) { n = 1; } //don't fuck up
     if (n < 1) { n = panes.length; }
@@ -54,7 +54,7 @@ var showPanes = function(n) {
     for (i = 0; i < panes.length; i++) {
         if (i != n - 1) {
             //yeet all the other panes out of existence
-            var id = "#" + panes[i].id;
+            const id = "#" + panes[i].id;
             $(id).css("opacity", "0");
             $(id).css("height", "0");
             $(id).css("z-index", "-1");
@@ -67,10 +67,10 @@ var showPanes = function(n) {
     }
 
     //fade in the correct pane
-    var id = "#" + panes[n - 1].id;
+    const id = "#" + panes[n - 1].id;
     $(id).css("display", "block");
     $(id).css("height", "auto");
-    var h = $(id).height();
+    const h = $(id).height();
     $(id).css("height", h);
     $(id).css("opacity", "1");
     $(id).css("z-index", "auto");
@@ -79,7 +79,7 @@ var showPanes = function(n) {
     tabs[n - 1].className += " active";
 }
 
-var firefoxCheck = function() {
+function firefoxCheck() {
     if (navigator.userAgent.indexOf("Firefox") > -1) {
         //Firefox doesn't support CSS backdrop-filter out of the box yet.
         $(".header").css("background-color", "rgba(24, 21, 36, 1)");

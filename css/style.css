@@ -530,3 +530,11 @@ input::-webkit-datetime-edit-minute-field:focus {
     color: gold;
     font-size: 18px!important;
 }
+
+.month-view {
+    display: none;
+}
+
+.month-view.active {
+    display: block;
+}

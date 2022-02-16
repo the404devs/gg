@@ -1,14 +1,14 @@
-var loadHoursFromJSON = function() {
-    var maxHours = 0;
-    var maxHoursDate = "";
-    var minHours = Infinity;
-    var minHoursDate = "";
+function loadHoursFromJSON() {
+    let maxHours = 0;
+    let maxHoursDate = "";
+    let minHours = Infinity;
+    let minHoursDate = "";
 
     $.getJSON("./js/data/hours.json", function(jsonData) {
-        var years = Object.keys(jsonData).sort().reverse();
+        const years = Object.keys(jsonData).sort().reverse();
         $("#loading-box").hide();
         for (let y = 0; y < years.length; y++) {
-            var months = Object.keys(jsonData[years[y]]).sort().reverse();
+            const months = Object.keys(jsonData[years[y]]).sort().reverse();
             for (let m = 0; m < months.length; m++) {
                 $("#main").append(
                     $("<div>").addClass("blob month-view").append(
@@ -38,17 +38,17 @@ var loadHoursFromJSON = function() {
                     $("<a>").html(monthNames[parseInt(months[m])] + " " + years[y]).addClass("link").attr("onclick", "showCalendar('" + years[y] + "-" + months[m] + "')")
                 )
 
-                var days = Object.keys(jsonData[years[y]][months[m]]).sort();
-                var monthlyHourTotal = 0;
-                var numberOfNAVGDays = 0;
+                const days = Object.keys(jsonData[years[y]][months[m]]).sort();
+                let monthlyHourTotal = 0;
+                let numberOfNAVGDays = 0;
 
                 $("#" + years[y] + "-" + months[m]).html(weekHTML);
 
                 for (let d = 0; d < days.length; d++) {
-                    var date = new Date(years[y] + "-" + months[m] + "-" + days[d]);
-                    var totalHours = 0;
+                    const date = new Date(years[y] + "-" + months[m] + "-" + days[d]);
+                    let totalHours = 0;
 
-                    var index = date.getDay() + 2;
+                    let index = date.getDay() + 2;
                     if (index > 7) { index = 1 }
 
                     $("#" + years[y] + "-" + months[m]).append(
@@ -96,7 +96,7 @@ var loadHoursFromJSON = function() {
                         totalHours += jsonData[years[y]][months[m]][days[d]]["ag"];
                     }
 
-                    var hourColour = "yellow";
+                    let hourColour = "yellow";
                     if (totalHours == 0) {
                         hourColour = "red";
                     }
@@ -137,8 +137,8 @@ var loadHoursFromJSON = function() {
                     }
                 }
 
-                var monthBlob = $("#" + years[y] + "-" + months[m]);
-                var monthlyAverage = monthlyHourTotal / (days.length - numberOfNAVGDays);
+                const monthBlob = $("#" + years[y] + "-" + months[m]);
+                const monthlyAverage = monthlyHourTotal / (days.length - numberOfNAVGDays);
                 monthBlob.append(
                     $("<div>").addClass("grid-item").append(
                         $("<h3>").html("Totals")
@@ -165,14 +165,14 @@ var loadHoursFromJSON = function() {
         console.log("Max hours: " + maxHours + " on " + maxHoursDate);
         console.log("Min hours: " + minHours + " on " + minHoursDate);
     }).then(() => {
-        var d = new Date();
-        var currentMonthID = d.getFullYear() + "-" + ('0' + (d.getMonth() + 1)).slice(-2);
-        console.log(currentMonthID);
+        const d = new Date();
+        const currentMonthID = d.getFullYear() + "-" + ('0' + (d.getMonth() + 1)).slice(-2);
+        // console.log(currentMonthID);
         showCalendar(currentMonthID);
     });
 }
 
-var weekdays = {
+const weekdays = {
     "0": "Monday",
     "1": "Tuesday",
     "2": "Wednesday",
@@ -182,7 +182,7 @@ var weekdays = {
     "6": "Sunday"
 }
 
-var monthNames = {
+const monthNames = {
     "1": "January",
     "2": "February",
     "3": "March",
@@ -197,37 +197,37 @@ var monthNames = {
     "12": "December"
 }
 
-var weekHTML = "<div class='grid-item'><h2>Sunday</h2></div><div class='grid-item'><h2>Monday</h2></div><div class='grid-item'><h2>Tuesday</h2></div><div class='grid-item'><h2>Wednesday</h2></div><div class='grid-item'><h2>Thursday</h2></div><div class='grid-item'><h2>Friday</h2></div><div class='grid-item'><h2>Saturday</h2></div>"
+const weekHTML = "<div class='grid-item'><h2>Sunday</h2></div><div class='grid-item'><h2>Monday</h2></div><div class='grid-item'><h2>Tuesday</h2></div><div class='grid-item'><h2>Wednesday</h2></div><div class='grid-item'><h2>Thursday</h2></div><div class='grid-item'><h2>Friday</h2></div><div class='grid-item'><h2>Saturday</h2></div>"
 
-var calIndex = 0;
+let calIndex = 0;
 
 function switchView(n) {
     showCalendars(calIndex += n);
 }
 
 function showCalendars(n) {
-    var i;
-    var cals = document.getElementsByClassName("month-view");
+    let i;
+    const cals = document.getElementsByClassName("month-view");
     calIndex = n;
     if (n >= cals.length) { calIndex = 0 }
     if (n < 0) { calIndex = cals.length - 1 }
     for (i = 0; i < cals.length; i++) {
-        cals[i].style.display = "none";
+        cals[i].classList.remove("active");
     }
-    cals[calIndex].style.display = "block";
+    cals[calIndex].classList.add("active");
 }
 
 function showCalendar(id) {
-    var i;
-    var cals = document.getElementsByClassName("month-view");
-    var found = false;
+    let i;
+    const cals = document.getElementsByClassName("month-view");
+    let found = false;
     for (i = 0; i < cals.length; i++) {
         if (id + "-blob" == cals[i].id) {
-            cals[i].style.display = "block";
+            cals[i].classList.add("active");
             calIndex = i;
             found = true;
         } else {
-            cals[i].style.display = "none";
+            cals[i].classList.remove("active");
         }
     }
     if (!found) {

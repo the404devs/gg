@@ -1,4 +1,4 @@
-var generateInvoiceLists = function() {
+function generateInvoiceLists() {
     $("#gg").find(".invlink").each(function() {
         $(this).attr("href", "./inv/gg/" + $(this).text() + "-GG.pdf")
     });
