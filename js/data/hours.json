@@ -11300,6 +11300,10 @@
                 "gg": 4.5,
                 "bn": 1.5
             },
+            "22": {
+                "N": "Went to OnePlant Cannabis (705 Kingston Road), 14:27 - 14:35. Spent $40.63, likely bought CBD 50 capsules.",
+                "NAVG": true
+            },
             "24": {
                 "gg": 1.75,
                 "D": "9:27",
@@ -11392,6 +11396,38 @@
             },
             "11": {
                 "gg": 5.25,
+                "H": true
+            },
+            "14": {
+                "gg": 2,
+                "D": "9:01",
+                "A": "17:33",
+                "N": "Went to Home Depot, 17:57 - 18:08"
+            },
+            "15": {
+                "gg": 6.5,
+                "H": true,
+                "N": "Went for a walk, 19:35 - 19:51"
+            },
+            "16": {
+                "gg": 3.5,
+                "D": "9:00",
+                "A": "15:59",
+                "N": "Went to Walmart, 16:29 - 16:41"
+            },
+            "17": {
+                "gg": 4.75,
+                "D": "9:06",
+                "A": "16:43"
+            },
+            "18": {
+                "gg": 6.25,
+                "D": "9:33",
+                "A": "16:22",
+                "N": "Went to Galleria for lunch, 12:14 - 13:15<br>Drove Febe to/from work (119 Fawcett Trail, Scarborough). According to chat w/ Lily Yang, received a text from Febe in the morning around 8AM, although he didn't send any texts or make any calls that morning, as far as we can tell."
+            },
+            "19": {
+                "gg": 4.75,
                 "H": true
             }
         }
