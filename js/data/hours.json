@@ -11429,6 +11429,15 @@
             "19": {
                 "gg": 4.75,
                 "H": true
+            },
+            "21": {
+                "gg": 4.75,
+                "D": "9:18",
+                "A": "17:00",
+                "N": "Tracker was acting a bit funky, but it seems he went to Home Depot after work, 17:19 - 17:36.<br>This would mean a 19 minute drive from the office to Pickering, which is a little on the fast side (morning was 24min, so not entirely impossible)."
+            },
+            "22": {
+                "H": true
             }
         }
     }
