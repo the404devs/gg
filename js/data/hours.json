@@ -11437,6 +11437,27 @@
                 "N": "Tracker was acting a bit funky, but it seems he went to Home Depot after work, 17:19 - 17:36.<br>This would mean a 19 minute drive from the office to Pickering, which is a little on the fast side (morning was 24min, so not entirely impossible)."
             },
             "22": {
+                "H": true,
+                "gg": 7.25
+            },
+            "23": {
+                "gg": 6.5,
+                "D": "9:04",
+                "A": "17:49"
+            },
+            "24": {
+                "gg": 6,
+                "D": "9:00",
+                "A": "17:48"
+            },
+            "25": {
+                "gg": 4.75,
+                "D": "9:39",
+                "A": "17:21",
+                "N": "Drove Febe to/from work (119 Fawcett Trail, Scarborough)."
+            },
+            "26": {
+                "gg": 3.25,
                 "H": true
             }
         }
