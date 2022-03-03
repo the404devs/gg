@@ -11352,12 +11352,14 @@
                 "gg": 3.75,
                 "D": "8:57",
                 "A": "17:02",
-                "N": "Went to NoFrills in the evening, 19:38 - 20:06"
+                "N": "Went to NoFrills in the evening, 19:38 - 20:06",
+                "bn": 2.5
             },
             "02": {
                 "gg": 3.25,
                 "D": "8:43",
-                "A": "16:56"
+                "A": "16:56",
+                "bn": 0.75
             },
             "03": {
                 "gg": 6.25,
@@ -11367,7 +11369,8 @@
             "04": {
                 "gg": 5.5,
                 "H": true,
-                "N": "Had repairman coming to fix heater today, morning, took about \"half an hour\"."
+                "N": "Had repairman coming to fix heater today, morning, took about \"half an hour\".",
+                "bn": 0.5
             },
             "06": {
                 "gg": 2.25,
@@ -11377,32 +11380,38 @@
                 "N": "Went out for coffee, 13:31 - 14:05",
                 "gg": 2.5,
                 "D": "8:50",
-                "A": "17:29"
+                "A": "17:29",
+                "bn": 4.5
             },
             "08": {
                 "H": true,
-                "gg": 5.25
+                "gg": 5.25,
+                "bn": 1.5
             },
             "09": {
                 "gg": 3.75,
                 "D": "10:29",
                 "A": "17:32",
-                "N": "Dentist app. @ 9:30AM.<br>Went to NoFrills in the evening, 19:44 - 20:30"
+                "N": "Dentist app. @ 9:30AM.<br>Went to NoFrills in the evening, 19:44 - 20:30",
+                "bn": 3
             },
             "10": {
                 "gg": 3.25,
                 "D": "9:11",
-                "A": "17:24"
+                "A": "17:24",
+                "bn": 3
             },
             "11": {
                 "gg": 5.25,
-                "H": true
+                "H": true,
+                "bn": 1
             },
             "14": {
                 "gg": 2,
                 "D": "9:01",
                 "A": "17:33",
-                "N": "Went to Home Depot, 17:57 - 18:08"
+                "N": "Went to Home Depot, 17:57 - 18:08",
+                "bn": 4
             },
             "15": {
                 "gg": 6.5,
@@ -11413,12 +11422,14 @@
                 "gg": 3.5,
                 "D": "9:00",
                 "A": "15:59",
-                "N": "Went to Walmart, 16:29 - 16:41"
+                "N": "Went to Walmart, 16:29 - 16:41",
+                "bn": 1.5
             },
             "17": {
                 "gg": 4.75,
                 "D": "9:06",
-                "A": "16:43"
+                "A": "16:43",
+                "bn": 1.25
             },
             "18": {
                 "gg": 6.25,
@@ -11434,7 +11445,8 @@
                 "gg": 4.75,
                 "D": "9:18",
                 "A": "17:00",
-                "N": "Tracker was acting a bit funky, but it seems he went to Home Depot after work, 17:19 - 17:36.<br>This would mean a 19 minute drive from the office to Pickering, which is a little on the fast side (morning was 24min, so not entirely impossible)."
+                "N": "Tracker was acting a bit funky, but it seems he went to Home Depot after work, 17:19 - 17:36.<br>This would mean a 19 minute drive from the office to Pickering, which is a little on the fast side (morning was 24min, so not entirely impossible).",
+                "bn": 1
             },
             "22": {
                 "H": true,
@@ -11448,17 +11460,24 @@
             "24": {
                 "gg": 6,
                 "D": "9:00",
-                "A": "17:48"
+                "A": "17:48",
+                "bn": 1
             },
             "25": {
                 "gg": 4.75,
                 "D": "9:39",
                 "A": "17:21",
-                "N": "Drove Febe to/from work (119 Fawcett Trail, Scarborough)."
+                "N": "Drove Febe to/from work (119 Fawcett Trail, Scarborough).",
+                "bn": 1
             },
             "26": {
                 "gg": 3.25,
                 "H": true
+            },
+            "28": {
+                "bn": 1.5,
+                "D": "9:17",
+                "A": "17:42"
             }
         }
     }
