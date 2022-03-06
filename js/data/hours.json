@@ -11477,7 +11477,37 @@
             "28": {
                 "bn": 1.5,
                 "D": "9:17",
-                "A": "17:42"
+                "A": "17:42",
+                "gg": 4.75
+            }
+        },
+        "03": {
+            "01": {
+                "gg": 3.25,
+                "H": true,
+                "N": "Got gas in the evening upon suggestion by Febe, 19:30 - 19:44"
+            },
+            "02": {
+                "gg": 4.5,
+                "D": "9:05",
+                "A": "17:24",
+                "N": "Went for a walk in the evening, 19:50 - 20:07"
+            },
+            "03": {
+                "gg": 4.75,
+                "D": "9:01",
+                "A": "17:35",
+                "N": "Went out to Galleria for lunch , 12:40 - 13:38"
+            },
+            "04": {
+                "gg": 6.25,
+                "H": true,
+                "N": "Went for a walk in the evening, 19:50 - 20:09"
+            },
+            "05": {
+                "gg": 5,
+                "H": true,
+                "N": "Went to Walmart, 15:59 - 17:00<br>Went for a walk in the evening, 19:40 - 20:02"
             }
         }
     }
