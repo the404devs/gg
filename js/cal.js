@@ -12,31 +12,48 @@ function loadHoursFromJSON() {
             for (let m = 0; m < months.length; m++) {
                 $("#main").append(
                     $("<div>").addClass("blob month-view").append(
-                        $("<h3>").html(monthNames[parseInt(months[m])] + " " + years[y]).css("font-size", "32px").attr("onclick", "showModal('#month-select')").css("cursor", "pointer")
+                        $("<h3>").addClass("cal-month-head")
+                        .attr("onclick", "showModal('#month-select')")
+                        .attr("title", "Click to Select Month")
+                        .html(monthNames[parseInt(months[m])] + " " + years[y])
                     ).append(
-                        $("<div>").addClass("grid-container").attr("id", years[y] + "-" + months[m])
+                        $("<div>").addClass("grid-container")
+                        .attr("id", years[y] + "-" + months[m])
                     ).append(
-                        $("<div>").addClass("prev button").attr("onclick", "switchView(1)").append(
+                        $("<div>").addClass("prev button")
+                        .attr("onclick", "switchView(1)")
+                        .append(
                             $("<span>").text("❮")
                         )
                     ).append(
-                        $("<div>").addClass("next button").attr("onclick", "switchView(-1)").append(
+                        $("<div>").addClass("next button")
+                        .attr("onclick", "switchView(-1)")
+                        .append(
                             $("<span>").text("❯")
                         )
                     ).append(
-                        $("<div>").addClass("prev bottom button").attr("onclick", "switchView(1)").append(
+                        $("<div>").addClass("prev bottom button")
+                        .attr("onclick", "switchView(1)")
+                        .append(
                             $("<span>").text("❮")
                         )
                     ).append(
-                        $("<div>").addClass("next bottom button").attr("onclick", "switchView(-1)").append(
+                        $("<div>").addClass("next bottom button")
+                        .attr("onclick", "switchView(-1)")
+                        .append(
                             $("<span>").text("❯")
                         )
                     ).attr("id", years[y] + "-" + months[m] + "-blob")
                 );
 
-                $("#month-select-body").prepend($("<br>")).prepend($("<br>")).prepend(
-                    $("<a>").html(monthNames[parseInt(months[m])] + " " + years[y]).addClass("link").attr("onclick", "showCalendar('" + years[y] + "-" + months[m] + "')")
-                )
+                $("#month-select-body")
+                    .prepend($("<br>"))
+                    .prepend($("<br>"))
+                    .prepend(
+                        $("<a>").addClass("link")
+                        .attr("onclick", "showCalendar('" + years[y] + "-" + months[m] + "')")
+                        .html(monthNames[parseInt(months[m])] + " " + years[y])
+                    )
 
                 const days = Object.keys(jsonData[years[y]][months[m]]).sort();
                 let monthlyHourTotal = 0;

@@ -16,7 +16,7 @@
 body {
     /* background-color: rgb(40, 156, 160); */
     /* background-color: white; */
-    background: linear-gradient(to right, rgba(111, 203, 254, 1) 0%, rgba(112, 155, 252, 1) 15%, rgba(111, 106, 237, 1) 30%, rgba(108, 78, 203, 1) 48%, rgba(104, 65, 140, 1) 65%, rgba(99, 60, 81, 1) 82%, rgba(98, 59, 57, 1) 100%);
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 90%);
     margin: 8px;
     height: auto;
     display: inline-block;
@@ -50,7 +50,9 @@ body {
     padding-left: 10px;
     margin-bottom: 10px;
     /* width: 60%; */
-    background-color: rgba(24, 21, 36, 0.7);
+    background-color: rgba(24, 21, 36, 0.6);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 10px, rgba(0, 0, 0, 0.5) 0px -2px 10px;
 }
 
 .blob h3 {
@@ -115,7 +117,7 @@ input::-webkit-datetime-edit-month-field:focus,
 input::-webkit-datetime-edit-year-field:focus,
 input::-webkit-datetime-edit-hour-field:focus,
 input::-webkit-datetime-edit-minute-field:focus {
-    background-color: rgba(0, 128, 128, 0.8);
+    background-color: #00a4b9;
 }
 
 .button {
@@ -162,7 +164,7 @@ input::-webkit-datetime-edit-minute-field:focus {
     right: 0;
     width: 0%;
     /* height: 0%; */
-    background-color: rgba(0, 128, 128, 0.8);
+    background-color: #00a4b9;
     transition: all 0.1s ease-out;
     z-index: -1;
     /* border-radius: 25px 0 0 0; */
@@ -353,6 +355,11 @@ input::-webkit-datetime-edit-minute-field:focus {
     padding-right: 0;
 }
 
+.prev::before {
+    left: 0;
+    right: initial;
+}
+
 .month-view {
     display: none;
     padding-bottom: 60px;
@@ -385,6 +392,7 @@ input::-webkit-datetime-edit-minute-field:focus {
     position: relative;
     padding: 0;
     border: 1px solid white;
+    border-radius: 5px;
     overflow: auto;
     width: 500px;
     height: 90.5vh;
@@ -392,6 +400,8 @@ input::-webkit-datetime-edit-minute-field:focus {
     overflow-x: hidden;
     text-align: left;
     display: inline-block;
+    background-color: rgba(24, 21, 36, 0.3);
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 10px, rgba(0, 0, 0, 0.5) 0px -2px 10px;
 }
 
 .modal-header {
@@ -537,4 +547,11 @@ input::-webkit-datetime-edit-minute-field:focus {
 
 .month-view.active {
     display: block;
+}
+
+.blob .cal-month-head {
+    font-size: 32px;
+    cursor: pointer;
+    display: inline-block;
+    color: gold;
 }
