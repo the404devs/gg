@@ -8570,7 +8570,7 @@
             "19": {
                 "gg": 5.75,
                 "H": true,
-                "N": "First time working from home."
+                "N": "First time working from home (COVID)."
             },
             "20": {
                 "gg": 5.75,
@@ -11508,6 +11508,40 @@
                 "gg": 5,
                 "H": true,
                 "N": "Went to Walmart, 15:59 - 17:00<br>Went for a walk in the evening, 19:40 - 20:02"
+            },
+            "07": {
+                "gg": 5.5,
+                "D": "9:13",
+                "A": "17:43",
+                "N": "Carpooled with Febe in the morning only."
+            },
+            "08": {
+                "H": true,
+                "N": "Went for a walk in the evening, 19:50 - 20:10",
+                "gg": 7.5
+            },
+            "09": {
+                "D": "9:07",
+                "A": "17:17",
+                "N": "Carpooled with Febe both ways.<br>From office chat, seemed like he was planning dinner with Febe sometime this week. Unsure if it happened, however it may have been today.",
+                "gg": 5.5
+            },
+            "10": {
+                "H": true,
+                "N": "Went to the mall in the evening, 19:46 - 20:21<br>Call with Rose, 20:22 - 20:56, after several missed calls.",
+                "gg": 6.25
+            },
+            "11": {
+                "D": "9:07",
+                "A": "17:40",
+                "N": "Carpooled with Febe both ways.<br>Went to Galleria for lunch with YC (possibly others), 12:16 - 13:13",
+                "gg": 6.75
+            },
+            "12": {
+                "D": "9:57",
+                "A": "16:01",
+                "N": "Actually went in to the office on a Saturday, which is odd (First time since 2020-03-28).<br>Went out (lunch/coffee?) 13:21 - 13:34",
+                "gg": 5
             }
         }
     }

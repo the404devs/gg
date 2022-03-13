@@ -8,6 +8,10 @@ function loadHoursFromJSON() {
         const years = Object.keys(jsonData).sort().reverse();
         $("#loading-box").hide();
         for (let y = 0; y < years.length; y++) {
+            let maxYearlyHours = 0;
+            let minYearlyHours = Infinity;
+            let maxYearlyHoursDate = "";
+            let minYearlyHoursDate = "";
             const months = Object.keys(jsonData[years[y]]).sort().reverse();
             for (let m = 0; m < months.length; m++) {
                 $("#main").append(
@@ -136,6 +140,14 @@ function loadHoursFromJSON() {
                     //     )
                     // );
 
+                    if (totalHours > maxYearlyHours) {
+                        maxYearlyHours = totalHours;
+                        maxYearlyHoursDate = years[y] + "-" + months[m] + "-" + days[d];
+                    } else if (totalHours < minYearlyHours && totalHours > 0) {
+                        minYearlyHours = totalHours;
+                        minYearlyHoursDate = years[y] + "-" + months[m] + "-" + days[d];
+                    }
+
                     if (totalHours > maxHours) {
                         maxHours = totalHours;
                         maxHoursDate = years[y] + "-" + months[m] + "-" + days[d]
@@ -178,6 +190,9 @@ function loadHoursFromJSON() {
                     )
                 );
             }
+            console.log("%c" + years[y] + " max hours: " + maxYearlyHours + " on " + maxYearlyHoursDate, "color: lightgreen;");
+            console.log("%c" + years[y] + " min hours: " + minYearlyHours + " on " + minYearlyHoursDate, "color: pink;");
+            console.log("------------------");
         }
         console.log("Max hours: " + maxHours + " on " + maxHoursDate);
         console.log("Min hours: " + minHours + " on " + minHoursDate);
