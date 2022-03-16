@@ -1,7 +1,8 @@
 function loadHistFromJSON() {
     $.getJSON("./js/data/BrowserHistory.json", function(jsonData) {
         let ids = [];
-        jsonData.History.forEach(entry => {
+        let current_date = "";
+        jsonData.History.reverse().forEach(entry => {
             if (!ids.includes(entry.client_id)) {
                 ids.push(entry.client_id);
             }
@@ -13,17 +14,22 @@ function loadHistFromJSON() {
             } else {
                 source = "Unknown"
             }
+            let time = convertedDate(entry.time_usec);
+            let new_current_date = time.substring(0, time.lastIndexOf(","));
+            if (current_date != new_current_date || current_date == "") {
+                current_date = new_current_date;
+                $("#main").append($("<h1>").addClass("date-tag").text(current_date).attr("id", dateTagGen(entry.time_usec)));
+            }
             $("#main").append(
                 $("<div>").addClass("blob").append(
                     $("<h3>").html(entry.title)
                 ).append(
-                    $("<h5>").html(convertedDate(entry.time_usec))
+                    $("<h5>").html(time)
                 ).append(
                     $("<h5>").html("Accessed from: <b>" + source + "</b>")
                 ).append(
                     $("<a>").attr("href", entry.url).html(entry.url)
-                ).attr("id", dateTagGen(entry.time_usec))
-            );
+                ));
         });
         $("#loading-box").hide();
     }).then(() => { getDateFromURL() });
