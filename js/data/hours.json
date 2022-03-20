@@ -11546,6 +11546,44 @@
                 "A": "16:01",
                 "N": "Actually went in to the office on a Saturday, which is odd (First time since 2020-03-28).<br>Went out (lunch/coffee?) 13:21 - 13:34",
                 "gg": 5
+            },
+            "13": {
+                "gg": 1.5,
+                "H": true
+            },
+            "14": {
+                "gg": 6.25,
+                "D": "9:03",
+                "A": "17:39",
+                "N": "Carpooled with Febe.<br>Went for a walk in the evening, 19:52 - 20:15"
+            },
+            "15": {
+                "gg": 6.25,
+                "D": "9:09",
+                "A": "17:15",
+                "N": "Was out for coffee, 12:56 - 13:10<br>Carpooled with Febe and Sonika(?)<br>Appears to have stopped at a condo at Lawrence and Birchmount on his way home.<br>Went to Shoppers on the way home, 17:51 - 17:55"
+            },
+            "16": {
+                "gg": 5.25,
+                "H": true,
+                "N": "Went for a walk, 13:27 - 13:47"
+            },
+            "17": {
+                "gg": 3,
+                "D": "8:58",
+                "A": "17:26",
+                "N": "Carpooled with Febe.<br>Went out for coffee, 13:31 - 13:45<br>Went to the mall in the evening, seems to have been at the movie theatre, 19:12 - 22:37<br>Movie was likely \"The Batman\", which was showing from 19:30 - 22:30 that night.<br>Since he has no interest in movies and no mental capacity to sit still for 3 hours and understand one, we can assume someone was there with him, most likely Febe.<br>Interrupted by two calls from Rose between 20:00 and 20:30<br>During first call claimed to be \"putting out the garbage\", and on the second said he \"was just going out for a walk\"."
+            },
+            "18": {
+                "gg": 6,
+                "H": true,
+                "N": "Went for a walk in the evening, 19:52 - 20:12"
+            },
+            "19": {
+                "gg": 3.75,
+                "D": "9:31",
+                "A": "15:58",
+                "N": "Went to Shoppers on the way home, 16:18 - 16:26"
             }
         }
     }
