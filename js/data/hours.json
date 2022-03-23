@@ -11584,6 +11584,16 @@
                 "D": "9:31",
                 "A": "15:58",
                 "N": "Went to Shoppers on the way home, 16:18 - 16:26"
+            },
+            "21": {
+                "gg": 3.25,
+                "D": "9:34",
+                "A": "17:34"
+            },
+            "22": {
+                "gg": 6.75,
+                "H": true,
+                "N": "Went out to Walmart, then mall, 19:33 - 20:21"
             }
         }
     }
