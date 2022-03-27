@@ -11594,6 +11594,28 @@
                 "gg": 6.75,
                 "H": true,
                 "N": "Went out to Walmart, then mall, 19:33 - 20:21"
+            },
+            "23": {
+                "D": "9:01",
+                "A": "17:56",
+                "N": "Went to Shopper's on the way home, 18:21 - 18:25",
+                "gg": 3.75
+            },
+            "24": {
+                "H": true,
+                "N": "Went for a walk in the evening, 19:43 - 20:02",
+                "gg": 6
+            },
+            "25": {
+                "D": "9:02",
+                "A": "17:37",
+                "gg": 4.75
+            },
+            "26": {
+                "D": "9:57",
+                "A": "16:11",
+                "N": "Went to Shopper's on the way home, 16:32 - 16:40<br>Went for a walk in the evening, 20:11 - 20:25",
+                "gg": 4.5
             }
         }
     }
