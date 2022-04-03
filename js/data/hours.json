@@ -11616,6 +11616,52 @@
                 "A": "16:11",
                 "N": "Went to Shopper's on the way home, 16:32 - 16:40<br>Went for a walk in the evening, 20:11 - 20:25",
                 "gg": 4.5
+            },
+            "27": {
+                "gg": 1.75,
+                "H": true,
+                "N": "Was out 14:32 - 17:22, grocery pickup in Uxbridge/Stouffville, etc."
+            },
+            "28": {
+                "gg": 5,
+                "N": "Drove Sonika home. (Confirmed via Teams chat, Sonika and Febe must live in the same neighbourhood, as he went to Fawcett Trail in Scarborough)",
+                "D": "9:00",
+                "A": "18:09"
+            },
+            "29": {
+                "gg": 6.75,
+                "H": true,
+                "N": "Went out to the mall, 13:03 - 13:25"
+            },
+            "30": {
+                "gg": 5.5,
+                "D": "8:43",
+                "A": "18:02",
+                "N": "Went to Mcdonalds (coffee), 13:55 - 14:10"
+            },
+            "31": {
+                "gg": 5.75,
+                "H": true,
+                "N": "Went out for gas in the evening, 19:27 - 19:43"
+            }
+        },
+        "04": {
+            "01": {
+                "gg": 4.25,
+                "D": "9:06",
+                "A": "17:27",
+                "N": "Went for a haircut on the way home, 17:53 - 18:19<br>Went for a walk, 19:58 - 20:21"
+            },
+            "02": {
+                "gg": 4.5,
+                "D": "9:30",
+                "A": "15:52",
+                "N": "Went out (probably burrito for lunch) around 13:50 - 14:00"
+            },
+            "03": {
+                "gg": 2.25,
+                "H": true,
+                "N": "Was out 14:28 - XX:XX, in Stouffville for grocery pickup."
             }
         }
     }
