@@ -11489,7 +11489,8 @@
             "01": {
                 "gg": 3.25,
                 "H": true,
-                "N": "Got gas in the evening upon suggestion by Febe, 19:30 - 19:44"
+                "N": "Got gas in the evening upon suggestion by Febe, 19:30 - 19:44",
+                "bn": 1
             },
             "02": {
                 "gg": 4.5,
@@ -11501,7 +11502,8 @@
                 "gg": 4.75,
                 "D": "9:01",
                 "A": "17:35",
-                "N": "Went out to Galleria for lunch , 12:40 - 13:38"
+                "N": "Went out to Galleria for lunch , 12:40 - 13:38",
+                "bn": 0.75
             },
             "04": {
                 "gg": 6.25,
@@ -11561,18 +11563,21 @@
                 "gg": 6.25,
                 "D": "9:09",
                 "A": "17:15",
-                "N": "Was out for coffee, 12:56 - 13:10<br>Carpooled with Febe and Sonika(?)<br>Appears to have stopped at a condo at Lawrence and Birchmount on his way home.<br>Went to Shoppers on the way home, 17:51 - 17:55"
+                "N": "Was out for coffee, 12:56 - 13:10<br>Carpooled with Febe and Sonika(?)<br>Appears to have stopped at a condo at Lawrence and Birchmount on his way home.<br>Went to Shoppers on the way home, 17:51 - 17:55",
+                "bn": 1
             },
             "16": {
                 "gg": 5.25,
                 "H": true,
-                "N": "Went for a walk, 13:27 - 13:47"
+                "N": "Went for a walk, 13:27 - 13:47",
+                "bn": 0.5
             },
             "17": {
                 "gg": 3,
                 "D": "8:58",
                 "A": "17:26",
-                "N": "Carpooled with Febe.<br>Went out for coffee, 13:31 - 13:45<br>Went to the mall in the evening, seems to have been at the movie theatre, 19:12 - 22:37<br>Movie was likely \"The Batman\", which was showing from 19:30 - 22:30 that night.<br>Since he has no interest in movies and no mental capacity to sit still for 3 hours and understand one, we can assume someone was there with him, most likely Febe.<br>Interrupted by two calls from Rose between 20:00 and 20:30<br>During first call claimed to be \"putting out the garbage\", and on the second said he \"was just going out for a walk\"."
+                "N": "Carpooled with Febe.<br>Went out for coffee, 13:31 - 13:45<br>Went to the mall in the evening, seems to have been at the movie theatre, 19:12 - 22:37<br>Movie was likely \"The Batman\", which was showing from 19:30 - 22:30 that night.<br>Since he has no interest in movies and no mental capacity to sit still for 3 hours and understand one, we can assume someone was there with him, most likely Febe.<br>Interrupted by two calls from Rose between 20:00 and 20:30<br>During first call claimed to be \"putting out the garbage\", and on the second said he \"was just going out for a walk\".",
+                "bn": 2.5
             },
             "18": {
                 "gg": 6,
@@ -11583,12 +11588,14 @@
                 "gg": 3.75,
                 "D": "9:31",
                 "A": "15:58",
-                "N": "Went to Shoppers on the way home, 16:18 - 16:26"
+                "N": "Went to Shoppers on the way home, 16:18 - 16:26",
+                "bn": 1.5
             },
             "21": {
                 "gg": 3.25,
                 "D": "9:34",
-                "A": "17:34"
+                "A": "17:34",
+                "bn": 4
             },
             "22": {
                 "gg": 6.75,
@@ -11599,17 +11606,20 @@
                 "D": "9:01",
                 "A": "17:56",
                 "N": "Went to Shopper's on the way home, 18:21 - 18:25",
-                "gg": 3.75
+                "gg": 3.75,
+                "bn": 3.5
             },
             "24": {
                 "H": true,
                 "N": "Went for a walk in the evening, 19:43 - 20:02",
-                "gg": 6
+                "gg": 6,
+                "bn": 1
             },
             "25": {
                 "D": "9:02",
                 "A": "17:37",
-                "gg": 4.75
+                "gg": 4.75,
+                "bn": 1.5
             },
             "26": {
                 "D": "9:57",
@@ -11626,23 +11636,27 @@
                 "gg": 5,
                 "N": "Drove Sonika home. (Confirmed via Teams chat, Sonika and Febe must live in the same neighbourhood, as he went to Fawcett Trail in Scarborough)",
                 "D": "9:00",
-                "A": "18:09"
+                "A": "18:09",
+                "bn": 1.5
             },
             "29": {
                 "gg": 6.75,
                 "H": true,
-                "N": "Went out to the mall, 13:03 - 13:25"
+                "N": "Went out to the mall, 13:03 - 13:25",
+                "bn": 1
             },
             "30": {
                 "gg": 5.5,
                 "D": "8:43",
                 "A": "18:02",
-                "N": "Went to Mcdonalds (coffee), 13:55 - 14:10"
+                "N": "Went to Mcdonalds (coffee), 13:55 - 14:10",
+                "bn": 2.5
             },
             "31": {
                 "gg": 5.75,
                 "H": true,
-                "N": "Went out for gas in the evening, 19:27 - 19:43"
+                "N": "Went out for gas in the evening, 19:27 - 19:43",
+                "bn": 1.5
             }
         },
         "04": {
