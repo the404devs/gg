@@ -11675,7 +11675,18 @@
             "03": {
                 "gg": 2.25,
                 "H": true,
-                "N": "Was out 14:28 - XX:XX, in Stouffville for grocery pickup."
+                "N": "Was out 14:28 - 17:02, in Stouffville for grocery pickup.<br>G&G hours changed to 2.9 in invoice on the 6th."
+            },
+            "04": {
+                "gg": 6,
+                "D": "8:56",
+                "A": "18:06",
+                "N": "Was out for coffee, 12:45 - 13:10"
+            },
+            "05": {
+                "gg": 7.75,
+                "H": true,
+                "N": "Went for a walk and to the convenience store in the evening, 19:29 - 19:42"
             }
         }
     }
