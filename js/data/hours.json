@@ -11687,6 +11687,33 @@
                 "gg": 7.75,
                 "H": true,
                 "N": "Went for a walk and to the convenience store in the evening, 19:29 - 19:42"
+            },
+            "06": {
+                "gg": 6.25,
+                "D": "8:51",
+                "A": "18:23",
+                "N": "Was picking up docs from Dawn Tattle in the morning, 8:29 - 8:37<br>Went for coffee, 13:10 - 13:20"
+            },
+            "07": {
+                "gg": 6.5,
+                "H": true
+            },
+            "08": {
+                "gg": 5.5,
+                "D": "8:27",
+                "A": "18:16",
+                "N": "Went out for lunch (probably burrito), 13:24 - 13:46"
+            },
+            "09": {
+                "gg": 3.5,
+                "D": "8:55",
+                "A": "16:06",
+                "N": "Ordered lunch from the nearby Italian place around 13:00, went to pick it up 13:31 - 13:44"
+            },
+            "10": {
+                "gg": 4.35,
+                "H": true,
+                "N": "Was out, getting groceries for us and himself, 14:33 - 16:57"
             }
         }
     }
