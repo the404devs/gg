@@ -121,7 +121,7 @@ function loadHoursFromJSON() {
                     if (totalHours == 0) {
                         hourColour = "red";
                     }
-                    if (totalHours >= 8) {
+                    if (totalHours >= 7) {
                         hourColour = "orange";
                     }
                     $("#" + years[y] + "-" + months[m] + "-" + days[d]).append(

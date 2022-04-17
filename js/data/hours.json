@@ -11673,9 +11673,9 @@
                 "N": "Went out (probably burrito for lunch) around 13:50 - 14:00"
             },
             "03": {
-                "gg": 2.25,
+                "gg": 2.9,
                 "H": true,
-                "N": "Was out 14:28 - 17:02, in Stouffville for grocery pickup.<br>G&G hours changed to 2.9 in invoice on the 6th."
+                "N": "Was out 14:28 - 17:02, in Stouffville for grocery pickup.<br>G&G hours originally 2.25 @ Apr 3 15:00, changed to 2.9 in invoice on the 6th."
             },
             "04": {
                 "gg": 6,
@@ -11714,6 +11714,44 @@
                 "gg": 4.35,
                 "H": true,
                 "N": "Was out, getting groceries for us and himself, 14:33 - 16:57"
+            },
+            "11": {
+                "gg": 7.25,
+                "D": "8:46",
+                "A": "18:06"
+            },
+            "12": {
+                "gg": 5.5,
+                "D": "8:48",
+                "A": "18:12",
+                "N": "Went out with YC for walk & coffee, 14:31 - 14:51"
+            },
+            "13": {
+                "gg": 3.75,
+                "H": true,
+                "N": "Was in town getting tires + oil change, plus other unknown car issues fixed, 7:50 - 10:45. Walked over to the mall, 17:50 - 18:10."
+            },
+            "14": {
+                "gg": 1.25,
+                "D": "8:48",
+                "A": "18:15",
+                "N": "Stopped at Wendy's on the way home, 18:37 - 18:49"
+            },
+            "15": {
+                "gg": 7.5,
+                "H": true,
+                "N": "Very believable."
+            },
+            "16": {
+                "gg": 4.75,
+                "D": "9:05",
+                "A": "16:15",
+                "N": "Ed ordered from MeVaMe for everyone, ~11:30. Went out for coffee, 13:26 - 13:38. Stopped at NoFrills on the way home for his own groceries, 17:00 - 17:22."
+            },
+            "17": {
+                "gg": 2.75,
+                "H": true,
+                "N": "As of 15:00."
             }
         }
     }
