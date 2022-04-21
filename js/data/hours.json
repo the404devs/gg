@@ -11750,9 +11750,28 @@
                 "N": "Ed ordered from MeVaMe for everyone, ~11:30. Went out for coffee, 13:26 - 13:38. Stopped at NoFrills on the way home for his own groceries, 17:00 - 17:22."
             },
             "17": {
-                "gg": 2.75,
+                "gg": 5,
                 "H": true,
-                "N": "As of 15:00."
+                "N": "G&G hours were originally 2.75, as of 15:00 on the 17th.<br>Was out getting groceries in Stouffville, 14:33 - 16:34"
+            },
+            "18": {
+                "gg": 4.25,
+                "D": "8:29",
+                "A": "18:07",
+                "N": "Went out for walk/coffee, 13:25 - 13:40"
+            },
+            "19": {
+                "gg": 7.5,
+                "H": true
+            },
+            "20": {
+                "gg": 5,
+                "D": "8:45",
+                "A": "18:17",
+                "N": "Went out for walk/coffee, 13:08 - 13:28<br>Went to Shoppers on the way home, 18:39 - 18:45"
+            },
+            "21": {
+                "H": true
             }
         }
     }
