@@ -11771,7 +11771,24 @@
                 "N": "Went out for walk/coffee, 13:08 - 13:28<br>Went to Shoppers on the way home, 18:39 - 18:45"
             },
             "21": {
-                "H": true
+                "H": true,
+                "gg": 7.25
+            },
+            "22": {
+                "gg": 4.75,
+                "D": "8:49",
+                "A": "18:00",
+                "N": "Went out for coffee, 13:45 - 14:05"
+            },
+            "23": {
+                "gg": 3.25,
+                "D": "9:20",
+                "A": "16:22",
+                "N": "Was out for some form of lunch, 12:54 - 13:30"
+            },
+            "24": {
+                "gg": 3.5,
+                "N": "As of 3pm, 24th"
             }
         }
     }
