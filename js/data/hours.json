@@ -11784,11 +11784,37 @@
                 "gg": 3.25,
                 "D": "9:20",
                 "A": "16:22",
-                "N": "Was out for some form of lunch, 12:54 - 13:30"
+                "N": "Was out for some form of lunch, 12:54 - 13:30<br>Got groceries on the way home, 16:50 - 17:24"
             },
             "24": {
-                "gg": 3.5,
-                "N": "As of 3pm, 24th"
+                "gg": 4.5,
+                "N": "Was in Stouffville, 14:32 - 16:34"
+            },
+            "25": {
+                "gg": 5.25,
+                "D": "8:42",
+                "A": "18:14",
+                "N": "Went out around 14:00."
+            },
+            "26": {
+                "gg": 7.25,
+                "H": true,
+                "N": "Went out to the mall, 15:42 - 16:00"
+            },
+            "27": {
+                "gg": 6.25,
+                "D": "8:50",
+                "A": "18:24"
+            },
+            "28": {
+                "gg": 6.75,
+                "D": "8:48",
+                "A": "19:13",
+                "N": "Office had dinner catered, around 18:00."
+            },
+            "29": {
+                "gg": 0,
+                "D": "8:03"
             }
         }
     }
