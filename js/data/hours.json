@@ -11813,8 +11813,23 @@
                 "N": "Office had dinner catered, around 18:00."
             },
             "29": {
+                "gg": 6.75,
+                "D": "8:03",
+                "A": "17:55",
+                "N": "Went out for a quick walk, 13:25 - 13:30"
+            },
+            "30": {
+                "gg": 2.25,
+                "D": "9:22",
+                "A": "16:15",
+                "N": "Was out for a walk, 13:20 - 13:40. Possibly went in to Longo's, spent ~5 mins in there.<br>Got groceries after work, 16:46 - 17:14"
+            }
+        },
+        "05": {
+            "01": {
                 "gg": 0,
-                "D": "8:03"
+                "N": "Has not billed anything as of 3pm, but was working, based on emails and browsing history on his work PC.",
+                "H": true
             }
         }
     }
