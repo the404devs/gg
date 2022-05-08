@@ -11852,9 +11852,37 @@
         },
         "05": {
             "01": {
-                "gg": 0,
-                "N": "Has not billed anything as of 3pm, but was working, based on emails and browsing history on his work PC.",
+                "gg": 2.25,
+                "N": "Was in Stouffville, 14:28 - 16:01",
                 "H": true
+            },
+            "02": {
+                "gg": 2.5,
+                "D": "~8:50 (tracker issues, first email sent at 8:57)",
+                "A": "17:19",
+                "N": "Went out for lunch/walk, 13:22 - 13:35"
+            },
+            "03": {
+                "gg": 0,
+                "H": true,
+                "N": "Went out for a haircut in Ajax, then to Walmart & bank, 11:20 - 12:41"
+            },
+            "04": {
+                "gg": 3.75,
+                "D": "8:52",
+                "A": "16:53",
+                "N": "Went to pick up burrito lunch around 13:35.<br>Walked over to the mall in the evening, 19:21 - 19:54. Possibly went to The Bay."
+            },
+            "05": {
+                "gg": 1.75,
+                "D": "9:05",
+                "A": "16:39",
+                "N": "Went to Galleria for lunch, 12:52 - 13:51<br>Went to Canadian Tire on the way home, 17:04 - 17:27"
+            },
+            "06": {
+                "gg": 4.25,
+                "H": true,
+                "N": "Went for a walk in the evening, 19:40 - 20:01"
             }
         }
     }
