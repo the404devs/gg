@@ -11883,6 +11883,51 @@
                 "gg": 4.25,
                 "H": true,
                 "N": "Went for a walk in the evening, 19:40 - 20:01"
+            },
+            "07": {
+                "N": "Went to a used car place, test-drove something, 13:23 - 14:17<br>Went to Mark's, 14:55 - 15:21",
+                "NAVG": true
+            },
+            "08": {
+                "N": "Was out, getting groceries in Stouffville, 14:35 - 17:02.",
+                "NAVG": true
+            },
+            "09": {
+                "gg": 4.5,
+                "D": "9:19",
+                "A": "17:30",
+                "N": "Went to Mark's on the way home, 17:56 - 18:03. Likely returning something he purchased on Saturday."
+            },
+            "10": {
+                "gg": 6.25,
+                "H": true,
+                "N": "Went for a walk in the evening, 19:38 - 20:02"
+            },
+            "11": {
+                "gg": 4.5,
+                "D": "9:02",
+                "A": "17:39",
+                "N": "Went out for lunch/coffee, 13:18 - 13:41<br>Went to Shoppers on the way home, 18:03 - 18:13<br>Went for a walk in the evening, 20:11 - 20:26"
+            },
+            "12": {
+                "gg": 6,
+                "D": "9:05",
+                "A": "17:20",
+                "N": "Went out for lunch/coffee, 12:20 - 12:44<br>Went out biking(‼) for the first time, 19:39 - 20:08"
+            },
+            "13": {
+                "gg": 4.75,
+                "D": "9:03",
+                "A": "17:08",
+                "N": "Went out for lunch/coffee, 13:00 - 13:43<br>Asked out Febe over MS Teams, got rejected, ~15:10<br>Went for a drive in the evening to ease his sorrows, 19:51 - 20:17"
+            },
+            "14": {
+                "NAVG": true,
+                "N": "Canadian Tire, 14:34 - 15:09<br>Walmart, 15:15 - 15:39<br>NoFrills, 15:44 - 16:10<br>Bike ride, 19:43 - 20:26<br>Wiped his Google Account app usage, browser history and Youtube history around noon. Strangely, left location history intact."
+            },
+            "15": {
+                "NAVG": true,
+                "N": "Bike ride, 11:46 - 12:02<br>Stouffville groceries, 13:58 - TBD"
             }
         }
     }

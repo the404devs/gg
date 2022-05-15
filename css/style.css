@@ -241,7 +241,7 @@ input::-webkit-datetime-edit-minute-field:focus {
     overflow-y: scroll;
     /* border: 1px solid white; */
     padding: 8px;
-    height: 61vh;
+    height: 56vh;
 }
 
 .link {
@@ -396,7 +396,7 @@ input::-webkit-datetime-edit-minute-field:focus {
     border-radius: 5px;
     overflow: auto;
     width: 500px;
-    height: 92vh;
+    height: 96vh;
     transition: all 0.5s;
     overflow-x: hidden;
     text-align: left;
@@ -570,4 +570,44 @@ input::-webkit-datetime-edit-minute-field:focus {
     text-decoration: underline;
     margin-top: 5px;
     margin-bottom: 10px;
+}
+
+#map {
+    height: 750px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+#date-head {
+    display: inline-block;
+    margin-right: 10%;
+    margin-top: 10px;
+    /* font-size: 30px; */
+}
+
+.map-desc {
+    color: gold!important;
+}
+
+.map-desc b {
+    color: cyan;
+}
+
+.leaflet-control-attribution,
+.leaflet-control-attribution a {
+    font-size: 12px;
+    font-family: "Gilroy";
+}
+
+canvas.leaflet-zoom-animated {
+    opacity: 0.75;
+}
+
+input.leaflet-control-layers-selector {
+    height: unset;
+    width: unset;
+}
+
+.leaflet-control-layers-base label {
+    text-align: left;
 }

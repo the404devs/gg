@@ -66,7 +66,10 @@ function loadHoursFromJSON() {
                 $("#" + years[y] + "-" + months[m]).html(weekHTML);
 
                 for (let d = 0; d < days.length; d++) {
-                    const date = new Date(years[y] + "-" + months[m] + "-" + days[d]);
+                    const dateId = years[y] + "-" + months[m] + "-" + days[d];
+                    const date = new Date(dateId);
+                    const dateData = jsonData[years[y]][months[m]][days[d]];
+
                     let totalHours = 0;
 
                     let index = date.getDay() + 2;
@@ -75,46 +78,46 @@ function loadHoursFromJSON() {
                     $("#" + years[y] + "-" + months[m]).append(
                         $("<div>").addClass("grid-item").append(
                             $("<h3>").html(days[d])
-                        ).attr("id", years[y] + "-" + months[m] + "-" + days[d]).css("grid-column-start", index + "")
+                        ).attr("id", dateId).css("grid-column-start", index + "")
                     );
 
-                    if (jsonData[years[y]][months[m]][days[d]]["D"]) {
-                        $("#" + years[y] + "-" + months[m] + "-" + days[d]).append(
-                            $("<h6>").html("Work: " + jsonData[years[y]][months[m]][days[d]]["D"]).css("font-weight", "bold")
+                    if (dateData["D"]) {
+                        $("#" + dateId).append(
+                            $("<h6>").html("Work: " + dateData["D"]).css("font-weight", "bold")
                         );
                     }
 
-                    if (jsonData[years[y]][months[m]][days[d]]["A"]) {
-                        $("#" + years[y] + "-" + months[m] + "-" + days[d]).append(
-                            $("<h6>").html("Home: " + jsonData[years[y]][months[m]][days[d]]["A"]).css("font-weight", "bold")
+                    if (dateData["A"]) {
+                        $("#" + dateId).append(
+                            $("<h6>").html("Home: " + dateData["A"]).css("font-weight", "bold")
                         );
                     }
 
-                    if (jsonData[years[y]][months[m]][days[d]]["H"]) {
-                        $("#" + years[y] + "-" + months[m] + "-" + days[d]).append(
+                    if (dateData["H"]) {
+                        $("#" + dateId).append(
                             $("<h6>").html("Worked from home.").css("font-weight", "bold").css("color", "lime")
                         );
                     }
 
-                    if (jsonData[years[y]][months[m]][days[d]]["gg"]) {
-                        $("#" + years[y] + "-" + months[m] + "-" + days[d]).append(
-                            $("<h6>").html("G&G: " + jsonData[years[y]][months[m]][days[d]]["gg"] + " hours").css("font-weight", "normal")
+                    if (dateData["gg"]) {
+                        $("#" + dateId).append(
+                            $("<h6>").html("G&G: " + dateData["gg"] + " hours").css("font-weight", "normal")
                         );
-                        totalHours += jsonData[years[y]][months[m]][days[d]]["gg"];
+                        totalHours += dateData["gg"];
                     }
 
-                    if (jsonData[years[y]][months[m]][days[d]]["bn"]) {
-                        $("#" + years[y] + "-" + months[m] + "-" + days[d]).append(
-                            $("<h6>").html("Bruce: " + jsonData[years[y]][months[m]][days[d]]["bn"] + " hours").css("font-weight", "normal")
+                    if (dateData["bn"]) {
+                        $("#" + dateId).append(
+                            $("<h6>").html("Bruce: " + dateData["bn"] + " hours").css("font-weight", "normal")
                         );
-                        totalHours += jsonData[years[y]][months[m]][days[d]]["bn"];
+                        totalHours += dateData["bn"];
                     }
 
-                    if (jsonData[years[y]][months[m]][days[d]]["ag"]) {
-                        $("#" + years[y] + "-" + months[m] + "-" + days[d]).append(
-                            $("<h6>").html("Alex: " + jsonData[years[y]][months[m]][days[d]]["ag"] + " hours").css("font-weight", "normal")
+                    if (dateData["ag"]) {
+                        $("#" + dateId).append(
+                            $("<h6>").html("Alex: " + dateData["ag"] + " hours").css("font-weight", "normal")
                         );
-                        totalHours += jsonData[years[y]][months[m]][days[d]]["ag"];
+                        totalHours += dateData["ag"];
                     }
 
                     let hourColour = "yellow";
@@ -124,13 +127,13 @@ function loadHoursFromJSON() {
                     if (totalHours >= 7) {
                         hourColour = "orange";
                     }
-                    $("#" + years[y] + "-" + months[m] + "-" + days[d]).append(
+                    $("#" + dateId).append(
                         $("<h6>").html("Total: " + totalHours + " hours").css("font-weight", "bold").css("color", hourColour)
                     );
 
-                    if (jsonData[years[y]][months[m]][days[d]]["N"]) {
-                        $("#" + years[y] + "-" + months[m] + "-" + days[d]).append(
-                            $("<h6>").html("Notes: " + jsonData[years[y]][months[m]][days[d]]["N"]).css("font-weight", "normal")
+                    if (dateData["N"]) {
+                        $("#" + dateId).append(
+                            $("<h6>").html("Notes: " + dateData["N"]).css("font-weight", "normal")
                         );
                     }
 
@@ -142,27 +145,35 @@ function loadHoursFromJSON() {
 
                     if (totalHours > maxYearlyHours) {
                         maxYearlyHours = totalHours;
-                        maxYearlyHoursDate = years[y] + "-" + months[m] + "-" + days[d];
+                        maxYearlyHoursDate = dateId;
                     } else if (totalHours < minYearlyHours && totalHours > 0) {
                         minYearlyHours = totalHours;
-                        minYearlyHoursDate = years[y] + "-" + months[m] + "-" + days[d];
+                        minYearlyHoursDate = dateId;
                     }
 
                     if (totalHours > maxHours) {
                         maxHours = totalHours;
-                        maxHoursDate = years[y] + "-" + months[m] + "-" + days[d]
+                        maxHoursDate = dateId
                     } else if (totalHours < minHours && totalHours > 0) {
                         minHours = totalHours;
-                        minHoursDate = years[y] + "-" + months[m] + "-" + days[d]
+                        minHoursDate = dateId
                     }
 
-                    if (!jsonData[years[y]][months[m]][days[d]]["NAVG"]) {
+                    if (!dateData["NAVG"]) {
                         monthlyHourTotal += totalHours;
                     } else {
                         numberOfNAVGDays++;
-                        $("#" + years[y] + "-" + months[m] + "-" + days[d]).append(
+                        $("#" + dateId).append(
                             $("<h6>").html("This day is not included in the monthly average.").css("font-weight", "bold")
                         );
+                    }
+
+                    if (date >= new Date("2017-03-19") && date <= new Date("2022-05-14")) {
+                        $("#" + dateId).append(
+                            $("<button>").addClass("button").attr("onclick", "window.open('./map.html?d=" + dateId + "')").css("width", "100px").append(
+                                $("<span>").html("Map")
+                            )
+                        )
                     }
                 }
 

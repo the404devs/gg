@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Glenn Goodwin, CPA, CGA</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin="">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
+    <script src="js/leaflet.hotline.js"></script>
+</head>
+
+<body id="body">
+    <div class="header" id="head">
+        <h1 id="header-text" onclick="location.href='./index.html'">Glenn Goodwin</h1>
+    </div>
+    <div id="main">
+        <!-- <div class="blob" id="loading-box" style="height: 150px;">
+            <h5>Hold on, loading...</h5>
+            <div id="loading-anim"></div>
+        </div> -->
+        <div class="blob">
+            <h1 class="date-tag" id="date-head"></h1>
+            <input id="date-sel" type="date" onkeypress="function k(e){if (e.key=='Enter')getDateInput()} k(event)">
+            <button class="button" style="width:50px" onclick="getDateInput()">
+                <span>Go</span>
+            </button>
+            <div class="prev button" onclick="switchView(-1)"><span>❮</span></div>
+            <div class="next button" onclick="switchView(1)"><span>❯</span></div>
+            <div id="map"></div>
+            <h5 class="map-desc">This map contains data from <b>March 19, 2017</b> to <b>May 14, 2022</b></h5>
+            <!-- <h5 class="map-desc">and simplified KML data from <b>May 15, 2022</b> onwards.</h5> -->
+            <h5 style="display: inline-block;">v0.0.1 (05/15/2022)</h5>
+            <button class="button" onclick="location.href='./history.html'">
+                <span>History Browser</span>
+            </button>
+            <button class="button" onclick="location.href='./hours.html'">
+                <span>Hours Viewer</span>
+            </button>
+            <button class="button" onclick="location.href='./calendar.html'">
+                <span>Hours Calendar</span>
+            </button>
+        </div>
+    </div>
+    <!-- <div class="modal" id="month-select" onclick="hideModal('#month-select')">
+        <div class="modal-content">
+            <div class="modal-header">Select Month:</div>
+            <div class="modal-body" id="month-select-body"></div>
+            <div class="modal-footer">
+                <h5>v0.0.10 (03/11/2022)</h5>
+                <button class="button" onclick="location.href='./history.html'">
+                    <span>History Browser</span>
+                </button>
+                <br>
+                <br>
+                <button class="button" onclick="location.href='./hours.html'">
+                    <span>Hours Viewer</span>
+                </button>
+            </div>
+        </div>
+    </div> -->
+    <script src="js/common.js"></script>
+    <script src="js/map.js"></script>
+</body>
+
+</html>
