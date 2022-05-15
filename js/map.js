@@ -64,14 +64,14 @@ validDates = Object.keys(points);
 
 function addDataToMap(date) {
     let data = points[date];
-    let totalSegments = data.length - 1;
-    let x = 0;
-    let latSum = 0;
-    let lngSum = 0;
     if (!data) {
         alert("No data for " + date + "!");
         return;
     }
+    let totalSegments = data.length - 1;
+    let x = 0;
+    let latSum = 0;
+    let lngSum = 0;
     dateIndex = validDates.indexOf(date);
     console.log(date, dateIndex);
     markerGroup.clearLayers();
