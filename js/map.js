@@ -35,7 +35,7 @@ let layerControl = L.control.layers(mapTypes).addTo(map);
 let lineGroup = L.layerGroup().addTo(map);
 let markerGroup = L.layerGroup().addTo(map);
 const request = new XMLHttpRequest();
-request.open("GET", "./js/data/location.csv", false);
+request.open("GET", "./js/data/location2.csv", false);
 request.send(null);
 
 const csvData = new Array();
@@ -46,6 +46,7 @@ for (let i = 0; i < jsonObject.length; i++) {
 
 csvData.forEach(point => {
     if (point[0] != "timestamp" && point[0] != "") {
+        console.log(point[0])
         const timestamp = new Date(point[0]);
         let lat = +point[1];
         let lng = +point[2];
@@ -91,6 +92,7 @@ function addDataToMap(date) {
             fillOpacity: 0.5,
             radius: 2
         }).addTo(markerGroup);
+        // console.log(point.timestamp)s
         timestr = point.timestamp.toString();
         circle.bindTooltip(timestr.substring(0, timestr.indexOf("GMT")));
         x++;
