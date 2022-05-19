@@ -11929,6 +11929,22 @@
             "15": {
                 "NAVG": true,
                 "N": "Bike ride, 11:46 - 12:02<br>Stouffville groceries, 13:58 - TBD"
+            },
+            "16": {
+                "gg": 6.75,
+                "D": "9:00",
+                "A": "17:16"
+            },
+            "17": {
+                "gg": 4.75,
+                "D": "9:11",
+                "A": "17:20",
+                "N": "Went out for lunch/walk, 13:26 - 13:42<br>Went for a walk in the evening, 20:12 - 20:38"
+            },
+            "18": {
+                "gg": 5,
+                "H": true,
+                "N": "Went to Staples in the evening, 16:54 - 17:23"
             }
         }
     }
