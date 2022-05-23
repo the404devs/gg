@@ -37,7 +37,6 @@ let markerGroup = L.layerGroup().addTo(map);
 const request = new XMLHttpRequest();
 request.open("GET", "./js/data/location.csv", false);
 request.send(null);
-
 const csvData = new Array();
 const jsonObject = request.responseText.split(/\r?\n|\r/);
 for (let i = 0; i < jsonObject.length; i++) {
@@ -47,9 +46,9 @@ for (let i = 0; i < jsonObject.length; i++) {
 csvData.forEach(point => {
     if (point[0] != "timestamp" && point[0] != "") {
         const timestamp = new Date(point[0]);
-        let lat = +point[1];
-        let lng = +point[2];
-        let date = timestamp.getFullYear() + "-" + ("0" + (timestamp.getMonth() + 1)).slice(-2) + "-" + ("0" + timestamp.getDate()).slice(-2);
+        const lat = +point[1];
+        const lng = +point[2];
+        let date = dateFromTimestamp(timestamp);
         if (!points[date]) {
             points[date] = [];
         }
@@ -58,9 +57,69 @@ csvData.forEach(point => {
             lat: lat,
             lng: lng
         });
+        pusher(date, timestamp, lat, lng);
     }
 });
+
+request.open("GET", "./kml/list.txt", false);
+request.send(null);
+const kmlList = request.responseText.split(/\r?\n|\r/);
+kmlList.forEach(function(filename) {
+    if (filename.length <= 0) {
+        return;
+    }
+    request.open("GET", "./kml/" + filename, false);
+    request.send(null);
+    const jsonData = toGeoJSON.kml(request.responseXML);
+    jsonData.features.forEach(feature => {
+        const startTimestamp = new Date(feature.properties.timespan.begin);
+        const endTimestamp = new Date(feature.properties.timespan.end);
+        if (feature.geometry.type == "Point") {
+            const lat = feature.geometry.coordinates[1];
+            const lng = feature.geometry.coordinates[0];
+            const startDate = dateFromTimestamp(startTimestamp);
+            const endDate = dateFromTimestamp(endTimestamp);
+            pusher(startDate, startTimestamp, lat, lng);
+            pusher(endDate, endTimestamp, lat, lng);
+        } else if (feature.geometry.type == "LineString") {
+            let inferredTimes = [];
+            inferredTimes.push(startTimestamp);
+            const delta = endTimestamp - startTimestamp;
+            const numPoints = feature.geometry.coordinates.length;
+            for (let i = 1; i < numPoints - 1; i++) {
+                inferredTimes.push(new Date(startTimestamp.getTime() + delta * i / numPoints));
+            }
+            inferredTimes.push(endTimestamp);
+            console.log(inferredTimes);
+            let x = 0;
+            feature.geometry.coordinates.forEach(coord => {
+                const timestamp = inferredTimes[x];
+                const lat = coord[1];
+                const lng = coord[0];
+                const date = dateFromTimestamp(timestamp);
+                pusher(date, timestamp, lat, lng);
+                x++;
+            });
+        }
+    });
+});
+
 validDates = Object.keys(points);
+
+function pusher(date, timestamp, lat, lng) {
+    if (!points[date]) {
+        points[date] = [];
+    }
+    points[date].push({
+        timestamp: timestamp,
+        lat: lat,
+        lng: lng
+    });
+}
+
+function dateFromTimestamp(timestamp) {
+    return timestamp.getFullYear() + "-" + ("0" + (timestamp.getMonth() + 1)).slice(-2) + "-" + ("0" + timestamp.getDate()).slice(-2);
+}
 
 function addDataToMap(date) {
     let data = points[date];
@@ -146,5 +205,5 @@ function getDateFromURL() {
     return true;
 }
 
-addDataToMap("2022-05-14");
+addDataToMap(validDates[validDates.length - 1]);
 getDateFromURL();

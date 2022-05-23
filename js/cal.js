@@ -168,7 +168,7 @@ function loadHoursFromJSON() {
                         );
                     }
 
-                    if (date >= new Date("2017-03-19") && date <= new Date("2022-05-14")) {
+                    if (date >= new Date("2017-03-19")) {
                         $("#" + dateId).append(
                             $("<button>").addClass("button").attr("onclick", "window.open('./map.html?d=" + dateId + "')").css("width", "100px").append(
                                 $("<span>").html("Map")
