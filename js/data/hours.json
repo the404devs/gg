@@ -11928,7 +11928,7 @@
             },
             "15": {
                 "NAVG": true,
-                "N": "Bike ride, 11:46 - 12:02<br>Stouffville groceries, 13:58 - TBD"
+                "N": "Bike ride, 11:46 - 12:02<br>Stouffville groceries, 13:58 - 16:57<br>Went over to convenience store, or maybe KFC, 17:48 - 18:18"
             },
             "16": {
                 "gg": 6.75,
@@ -11945,6 +11945,25 @@
                 "gg": 5,
                 "H": true,
                 "N": "Went to Staples in the evening, 16:54 - 17:23"
+            },
+            "19": {
+                "gg": 3.75,
+                "D": "8:57",
+                "A": "17:14",
+                "N": "Went out for lunch/walk/coffee/whatever, 13:11 - 13:34<br>Went to Home Depot on the way home, 17:44 - 18:01"
+            },
+            "20": {
+                "gg": 3.5,
+                "H": true,
+                "N": "Was in Stouffville to take dog to the vet, and then replace bathroom vent, 15:22 - 17:55"
+            },
+            "21": {
+                "N": "Large, damaging storm knocks out power to Stouffville for 25 hours @ 13:45<br>Went to Canadian Tire, 14:50 - 15:10<br>Sportcheck, 15:31 - 15:55<br>Morning bike ride, 8:58 - 9:28",
+                "NAVG": true
+            },
+            "22": {
+                "N": "Home Depot, 14:19 - 14:36<br>Bulk Barn, 14:38 - 14:46<br>NoFrills (for himself), 14:54 - 15:15<br>Evening walk, 19:56 - 20:12<br>Seems unconcerned about damage to the house. Power restored in Stouffville around 15:00",
+                "NAVG": true
             }
         }
     }
