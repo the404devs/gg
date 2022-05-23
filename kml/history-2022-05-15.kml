@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document>
+        <name> Location history from 2022-05-15 to 2022-05-15 </name>
+        <open>1</open>
+        <description></description>
+        <StyleMap id="multiTrack">
+            <Pair>
+                <key>normal</key>
+                <styleUrl>#multiTrack_n</styleUrl>
+            </Pair>
+            <Pair>
+                <key>highlight</key>
+                <styleUrl>#multiTrack_h</styleUrl>
+            </Pair>
+        </StyleMap>
+        <Style id="multiTrack_n">
+            <IconStyle><Icon><href>https: //earth.google.com/images/kml-icons/track-directional/track-0.png</href></Icon></IconStyle><LineStyle><color>99ffac59</color><width>6</width></LineStyle>
+        </Style>
+        <Style id="multiTrack_h">
+            <IconStyle><scale>1.2</scale><Icon><href>https: //earth.google.com/images/kml-icons/track-directional/track-0.png</href></Icon></IconStyle><LineStyle><color>99ffac59</color><width>8</width></LineStyle>
+        </Style>
+        <Placemark>
+            <name>1000 The Esplanade N</name>
+            <address>1000 The Esplanade N, Pickering, ON L1V 6V4</address>
+            <ExtendedData><Data name="Email">
+                    <value>ggoodwin244@gmail.com</value>
+                </Data><Data name="Category">
+                    <value></value>
+                </Data><Data name="Distance">
+                    <value>0</value>
+                </Data></ExtendedData>
+            <description> from 2022-05-15T00:26:31.715Z to 2022-05-15T15:46:28.007Z. Distance 0m </description>
+            <Point>
+                <coordinates>-79.0850565,43.839242399999996,0</coordinates>
+            </Point>
+            <TimeSpan>
+                <begin>2022-05-15T00:26:31.715Z</begin>
+                <end>2022-05-15T15:46:28.007Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Cycling</name>
+            <address></address>
+            <ExtendedData><Data name="Email">
+                    <value>ggoodwin244@gmail.com</value>
+                </Data><Data name="Category">
+                    <value>Cycling</value>
+                </Data><Data name="Distance">
+                    <value>1391</value>
+                </Data></ExtendedData>
+            <description> Cycling from 2022-05-15T15:46:28.007Z to 2022-05-15T16:02:35.092Z. Distance 1391m
+            </description>
+            <LineString>
+                <altitudeMode>clampToGround</altitudeMode>
+                <extrude>1</extrude>
+                <tesselate>1</tesselate>
+                <coordinates>-79.0850565,43.839242399999996,0 -79.0850565,43.839242399999996,0 -79.0840222,43.8393861,0
+                    -79.0830332,43.8387345,0 -79.0829816,43.8387206,0 -79.0828888,43.8388737,0 -79.0827139,43.8390228,0
+                    -79.0826283,43.8364779,0 -79.0792227,43.8386743,0 -79.0834168,43.8386674,0 -79.0848223,43.839432,0
+                    -79.0850565,43.839242399999996,0 -79.0850565,43.839242399999996,0 </coordinates>
+            </LineString>
+            <TimeSpan>
+                <begin>2022-05-15T15:46:28.007Z</begin>
+                <end>2022-05-15T16:02:35.092Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>1000 The Esplanade N</name>
+            <address>1000 The Esplanade N, Pickering, ON L1V 6V4</address>
+            <ExtendedData><Data name="Email">
+                    <value>ggoodwin244@gmail.com</value>
+                </Data><Data name="Category">
+                    <value></value>
+                </Data><Data name="Distance">
+                    <value>0</value>
+                </Data></ExtendedData>
+            <description> from 2022-05-15T16:02:35.092Z to 2022-05-15T17:58:39.216Z. Distance 0m </description>
+            <Point>
+                <coordinates>-79.0850565,43.839242399999996,0</coordinates>
+            </Point>
+            <TimeSpan>
+                <begin>2022-05-15T16:02:35.092Z</begin>
+                <end>2022-05-15T17:58:39.216Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Driving</name>
+            <address></address>
+            <ExtendedData><Data name="Email">
+                    <value>ggoodwin244@gmail.com</value>
+                </Data><Data name="Category">
+                    <value>Driving</value>
+                </Data><Data name="Distance">
+                    <value>25086</value>
+                </Data></ExtendedData>
+            <description> Driving from 2022-05-15T17:58:39.216Z to 2022-05-15T18:41:36.018Z. Distance 25086m
+            </description>
+            <LineString>
+                <altitudeMode>clampToGround</altitudeMode>
+                <extrude>1</extrude>
+                <tesselate>1</tesselate>
+                <coordinates>-79.0850565,43.839242399999996,0 -79.0850565,43.839242399999996,0 -79.0861776,43.8391881,0
+                    -79.0936623,43.8424913,0 -79.1037862,43.8432297,0 -79.1230035,43.8396947,0 -79.1297338,43.8575861,0
+                    -79.1839213,43.8806695,0 -79.1887763,43.8990937,0 -79.201584,43.9242426,0 -79.2199011,43.9678922,0
+                    -79.23048,43.9751508,0 -79.2299207,43.9755172,0 -79.2304686,43.9752096,0 -79.2311256,43.9680149,0
+                    -79.234728,43.9667319,0 -79.24302,43.9655667,0 -79.2569892,43.9686685,0 -79.2577996,43.9691834,0
+                    -79.2601839,43.9684737,0 -79.261016,43.967850999999996,0 -79.261016,43.967850999999996,0
+                </coordinates>
+            </LineString>
+            <TimeSpan>
+                <begin>2022-05-15T17:58:39.216Z</begin>
+                <end>2022-05-15T18:41:36.018Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Michael's No Frills</name>
+            <address>5887 Main St, Whitchurch-Stouffville, ON L4A 1N2</address>
+            <ExtendedData><Data name="Email">
+                    <value>ggoodwin244@gmail.com</value>
+                </Data><Data name="Category">
+                    <value>Grocery store</value>
+                </Data><Data name="Distance">
+                    <value>0</value>
+                </Data></ExtendedData>
+            <description> Grocery store from 2022-05-15T18:41:36.018Z to 2022-05-15T19:11:46.094Z. Distance 0m
+            </description>
+            <Point>
+                <coordinates>-79.261016,43.967850999999996,0</coordinates>
+            </Point>
+            <TimeSpan>
+                <begin>2022-05-15T18:41:36.018Z</begin>
+                <end>2022-05-15T19:11:46.094Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Driving</name>
+            <address></address>
+            <ExtendedData><Data name="Email">
+                    <value>ggoodwin244@gmail.com</value>
+                </Data><Data name="Category">
+                    <value>Driving</value>
+                </Data><Data name="Distance">
+                    <value>2843</value>
+                </Data></ExtendedData>
+            <description> Driving from 2022-05-15T19:11:46.094Z to 2022-05-15T19:20:04.021Z. Distance 2843m
+            </description>
+            <LineString>
+                <altitudeMode>clampToGround</altitudeMode>
+                <extrude>1</extrude>
+                <tesselate>1</tesselate>
+                <coordinates>-79.261016,43.967850999999996,0 -79.261016,43.967850999999996,0 -79.25965,43.966918,0
+                    -79.259028,43.9639349,0 -79.2467251,43.9645106,0 -79.2368005,43.9667681,0 -79.2322419,43.9672957,0
+                    -79.2306462,43.9682773,0 -79.2306462,43.9682773,0 </coordinates>
+            </LineString>
+            <TimeSpan>
+                <begin>2022-05-15T19:11:46.094Z</begin>
+                <end>2022-05-15T19:20:04.021Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Tenth Line / Hoover Park Dr</name>
+            <address>Whitchurch-Stouffville, ON L4A 1L1</address>
+            <ExtendedData><Data name="Email">
+                    <value>ggoodwin244@gmail.com</value>
+                </Data><Data name="Category">
+                    <value>Bus stop</value>
+                </Data><Data name="Distance">
+                    <value>0</value>
+                </Data></ExtendedData>
+            <description> Bus stop from 2022-05-15T19:20:04.021Z to 2022-05-15T20:29:08.045Z. Distance 0m </description>
+            <Point>
+                <coordinates>-79.2306462,43.9682773,0</coordinates>
+            </Point>
+            <TimeSpan>
+                <begin>2022-05-15T19:20:04.021Z</begin>
+                <end>2022-05-15T20:29:08.045Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Driving</name>
+            <address></address>
+            <ExtendedData><Data name="Email">
+                    <value>ggoodwin244@gmail.com</value>
+                </Data><Data name="Category">
+                    <value>Driving</value>
+                </Data><Data name="Distance">
+                    <value>23927</value>
+                </Data></ExtendedData>
+            <description> Driving from 2022-05-15T20:29:08.045Z to 2022-05-15T20:57:30.072Z. Distance 23927m
+            </description>
+            <LineString>
+                <altitudeMode>clampToGround</altitudeMode>
+                <extrude>1</extrude>
+                <tesselate>1</tesselate>
+                <coordinates>-79.2306462,43.9682773,0 -79.2306462,43.9682773,0 -79.2326983,43.967639,0
+                    -79.2284228,43.968715,0 -79.2164122,43.9638662,0 -79.1984082,43.9553537,0 -79.1644513,43.8567881,0
+                    -79.1601905,43.8576971,0 -79.1558399,43.8586906,0 -79.1518257,43.8601095,0 -79.1474582,43.862651,0
+                    -79.1455096,43.8635287,0 -79.1444668,43.8611646,0 -79.1430759,43.8579386,0 -79.1419902,43.8554988,0
+                    -79.1418199,43.8534758,0 -79.1353015,43.8378485,0 -79.1152418,43.8408537,0 -79.0952687,43.8462575,0
+                    -79.0865174,43.8388797,0 -79.0852489,43.8389025,0 -79.0850565,43.839242399999996,0
+                    -79.0850565,43.839242399999996,0 </coordinates>
+            </LineString>
+            <TimeSpan>
+                <begin>2022-05-15T20:29:08.045Z</begin>
+                <end>2022-05-15T20:57:30.072Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>1000 The Esplanade N</name>
+            <address>1000 The Esplanade N, Pickering, ON L1V 6V4</address>
+            <ExtendedData><Data name="Email">
+                    <value>ggoodwin244@gmail.com</value>
+                </Data><Data name="Category">
+                    <value></value>
+                </Data><Data name="Distance">
+                    <value>0</value>
+                </Data></ExtendedData>
+            <description> from 2022-05-15T20:57:30.072Z to 2022-05-15T21:48:53.064Z. Distance 0m </description>
+            <Point>
+                <coordinates>-79.0850565,43.839242399999996,0</coordinates>
+            </Point>
+            <TimeSpan>
+                <begin>2022-05-15T20:57:30.072Z</begin>
+                <end>2022-05-15T21:48:53.064Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>Driving</name>
+            <address></address>
+            <ExtendedData><Data name="Email">
+                    <value>ggoodwin244@gmail.com</value>
+                </Data><Data name="Category">
+                    <value>Driving</value>
+                </Data><Data name="Distance">
+                    <value>1444</value>
+                </Data></ExtendedData>
+            <description> Driving from 2022-05-15T21:48:53.064Z to 2022-05-15T22:18:55.403Z. Distance 1444m
+            </description>
+            <LineString>
+                <altitudeMode>clampToGround</altitudeMode>
+                <extrude>1</extrude>
+                <tesselate>1</tesselate>
+                <coordinates>-79.0850565,43.839242399999996,0 -79.0850565,43.839242399999996,0 -79.0851969,43.8396365,0
+                    -79.0852997,43.8378968,0 -79.08645,43.8381875,0 -79.0869023,43.8384513,0 -79.0879769,43.8387081,0
+                    -79.0887694,43.8381165,0 -79.0888201,43.8378771,0 -79.0888131,43.8378312,0 -79.0889887,43.8379046,0
+                    -79.0889835,43.8379326,0 -79.0858245,43.838524,0 -79.085969,43.83856,0 -79.0859679,43.8385607,0
+                    -79.0827109,43.8394632,0 -79.0835479,43.838508,0 -79.0848493,43.839033,0
+                    -79.0850565,43.839242399999996,0 -79.0850565,43.839242399999996,0 </coordinates>
+            </LineString>
+            <TimeSpan>
+                <begin>2022-05-15T21:48:53.064Z</begin>
+                <end>2022-05-15T22:18:55.403Z</end>
+            </TimeSpan>
+        </Placemark>
+        <Placemark>
+            <name>1000 The Esplanade N</name>
+            <address>1000 The Esplanade N, Pickering, ON L1V 6V4</address>
+            <ExtendedData><Data name="Email">
+                    <value>ggoodwin244@gmail.com</value>
+                </Data><Data name="Category">
+                    <value></value>
+                </Data><Data name="Distance">
+                    <value>0</value>
+                </Data></ExtendedData>
+            <description> from 2022-05-15T22:18:55.403Z to 2022-05-16T12:17:42.194Z. Distance 0m </description>
+            <Point>
+                <coordinates>-79.0850565,43.839242399999996,0</coordinates>
+            </Point>
+            <TimeSpan>
+                <begin>2022-05-15T22:18:55.403Z</begin>
+                <end>2022-05-16T12:17:42.194Z</end>
+            </TimeSpan>
+        </Placemark>
+    </Document>
+</kml>
