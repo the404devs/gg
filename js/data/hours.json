@@ -11964,6 +11964,75 @@
             "22": {
                 "N": "Home Depot, 14:19 - 14:36<br>Bulk Barn, 14:38 - 14:46<br>NoFrills (for himself), 14:54 - 15:15<br>Evening walk, 19:56 - 20:12<br>Seems unconcerned about damage to the house. Power restored in Stouffville around 15:00",
                 "NAVG": true
+            },
+            "23": {
+                "N": "Went out to NoFrills in Markham (random one that was open, due to the holiday) for our groceries, 13:59 - 17:56. Cut lawn and fixed vent while he was here.",
+                "NAVG": true
+            },
+            "24": {
+                "gg": 5.75,
+                "D": "8:50",
+                "A": "17:30",
+                "N": "Coffee break, standing around out front of the office, 13:10 - 13:28<br>Went to Shoppers on the way home, 17:58 - 18:04<br>Went for a walk in the evening, 20:03 - 20:24"
+            },
+            "25": {
+                "gg": 4.75,
+                "D": "9:05",
+                "A": "17:14",
+                "N": "Carpooled with Sonika & Febe (Sonika driving).<br>Went for a walk and then to Tims, 12:55 - 13:11<br>Went for a walk to the mall in the evening, 19:22 - 19:58"
+            },
+            "26": {
+                "gg": 5.5,
+                "H": true,
+                "N": "Got gas in the evening, 19:53 - 20:07"
+            },
+            "27": {
+                "gg": 4.25,
+                "D": "9:06",
+                "A": "17:12",
+                "N": "Carpooled with Sonika and Febe.<br>Went to Tims, then stood around out front, 13:13 - 14:36<br>Went to Shoppers on the way home, 17:46 - 17:53<br>Walked over to the mall in the evening, 19:35 - 19:57"
+            },
+            "28": {
+                "N": "Went for a bike ride in the morning, 8:48 - 9:19<br>Drove to Sportchek in Ajax and bought a Fitbit Versa 3 (~$300), and then went to NoFrills afterwards, 14:26 - 15:59.",
+                "NAVG": true
+            },
+            "29": {
+                "N": "Went to Home Depot in the morning to get lumber, and then to the mall afterwards, 11:16 - 11:53.<br>Was in Stouffville for groceries, then staining the deck, 14:05 - 18:23.",
+                "NAVG": true
+            },
+            "30": {
+                "gg": 3.25,
+                "D": "10:25",
+                "A": "17:18",
+                "N": "Had a dentist app. in the morning, 8:43 - 10:07<br>Walk, then Tims coffee, 12:39 - 13:14<br>Went to Shoppers on the way home, 17:46 - 17:54<br>Went for a bike ride in the evening, 20:03 - 20:25."
+            },
+            "31": {
+                "gg": 5.5,
+                "H": true,
+                "N": "Went for a walk in the evening, 19:42 - 20:10"
+            }
+        },
+        "06": {
+            "01": {
+                "gg": 3.5,
+                "D": "8:52",
+                "A": "17:09",
+                "N": "Carpooled with Sonika and Febe (he drove)<br>Walk/coffee break outside, 13:38 - 14:00"
+            },
+            "02": {
+                "gg": 4.5,
+                "N": "Went for a walk around the block and into the mall in the evening, 19:46 - 20:22",
+                "H": true
+            },
+            "03": {
+                "gg": 4.75,
+                "D": "8:55",
+                "A": "17:08",
+                "N": "Carpooled with Febe and Sonika (Febe drove)<br>Went for a walk of some sort between 11:00 and 11:30, according to Fitbit step counts. No phone GPS record.<br>Small coffee break out front, 12:40 - 12:55<br>Went to Shoppers on the way home, 17:47 - 17:52<br>Went to Canadian Tire, then Walmart, 19:51 - 20:20"
+            },
+            "04": {
+                "NAVG": true,
+                "N": "Went for a walk in the morning, 11:07 - 11:21<br>Went to NoFrills, 14:23 - 15:12<br>Went for a bike ride, 17:13 - 17:36<br>Went for another walk in the evening, 19:57 - 20:12"
             }
         }
     }
