@@ -12033,6 +12033,78 @@
             "04": {
                 "NAVG": true,
                 "N": "Went for a walk in the morning, 11:07 - 11:21<br>Went to NoFrills, 14:23 - 15:12<br>Went for a bike ride, 17:13 - 17:36<br>Went for another walk in the evening, 19:57 - 20:12"
+            },
+            "05": {
+                "N": "In Stouffville for groceries, then staining the deck, 13:57 - 18:19",
+                "NAVG": true
+            },
+            "06": {
+                "gg": 5.75,
+                "D": "9:06",
+                "A": "17:18",
+                "N": "Carpooled with S&F<br>Was out for walk, then Tims, 12:55 - 13:20<br>Went to Shoppers on the way home, 18:06 - 18:11"
+            },
+            "07": {
+                "gg": 6.5,
+                "H": true,
+                "N": "Went out for a walk, 19:42 - 19:58"
+            },
+            "08": {
+                "gg": 4.5,
+                "D": "9:06",
+                "A": "17:13",
+                "N": "Carpooled with S&F<br>Usual walk & coffee, 12:58 - 13:21<br>Seems to have been standing around out back, ~9:00 - 9:10"
+            },
+            "09": {
+                "gg": 3.25,
+                "N": "Was in Stouffville to pick dog up from vet, then staining deck, 12:58 - 15:35, then booked a haircut apt. on his phone after he left. Haircut 15:54 - 16:42.<br>Walk, 20:13 - 20:27"
+            },
+            "10": {
+                "gg": 5.5,
+                "D": "9:07",
+                "A": "17:07",
+                "N": "Carpooled with S&F<br>Was out doing something (limited GPS data), 13:40 - 13:50<br>Got gas, 19:50 - 20:11"
+            },
+            "11": {
+                "NAVG": true,
+                "N": "Went to a used car place in Scarborough (4308 Kingston Rd), 12:25 - 13:20<br>Stouffville for groceries, lawn cutting, etc, 14:17 - 16:14"
+            },
+            "12": {
+                "gg": 3.25,
+                "N": "Got groceries for himself, 15:11 - 15:50<br>Bike ride, 19:36 - 20:07"
+            },
+            "13": {
+                "gg": 7,
+                "N": "At Outlook Eyewear, 9:26 - 13:24<br>Went out for lunch/dinner with Jim Owen to Turtle Jack's, 13:30 - 15:01<br>Went back to Outlook, spent ~5mins there, then went home.",
+                "D": "9:26",
+                "A": "15:13"
+            },
+            "14": {
+                "gg": 5.5,
+                "D": "9:03",
+                "A": "17:35",
+                "N": "Carpooled with S&F<br>Usual walk & coffee, 13:20 - 13:46<br>Bike ride, 20:09 - 20:29"
+            },
+            "15": {
+                "gg": 5.25,
+                "D": "9:14",
+                "A": "18:02",
+                "N": "Carpooled with S&F<br>Usual walk & coffee, 13:28 - 13:45<br>Walk, 20:11 - 20:32<br>Mentioned in a call to R (June 18th) that he planned on going for a bike ride, but his tire was flat, even after multiple pumping attempts. I had punctured his tire, and done a crappy patch job ~Oct 7th, creating a time bomb."
+            },
+            "16": {
+                "gg": 6,
+                "N": "Walk, 20:00 - 20:19",
+                "H": true
+            },
+            "17": {
+                "gg": 5,
+                "D": "8:55",
+                "A": "17:30",
+                "N": "Carpooled with S&F<br>Usual walk & coffee, 13:24 - 13:40<br>Went to Canadian Tire (to buy new inner tube for bike), 18:09 - 18:19"
+            },
+            "18": {
+                "NAVG": true,
+                "N": "Went to a used car place in Scarborough (4229 Kingston Rd), 13:01 - 13:49<br>NoFrills, 14:18 - 14:41<br>Walk, 20:10 - 20:31"
             }
         }
     }
