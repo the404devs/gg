@@ -57,7 +57,7 @@ csvData.forEach(point => {
             lat: lat,
             lng: lng
         });
-        pusher(date, timestamp, lat, lng);
+        pusher(date, timestamp, lat, lng, "JSON");
     }
 });
 
@@ -79,8 +79,8 @@ kmlList.forEach(function(filename) {
             const lng = feature.geometry.coordinates[0];
             const startDate = dateFromTimestamp(startTimestamp);
             const endDate = dateFromTimestamp(endTimestamp);
-            pusher(startDate, startTimestamp, lat, lng);
-            pusher(endDate, endTimestamp, lat, lng);
+            pusher(startDate, startTimestamp, lat, lng, "KML - Inferred Start");
+            pusher(endDate, endTimestamp, lat, lng, "KML - Inferred End");
         } else if (feature.geometry.type == "LineString") {
             let inferredTimes = [];
             inferredTimes.push(startTimestamp);
@@ -90,14 +90,14 @@ kmlList.forEach(function(filename) {
                 inferredTimes.push(new Date(startTimestamp.getTime() + delta * i / numPoints));
             }
             inferredTimes.push(endTimestamp);
-            console.log(inferredTimes);
+            // console.log(inferredTimes);
             let x = 0;
             feature.geometry.coordinates.forEach(coord => {
                 const timestamp = inferredTimes[x];
                 const lat = coord[1];
                 const lng = coord[0];
                 const date = dateFromTimestamp(timestamp);
-                pusher(date, timestamp, lat, lng);
+                pusher(date, timestamp, lat, lng, "KML- LineString");
                 x++;
             });
         }
@@ -106,14 +106,15 @@ kmlList.forEach(function(filename) {
 
 validDates = Object.keys(points);
 
-function pusher(date, timestamp, lat, lng) {
+function pusher(date, timestamp, lat, lng, source) {
     if (!points[date]) {
         points[date] = [];
     }
     points[date].push({
         timestamp: timestamp,
         lat: lat,
-        lng: lng
+        lng: lng,
+        source: source
     });
 }
 
@@ -122,11 +123,16 @@ function dateFromTimestamp(timestamp) {
 }
 
 function addDataToMap(date) {
-    let data = points[date];
-    if (!data) {
+    let data = [];
+    if (points[date]) {
+        data = points[date].sort((a, b) => {
+            return a.timestamp - b.timestamp; //Ensure chronological order, if we have data from multiple sources
+        });
+    } else {
         alert("No data for " + date + "!");
         return;
     }
+
     let totalSegments = data.length - 1;
     let x = 0;
     let latSum = 0;
@@ -136,27 +142,35 @@ function addDataToMap(date) {
     markerGroup.clearLayers();
     lineGroup.clearLayers();
     let lineArr = [];
+    let dateHasJSON = false;
     data.forEach(point => {
-        lineArr.push([point.lat, point.lng, x]);
-        let color = "red";
-        if (x == 0) {
-            color = "blue";
-        } else if (x == data.length - 1) {
-            color = "green";
+        if (point.source == "JSON") {
+            dateHasJSON = true;
         }
-        let circle = L.circle([point.lat, point.lng], {
-            color: color,
-            fillColor: '#f03',
-            fillOpacity: 0.5,
-            radius: 2
-        }).addTo(markerGroup);
-        timestr = point.timestamp.toString();
-        circle.bindTooltip(timestr.substring(0, timestr.indexOf("GMT")));
-        x++;
-        latSum += point.lat;
-        lngSum += point.lng;
-        const palette = { 0.0: 'red', 0.2: 'orange', 0.4: 'yellow', 0.6: 'green', 0.8: 'blue', 0.9: 'indigo', 1.0: 'violet' };
-        L.hotline(lineArr, { palette: palette, opacity: 0.5, min: 0, max: totalSegments, outlineWidth: 0.2, outlineColor: '#808080' }).addTo(lineGroup, true);
+
+        // skip this point if source is KML LineString and there's JSON for this date
+        if (!(point.source == "KML- LineString" && dateHasJSON)) {
+            lineArr.push([point.lat, point.lng, x]);
+            let color = "red";
+            if (x == 0) {
+                color = "blue";
+            } else if (x == data.length - 1) {
+                color = "green";
+            }
+            let circle = L.circle([point.lat, point.lng], {
+                color: color,
+                fillColor: '#f03',
+                fillOpacity: 0.5,
+                radius: 2
+            }).addTo(markerGroup);
+            timestr = point.timestamp.toString();
+            circle.bindTooltip(timestr.substring(0, timestr.indexOf("GMT")) + "<br>" + point.source);
+            x++;
+            latSum += point.lat;
+            lngSum += point.lng;
+            const palette = { 0.0: 'red', 0.2: 'orange', 0.4: 'yellow', 0.6: 'green', 0.8: 'blue', 0.9: 'indigo', 1.0: 'violet' };
+            L.hotline(lineArr, { palette: palette, opacity: 0.5, min: 0, max: totalSegments, outlineWidth: 0.2, outlineColor: '#808080' }).addTo(lineGroup, true);
+        }
     });
     let avgLat = latSum / x;
     let avgLng = lngSum / x;

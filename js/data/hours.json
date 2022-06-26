@@ -12105,6 +12105,46 @@
             "18": {
                 "NAVG": true,
                 "N": "Went to a used car place in Scarborough (4229 Kingston Rd), 13:01 - 13:49<br>NoFrills, 14:18 - 14:41<br>Walk, 20:10 - 20:31"
+            },
+            "19": {
+                "NAVG": true,
+                "N": "Zehrs in Uxbridge, 12:49 - 13:28<br>Nofrills Stouffville, 14:01 - 14:32<br>Here, 14:37 - 17:48<br>Got home 18:26"
+            },
+            "20": {
+                "gg": 5.5,
+                "D": "8:54",
+                "A": "17:06",
+                "N": "Bike ride, 19:54 - 20:28"
+            },
+            "21": {
+                "gg": 6.25,
+                "H": true,
+                "N": "Walk, 13:32 - 13:32<br>Walk 2, 20:10 - 20:25"
+            },
+            "22": {
+                "gg": 5.25,
+                "D": "9:04",
+                "A": "17:31",
+                "N": "Carpooled."
+            },
+            "23": {
+                "gg": 5,
+                "H": true,
+                "N": "Walk, 13:20 - 13:36<br>Bike ride, 20:01 - 20:44"
+            },
+            "24": {
+                "gg": 0,
+                "D": "9:01",
+                "A": "17:08",
+                "N": "Carpooled.<br>Walk + McDonalds, 13:30 - 13:50<br>Attended a party at Febe's house (119 Fawcett) this evening. Picked up food after work at an Indian restaurant, 17:20 - 17:26<br>At party, 17:41 - 20:17<br>Dropped his phone and damaged it at the party.<br>Was intoxicated afterwards (R phone call)<br>0 hours recorded for G&G, as of June 26th"
+            },
+            "25": {
+                "NAVG": true,
+                "N": "Was out at various used car places in Scarborough, 12:43 - 14:35<br>Went to Loblaws in Pickering, 15:11 - 15:17<br>Bought a new phone at the mall today. Galaxy S21 FE 5G. The idiot left the old one at the kiosk, so we'll never get a look at any of his texts from the last 8 months. At the mall, 16:25 - 18:33"
+            },
+            "26": {
+                "NAVG": true,
+                "N": "Went to the mall to try and retrieve the old phone, upon my roundabout suggestion, failed. 11:08 - 11:28<br>In Stouffville, 13:02 - ?<br>Probably going to a used car place in Scarborough afterwards, was looking at directions earlier."
             }
         }
     }
