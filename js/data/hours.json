@@ -12017,7 +12017,8 @@
                 "gg": 3.5,
                 "D": "8:52",
                 "A": "17:09",
-                "N": "Carpooled with Sonika and Febe (he drove)<br>Walk/coffee break outside, 13:38 - 14:00"
+                "N": "Carpooled with Sonika and Febe (he drove)<br>Walk/coffee break outside, 13:38 - 14:00",
+                "bn": 1.25
             },
             "02": {
                 "gg": 4.5,
@@ -12028,7 +12029,8 @@
                 "gg": 4.75,
                 "D": "8:55",
                 "A": "17:08",
-                "N": "Carpooled with Febe and Sonika (Febe drove)<br>Went for a walk of some sort between 11:00 and 11:30, according to Fitbit step counts. No phone GPS record.<br>Small coffee break out front, 12:40 - 12:55<br>Went to Shoppers on the way home, 17:47 - 17:52<br>Went to Canadian Tire, then Walmart, 19:51 - 20:20"
+                "N": "Carpooled with Febe and Sonika (Febe drove)<br>Went for a walk of some sort between 11:00 and 11:30, according to Fitbit step counts. No phone GPS record.<br>Small coffee break out front, 12:40 - 12:55<br>Went to Shoppers on the way home, 17:47 - 17:52<br>Went to Canadian Tire, then Walmart, 19:51 - 20:20",
+                "bn": 1
             },
             "04": {
                 "NAVG": true,
@@ -12063,7 +12065,8 @@
                 "gg": 5.5,
                 "D": "9:07",
                 "A": "17:07",
-                "N": "Carpooled with S&F<br>Was out doing something (limited GPS data), 13:40 - 13:50<br>Got gas, 19:50 - 20:11"
+                "N": "Carpooled with S&F<br>Was out doing something (limited GPS data), 13:40 - 13:50<br>Got gas, 19:50 - 20:11",
+                "bn": 1
             },
             "11": {
                 "NAVG": true,
@@ -12083,7 +12086,8 @@
                 "gg": 5.5,
                 "D": "9:03",
                 "A": "17:35",
-                "N": "Carpooled with S&F<br>Usual walk & coffee, 13:20 - 13:46<br>Bike ride, 20:09 - 20:29"
+                "N": "Carpooled with S&F<br>Usual walk & coffee, 13:20 - 13:46<br>Bike ride, 20:09 - 20:29",
+                "bn": 0.75
             },
             "15": {
                 "gg": 5.25,
@@ -12100,7 +12104,8 @@
                 "gg": 5,
                 "D": "8:55",
                 "A": "17:30",
-                "N": "Carpooled with S&F<br>Usual walk & coffee, 13:24 - 13:40<br>Went to Canadian Tire (to buy new inner tube for bike), 18:09 - 18:19"
+                "N": "Carpooled with S&F<br>Usual walk & coffee, 13:24 - 13:40<br>Went to Canadian Tire (to buy new inner tube for bike), 18:09 - 18:19",
+                "bn": 1
             },
             "18": {
                 "NAVG": true,
@@ -12136,7 +12141,8 @@
                 "gg": 0,
                 "D": "9:01",
                 "A": "17:08",
-                "N": "Carpooled.<br>Walk + McDonalds, 13:30 - 13:50<br>Attended a party at Febe's house (119 Fawcett) this evening. Picked up food after work at an Indian restaurant, 17:20 - 17:26<br>At party, 17:41 - 20:17<br>Dropped his phone and damaged it at the party.<br>Was intoxicated afterwards (R phone call)<br>0 hours recorded for G&G, as of June 26th<br>G&G hours changed to <b>4.25</b> sometime the following week."
+                "N": "Carpooled.<br>Walk + McDonalds, 13:30 - 13:50<br>Attended a party at Febe's house (119 Fawcett) this evening. Picked up food after work at an Indian restaurant, 17:20 - 17:26<br>At party, 17:41 - 20:17<br>Dropped his phone and damaged it at the party.<br>Was intoxicated afterwards (R phone call)<br>0 hours recorded for G&G, as of June 26th<br>G&G hours changed to <b>4.25</b> sometime the following week.",
+                "bn": 1
             },
             "25": {
                 "NAVG": true,
@@ -12150,24 +12156,28 @@
                 "gg": 3,
                 "D": "9:05",
                 "A": "17:19",
-                "N": "Carpooled.<br>Walk and McDonalds, 13:00 - 13:25<br>NoFrills, 19:53 - 20:16"
+                "N": "Carpooled.<br>Walk and McDonalds, 13:00 - 13:25<br>NoFrills, 19:53 - 20:16",
+                "bn": 1.75
             },
             "28": {
                 "H": true,
                 "gg": 3.75,
-                "N": "Was searching for his father and brother's contact info on his work PC (remote), around 11:30<br>Walked over to the mall, 12:49 - 13:07<br>Sat in the park, 13:14 - 13:20<br>Evening walk, 19:48 - 20:10"
+                "N": "Was searching for his father and brother's contact info on his work PC (remote), around 11:30<br>Walked over to the mall, 12:49 - 13:07<br>Sat in the park, 13:14 - 13:20<br>Evening walk, 19:48 - 20:10",
+                "bn": 1
             },
             "29": {
                 "gg": 2.5,
                 "D": "8:53",
                 "A": "18:28",
-                "N": "Did not carpool.<br>Walk and McDonalds, 13:20 - 13:42"
+                "N": "Did not carpool.<br>Walk and McDonalds, 13:20 - 13:42",
+                "bn": 3.5
             },
             "30": {
                 "gg": 0,
                 "D": "8:50",
                 "A": "16:59",
-                "N": "Did not carpool.<br>Galleria for lunch, 12:02 - 13:07<br>Walked over to The Goose (bar) for drinks after work, 17:03 - 19:45<br>Rushed back to the office (to the car) to take R's call, 19:45 - 20:11<br>0 hours recorded for this day, as of July 3rd."
+                "N": "Did not carpool.<br>Galleria for lunch, 12:02 - 13:07<br>Walked over to The Goose (bar) for drinks after work, 17:03 - 19:45<br>Rushed back to the office (to the car) to take R's call, 19:45 - 20:11<br>0 hours recorded for this day, as of July 3rd.",
+                "bn": 3.5
             }
         },
         "07": {
