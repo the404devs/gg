@@ -12190,7 +12190,75 @@
                 "N": "Large adventure around the Pickering area to car dealerships, 13:26 - 15:00. <br> Walmart afterwards, 15:00 - 15:18<br>Bike ride, 19:48 - 20:14"
             },
             "03": {
-                "NAVG": true
+                "NAVG": true,
+                "N": "Stouffville, 13:58 - 18:13"
+            },
+            "04": {
+                "gg": 3.25,
+                "D": "8:53",
+                "A": "17:13",
+                "N": "Walk, around 13:30"
+            },
+            "05": {
+                "gg": 3,
+                "H": true,
+                "N": "Was at a used car place in Scarborough, 15:52 - 17:02<br>Mall, 17:02 - 17:34<br>Bike ride, 19:50 - 20:12"
+            },
+            "06": {
+                "gg": 4.2,
+                "D": "9:01",
+                "A": "17:15",
+                "N": "Carpooled.<br>McDonalds walk, 12:47 - 13:00<br>Evening walk, 19:53 - 20:15"
+            },
+            "07": {
+                "gg": 3.5,
+                "D": "9:00",
+                "A": "17:01",
+                "N": "Carpooled.<br>Lunch with EB & YC at St Louis, 12:08 - 14:03<br>NoFrills, 19:50 - 20:34"
+            },
+            "08": {
+                "gg": 0,
+                "H": true,
+                "N": "Massive Rogers outage, no internet.<br>Tracker is kinda fucked up for this day.<br>Bike ride, 11:12 - 11:56<br>Library, 11:56 - 12:05<br>Mall, 13:54 - 14:27<br>Bike ride, 19:45 - 20:14<br>Sat in the park, 20:14 - 20:30"
+            },
+            "09": {
+                "NAVG": true,
+                "N": "More used car travels, 13:21 - 15:06<br>Went to a random Shoppers, 15:29 - 15:34<br>Bike ride, 19:46 - 20:17<br>Sat in park, 20:17 - 20:26"
+            },
+            "10": {
+                "NAVG": true,
+                "N": "Stouffville, 13:43 - 18:07.<br>Wendy's, 18:35 - 18:44<br>Ate out in the park(?), 18:52 - 19:06<br>Was very snotty today, wiping his nose on his sleeve and sniffing constantly."
+            },
+            "11": {
+                "gg": 2.5,
+                "D": "8:55",
+                "A": "17:10",
+                "N": "Carpooled with Sonika and Febe.<br>Walk/McDonalds, 12:35 - 12:45<br>Walmart on the way home, 17:41 - 17:58<br>Walk, 20:02 - 20:27<br>Likely bought hand sanitizer at Walmart, was searching it up on his work PC around 15:00.<br>Febe is sick at work today, sore throat. He does a COVID test tonight, negative."
+            },
+            "12": {
+                "gg": 3.5,
+                "N": "Home all day, didn't go anywhere<br>In chat with Febe, its revealed that Sonika didn't go to work today, \"still\" feeling dizzy.",
+                "H": true
+            },
+            "13": {
+                "gg": 3,
+                "D": "8:56",
+                "A": "17:14",
+                "N": "Carpooled.<br>Walk, 15:25 - 15:35<br>Does a COVID test in the morning, negative."
+            },
+            "14": {
+                "gg": 5.25,
+                "H": true,
+                "N": "Walmart, 11:25 - 11:57<br>Walk, either to the park or the library and back, 14:13 - 14:38<br>Walk, 20:03 - 20:20<br>He confirms his illness, \"head and chest very congested\""
+            },
+            "15": {
+                "gg": 4.5,
+                "H": true,
+                "N": "Walk, 12:49 - 13:21<br>Walk, 19:56 - 20:16<br>Said on Thurs. he was going to test again today. Says to Ed he's still very congested. Yongho also mentions he's been away sick this week with a \"cold\", same as all the other \"colds\" going around in July. At this point, there are 4 presumptive cases of COVID in the office: Febe, Sonika, Glenn, Yongho<br>Likely caught it last week while carpooling with the ladies, or from YC at St Louis, and then it spread to the ladies. Sonika is the only one who wears a mask in the group."
+            },
+            "16": {
+                "NAVG": true,
+                "N": "Walmart, 13:30 - 14:01<br>Walk, 16:18 - 16:41<br>Walk and phone call in the park, 19:54 - 20:27<br>Still sounds very sick on the phone, but don't worry, its \"just allergies\"."
             }
         }
     }
