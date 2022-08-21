@@ -12197,29 +12197,34 @@
                 "gg": 3.25,
                 "D": "8:53",
                 "A": "17:13",
-                "N": "Walk, around 13:30"
+                "N": "Walk, around 13:30",
+                "bn": 2.75
             },
             "05": {
                 "gg": 3,
                 "H": true,
-                "N": "Was at a used car place in Scarborough, 15:52 - 17:02<br>Mall, 17:02 - 17:34<br>Bike ride, 19:50 - 20:12"
+                "N": "Was at a used car place in Scarborough, 15:52 - 17:02<br>Mall, 17:02 - 17:34<br>Bike ride, 19:50 - 20:12",
+                "bn": 2
             },
             "06": {
                 "gg": 4.2,
                 "D": "9:01",
                 "A": "17:15",
-                "N": "Carpooled.<br>McDonalds walk, 12:47 - 13:00<br>Evening walk, 19:53 - 20:15"
+                "N": "Carpooled.<br>McDonalds walk, 12:47 - 13:00<br>Evening walk, 19:53 - 20:15",
+                "bn": 2
             },
             "07": {
                 "gg": 3.5,
                 "D": "9:00",
                 "A": "17:01",
-                "N": "Carpooled.<br>Lunch with EB & YC at St Louis, 12:08 - 14:03<br>NoFrills, 19:50 - 20:34"
+                "N": "Carpooled.<br>Lunch with EB & YC at St Louis, 12:08 - 14:03<br>NoFrills, 19:50 - 20:34",
+                "bn": 2
             },
             "08": {
                 "gg": 0,
                 "H": true,
-                "N": "Massive Rogers outage, no internet.<br>Tracker is kinda fucked up for this day.<br>Bike ride, 11:12 - 11:56<br>Library, 11:56 - 12:05<br>Mall, 13:54 - 14:27<br>Bike ride, 19:45 - 20:14<br>Sat in the park, 20:14 - 20:30"
+                "N": "Massive Rogers outage, no internet.<br>Tracker is kinda fucked up for this day.<br>Bike ride, 11:12 - 11:56<br>Library, 11:56 - 12:05<br>Mall, 13:54 - 14:27<br>Bike ride, 19:45 - 20:14<br>Sat in the park, 20:14 - 20:30",
+                "bn": 2
             },
             "09": {
                 "NAVG": true,
@@ -12233,18 +12238,21 @@
                 "gg": 2.5,
                 "D": "8:55",
                 "A": "17:10",
-                "N": "Carpooled with Sonika and Febe.<br>Walk/McDonalds, 12:35 - 12:45<br>Walmart on the way home, 17:41 - 17:58<br>Walk, 20:02 - 20:27<br>Likely bought hand sanitizer at Walmart, was searching it up on his work PC around 15:00.<br>Febe is sick at work today, sore throat. He does a COVID test tonight, negative."
+                "N": "Carpooled with Sonika and Febe.<br>Walk/McDonalds, 12:35 - 12:45<br>Walmart on the way home, 17:41 - 17:58<br>Walk, 20:02 - 20:27<br>Likely bought hand sanitizer at Walmart, was searching it up on his work PC around 15:00.<br>Febe is sick at work today, sore throat. He does a COVID test tonight, negative.",
+                "bn": 3.5
             },
             "12": {
                 "gg": 3.5,
                 "N": "Home all day, didn't go anywhere<br>In chat with Febe, its revealed that Sonika didn't go to work today, \"still\" feeling dizzy.",
-                "H": true
+                "H": true,
+                "bn": 3
             },
             "13": {
                 "gg": 3,
                 "D": "8:56",
                 "A": "17:14",
-                "N": "Carpooled.<br>Walk, 15:25 - 15:35<br>Does a COVID test in the morning, negative."
+                "N": "Carpooled.<br>Walk, 15:25 - 15:35<br>Does a COVID test in the morning, negative.",
+                "bn": 3.75
             },
             "14": {
                 "gg": 5.25,
@@ -12259,6 +12267,196 @@
             "16": {
                 "NAVG": true,
                 "N": "Walmart, 13:30 - 14:01<br>Walk, 16:18 - 16:41<br>Walk and phone call in the park, 19:54 - 20:27<br>Still sounds very sick on the phone, but don't worry, its \"just allergies\"."
+            },
+            "17": {
+                "NAVG": true,
+                "N": "In Stouffville - NoFrills, 13:53 - 14:58, House (lawn cut, deck step replacement) 15:04 - 17:37"
+            },
+            "18": {
+                "gg": 6.5,
+                "H": true,
+                "N": "Got groceries, 19:48 - 20:23"
+            },
+            "19": {
+                "gg": 5,
+                "bn": 1.5,
+                "D": "9:03",
+                "A": "17:17",
+                "N": "Walk/Mcdonalds, 13:19 - 13:44\nWent to Shoppers on the way home, 17:44 - 17:48"
+            },
+            "20": {
+                "gg": 4.25,
+                "H": true,
+                "N": "Went over to Shoppers in the mall, 8:43 - 9:03"
+            },
+            "21": {
+                "gg": 3.25,
+                "H": true,
+                "N": "Walked over and sat in the park, 16:15 - 16:42"
+            },
+            "22": {
+                "H": true,
+                "gg": 0,
+                "N": "Walked over and sat in the park, 12:44 - 13:09\nWalk, 20:03 - 20:17"
+            },
+            "23": {
+                "NAVG": true,
+                "N": "Walked over and sat in park, 11:40 - 12:13\nWent over to the mall, 15:59 - 16:35"
+            },
+            "24": {
+                "NAVG": true,
+                "N": "Stouffville, 14:29 - 17:36\nWendy's on the way back, 17:59 - 18:24"
+            },
+            "25": {
+                "gg": 4.75,
+                "D": "8:59",
+                "A": "17:30",
+                "N": "Walk, 14:00 - 14:10"
+            },
+            "26": {
+                "gg": 6,
+                "bn": 0.75,
+                "H": true,
+                "N": "Walmart, 11:34 - 11:55\nNoFrills, 19:56 - 20:38"
+            },
+            "27": {
+                "gg": 5,
+                "bn": 1.5,
+                "D": "10:25",
+                "A": "17:13",
+                "N": "At Lowe Label, 9:04 - 10:10\nMcDonalds/Walk, 13:30 - 13:50"
+            },
+            "28": {
+                "gg": 1.75,
+                "bn": 2,
+                "H": true,
+                "N": "Stouffville (dog grooming, step repair), 11:48 - 15:09"
+            },
+            "29": {
+                "gg": 4.75,
+                "bn": 1.5,
+                "D": "9:08",
+                "A": "16:06",
+                "N": "Went to the bank in the morning, ~9:10\nMcDonalds ~12:30\nWent to Shoppers on the way home, 16:34 - 16:39\nDrove to Fawcett to pick up Febe, then went down to Scarborough Bluffs, 18:14 - 20:33\nDropped Febe off ~21:00.\nSeveral missed calls from R before picking up around 21:10.\nGot home 21:41."
+            },
+            "30": {
+                "NAVG": true,
+                "N": "Went down to several used car places on Kingston Road, 12:44 - 14:21\nHaircut in Ajax, 15:04 - 16:04\nWalk, 20:18 - 20:38"
+            },
+            "31": {
+                "NAVG": true,
+                "N": "Went to Shoppers, 13:03 - 13:20\nWalmart and Lowes, 13:28 - 14:06"
+            }
+        },
+        "08": {
+            "01": {
+                "gg": 2.25,
+                "H": true,
+                "N": "Stouffville, 14:01 - 16:48\nWalk, 19:28 - 19:47"
+            },
+            "02": {
+                "gg": 5,
+                "D": "10:15",
+                "A": "17:44",
+                "N": "Walk/Mcdonalds, 12:45 - 13:00\nWent to Shoppers on the way home, 18:04 - 18:09\nNoFrills, 19:53 - 20:28\nPut $2000 down payment on his new 2014 Hyundai Sonata."
+            },
+            "03": {
+                "gg": 3.25,
+                "D": "9:00",
+                "A": "17:07",
+                "N": "Walk ~12:45\nWent to Rainbow Motors on the way home, 17:29 - 17:54. Buying car."
+            },
+            "04": {
+                "gg": 5.25,
+                "D": "8:58",
+                "A": "17:27",
+                "N": "Galleria lunch, 11:50 - 12:43\nMcdonalds(?), 12:49 - 13:12"
+            },
+            "05": {
+                "gg": 2.5,
+                "D": "9:04",
+                "A": "16:30",
+                "N": "Walk/Mcdonalds, 12:30 - 12:50\nWent to 169 Winter Gardens Trail (Port Union/Lawrence) on the way home. (Client? Dropping off docs?)\nWalk, 19:52 - 20:13"
+            },
+            "06": {
+                "NAVG": true,
+                "N": "Bike ride, 8:14 - 8:55.\nDrove to Canadian Tire in Scarborough, 11:56 - 12:59\nAt Food Truck Festival, 19:55 - 21:06"
+            },
+            "07": {
+                "NAVG": true,
+                "N": "Stouffville, 14:26 - 17:21\nLeft Dodge Journey here, took Uber taxi home."
+            },
+            "08": {
+                "gg": 4.25,
+                "H": true,
+                "N": "Walked over to the bank (to get certified cheque), 12:05 - 12:32.\nTook Uber down to Rainbow Motors to pick up Hyundai Sonata, 12:40 - 13:33"
+            },
+            "09": {
+                "gg": 5.65,
+                "D": "8:17",
+                "A": "17:17",
+                "N": "Walk/Mcdonalds, 13:04 - 13:31\nShoppers, 17:39 - 17:45\nBike ride, 19:47 - 20:19"
+            },
+            "10": {
+                "gg": 3,
+                "D": "9:06",
+                "A": "17:15",
+                "N": "Carpooled\nMcdonalds, 13:05 - 13:22\nNoFrills, 20:01 - 20:38"
+            },
+            "11": {
+                "gg": 3.5,
+                "D": "9:04",
+                "A": "17:22",
+                "N": "Tim Hortons ~12:20\nMcdonalds, ~13:20 - 13:30"
+            },
+            "12": {
+                "gg": 4.75,
+                "D": "9:04",
+                "A": "16:18",
+                "N": "Was out somewhere ~12:50\nShoppers, 16:40 - 16:50\nDrove to Fawcett to pick up Febe, 18:45 - 19:03\nWent to Morningside Park, 19:11 - 20:56.\nDropped Febe off ~21:00, got home 21:28."
+            },
+            "13": {
+                "NAVG": true,
+                "N": "Stouffville, 13:31 - 17:35\nBike ride, 19:47 - 20:26"
+            },
+            "14": {
+                "NAVG": true,
+                "N": "Walked over to Walmart, 10:20-11:26"
+            },
+            "15": {
+                "gg": 3.75,
+                "ge": 0.75,
+                "D": "9:01",
+                "A": "17:17",
+                "N": "Carpooled.\nMcDonalds/Walk, 13:00 - 13:20\nBike ride, 19:57 - 20:38"
+            },
+            "16": {
+                "gg": 0.75,
+                "H": true,
+                "N": "Walked over to the mall, 12:40 - 13:15\nNoFrills, 19:44 - 20:21"
+            },
+            "17": {
+                "gg": 0.75,
+                "ge": 0.75,
+                "D": "9:30",
+                "A": "17:15",
+                "N": "Carpooled.\nMcdonalds/Walk, 13:00 - 13:30\nBad traffic led to strange routes there and back. Sheppard in the morning, Finch in the afternoon."
+            },
+            "18": {
+                "gg": 2.25,
+                "D": "8:57",
+                "A": "17:23",
+                "N": "Galleria lunch, 12:35 - 13:31\nBike ride, 19:48 - 20:26"
+            },
+            "19": {
+                "gg": 0.45,
+                "ge": 5.25,
+                "H": true,
+                "N": "Walked over to the mall (Winners/Homesense?), 13:02 - 13:41\nWalk, 19:36 - 19:56"
+            },
+            "20": {
+                "NAVG": true,
+                "N": "Biked down to plaza at Kingston/Rougemount, 8:23 - 8:58\nStopped at the mall on his way back, 9:16 - 9:24\nClaims his kickstand broke, his bike fell, and brake cord broke. I loosened both those compoents back in October.\nAjax haircut, 14:14 - 14:34\nBest Buy or Old Navy, 14:39 - 14:53\nWent down to Pickering waterfront, 19:37 - 20:41"
             }
         }
     }

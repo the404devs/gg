@@ -76,6 +76,13 @@ function loadHoursFromJSON() {
                         totalHours += jsonData[years[y]][months[m]][days[d]]["ag"];
                     }
 
+                    if (jsonData[years[y]][months[m]][days[d]]["ge"]) {
+                        $("#" + years[y] + "-" + months[m] + "-" + days[d]).append(
+                            $("<h6>").html("Gold: " + jsonData[years[y]][months[m]][days[d]]["ge"] + " hours").css("font-weight", "normal")
+                        );
+                        totalHours += jsonData[years[y]][months[m]][days[d]]["ge"];
+                    }
+
                     let hourColour = "yellow";
                     if (totalHours == 0) {
                         hourColour = "red";

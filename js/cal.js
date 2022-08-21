@@ -120,6 +120,13 @@ function loadHoursFromJSON() {
                         totalHours += dateData["ag"];
                     }
 
+                    if (dateData["ge"]) {
+                        $("#" + dateId).append(
+                            $("<h6>").html("Gold: " + dateData["ge"] + " hours").css("font-weight", "normal")
+                        );
+                        totalHours += dateData["ge"];
+                    }
+
                     let hourColour = "yellow";
                     if (totalHours == 0) {
                         hourColour = "red";
