@@ -12480,12 +12480,14 @@
                 "D": "8:50",
                 "A": "17:10",
                 "N": "Carpooled.<br>McDonalds, 12:45 - 13:00<br>Went to Walmart on the way home, 17:35 - 17:54<br>Also went to Loblaws, 18:09 - 18:21",
-                "bn": 1.5
+                "bn": 1.5,
+                "ge": 1.5
             },
             "23": {
                 "gg": 3.05,
                 "H": true,
-                "N": "Went for a walk in the morning, 7:18 - 7:36<br>Walked over to the mall, 13:25 - 14:07<br>NoFrills, 19:38 - 20:16"
+                "N": "Went for a walk in the morning, 7:18 - 7:36<br>Walked over to the mall, 13:25 - 14:07<br>NoFrills, 19:38 - 20:16",
+                "ge": 0.25
             },
             "24": {
                 "gg": 4.25,
@@ -12521,13 +12523,15 @@
                 "D": "9:00",
                 "A": "17:11",
                 "N": "Carpooled.<br>Galleria lunch, 12:03 - 12:34<br>May have gone to the bank or Mcdonalds around 13:20",
-                "bn": 1
+                "bn": 1,
+                "ge": 0.75
             },
             "30": {
                 "gg": 5.75,
                 "D": "9:01",
                 "A": "17:10",
-                "N": "Went to Shoppers on the way home, 17:35 - 17:41<br>Went to NoFrills, 19:54 - 20:13, then went back again a second time 20:30 - 20:38."
+                "N": "Went to Shoppers on the way home, 17:35 - 17:41<br>Went to NoFrills, 19:54 - 20:13, then went back again a second time 20:30 - 20:38.",
+                "ge": 0.75
             },
             "31": {
                 "gg": 6.25,
