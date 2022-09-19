@@ -12566,6 +12566,79 @@
                 "gg": 2.25,
                 "H": true,
                 "N": "Was up in Stouffville (NoFrills, house), 15:29 - 18:16"
+            },
+            "06": {
+                "D": "8:45",
+                "A": "17:31",
+                "N": "Went out for coffee, 12:35 - 12:45<br>Evening walk, 19:43 - 20:05",
+                "gg": 3.75
+            },
+            "07": {
+                "D": "10:25",
+                "A": "17:16",
+                "N": "Went for coffee, 13:20 - 13:35<br>Went to Shoppers on the way home, 17:44 - 17:50<br>NoFrills, 19:55 - 20:15",
+                "gg": 6.5
+            },
+            "08": {
+                "D": "9:20",
+                "A": "17:19",
+                "gg": 6
+            },
+            "09": {
+                "D": "8:50",
+                "A": "17:07",
+                "N": "Galleria lunch, 12:43 - 13:06<br>Went to LCBO to get wine for tomorrow, 13:30 - 13:54<br>Went to Shoppers on the way home, 17:29 - 17:34<br>Got gas, 17:36 - 17:41",
+                "gg": 2
+            },
+            "10": {
+                "NAVG": true,
+                "N": "Went to Loblaws to get flowers, 11:30 - 11:50<br>Went up to his parents place in Seagrave (24 Noquon Drive), 12:30 - 20:30<br>Deleted his Location History for this day on the 11th around 10:30."
+            },
+            "11": {
+                "NAVG": true,
+                "N": "Went for a walk in the morning, 8:40 - 9:02"
+            },
+            "12": {
+                "gg": 3.75,
+                "D": "9:00",
+                "A": "17:26",
+                "N": "Walk/Mcdonalds, 13:00 - 13:20<br>Went to Canadian Tire on the way home, 17:51 - 17:58<br>Walmart, 18:02 - 18:17",
+                "ge": 2.25
+            },
+            "13": {
+                "gg": 2.75,
+                "D": "9:10",
+                "A": "17:14",
+                "N": "Went to Shoppers on the way home, 17:38 - 17:44",
+                "ge": 1.75
+            },
+            "14": {
+                "gg": 3.25,
+                "D": "8:58",
+                "A": "17:21",
+                "N": "Walk/Mcdonalds, 13:45 - 14:00<br>Possibly went over to the bank around 15:00"
+            },
+            "15": {
+                "gg": 3.5,
+                "D": "9:08",
+                "A": "17:15",
+                "N": "Went to Tim Hortons, 12:30 - 12:40"
+            },
+            "16": {
+                "gg": 5.25,
+                "H": true,
+                "N": "Went to the mall, 12:35 - 13:12<br>Evening walk, 19:41 - 20:06"
+            },
+            "17": {
+                "NAVG": true,
+                "N": "Morning bike ride, 9:44 - 10:31<br>Walmart, 13:16 - 13:25<br>Marks, 13:30 - 13:37<br>Sportcheck, 13:49 - 14:23<br>Went for a walk, and possibly to the Library, 15:33 - 16:19"
+            },
+            "18": {
+                "gg": 1.5,
+                "N": "In Stouffville, 13:48 - 17:03<br>Evening walk, 19:38 - 19:55"
+            },
+            "19": {
+                "N": "Dentist app. @9:00"
             }
         }
     }
