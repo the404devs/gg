@@ -19,7 +19,7 @@ function loadHoursFromJSON() {
 
                 $("#link-zone").append(
                     $("<a>").html(monthNames[parseInt(months[m])] + " " + years[y]).addClass("link").attr("onclick", "scrollToElem('" + years[y] + "-" + months[m] + "')")
-                ).append($("<br>")).append($("<br>"))
+                );
                 const days = Object.keys(jsonData[years[y]][months[m]]).sort();
                 let monthlyHourTotal = 0;
                 let numberOfNAVGDays = 0;

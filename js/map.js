@@ -63,6 +63,7 @@ csvData.forEach(point => {
 
 request.open("GET", "./kml/list.txt", false);
 request.send(null);
+// const kmlList = [];
 const kmlList = request.responseText.split(/\r?\n|\r/);
 kmlList.forEach(function(filename) {
     if (filename.length <= 0) {

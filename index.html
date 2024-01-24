@@ -2,17 +2,44 @@
 <html>
 
 <head>
-    <title>Glenn Goodwin, CPA, CGA</title>
+    <title>Glenn Goodwin</title>
+    <link rel="stylesheet" type="text/css" href="https://the404.nl/css/controls.css">
+    <link rel="stylesheet" type="text/css" href="https://the404.nl/css/sidenav.css">
+    <link rel="stylesheet" type="text/css" href="https://the404.nl/css/common.css">
+    <link rel="stylesheet" type="text/css" href="https://the404.nl/css/main.css">
+    <link rel="stylesheet" type="text/css" href="https://the404.nl/css/home.css">
+    <link rel="stylesheet" type="text/css" href="https://the404.nl/css/nav.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/a79a931136.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 </head>
 
-<body>
+<body onload="load()">
     <div class="header">
-        <h1 id="header-text">Glenn Goodwin</h1>
+        <a href="https://gg.the404.nl">
+            <div class="logo">Glenn Goodwin</div>
+        </a>
+        <span class="navbar-toggle" id="navbar-toggle" onclick="showMainNav()">
+            <i class="open-icon fas fa-bars"></i>
+            <i class="close-icon fas fa-x"></i>
+        </span>
+        <div class="nav-wrapper" id="main-nav">
+            <a href="./index.html"><span class="nav-link active"><b>HOME</b></span></a>
+            <span class="spacer"><b>⋄</b></span>
+            <a href="./hours.html"><span class="nav-link"><b>HOURS</b></span></a>
+            <span class="spacer"><b>⋄</b></span>
+            <a href="./calendar.html"><span class="nav-link"><b>CALENDAR</b></span></a>
+            <span class="spacer"><b>⋄</b></span>
+            <a href="./map.html"><span class="nav-link"><b>MAP</b></span></a>
+            <span class="spacer"><b>⋄</b></span>
+            <a href="./invoicelist.html"><span class="nav-link"><b>INVOICES</b></span></a>
+            <span class="spacer"><b>⋄</b></span>
+            <a href="./history.html"><span class="nav-link"><b>HISTORY</b></span></a>
+        </div>
     </div>
-    <div id="main" style="text-align: left;">
-        <div class="blob">
+
+    <div class="content mainpage">
+        <div class="blob wide noscale">
             <h3 style="color: gold;">Browsing History (2019-09-28 - 2020-09-20)</h3>
             <button class="button" onclick="location.href='./history.html'">
                 <span>History Browser</span>
@@ -42,10 +69,11 @@
             <br>
             <br>
             <br>
-            <h5>GlennGoodwin.ca, created 2020-09-12, last modified 2022-08-21.</h5>
+            <h5>GlennGoodwin.ca, created 2020-09-12, last modified 2024-01-24.</h5>
         </div>
     </div>
-    <script src="js/common.js"></script>
+    <script src="https://the404.nl/js/app.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

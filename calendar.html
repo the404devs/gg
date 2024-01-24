@@ -2,16 +2,41 @@
 <html>
 
 <head>
-    <title>Glenn Goodwin, CPA, CGA</title>
+    <title>Calendar</title>
+    <link rel="stylesheet" type="text/css" href="https://the404.nl/css/controls.css">
+    <link rel="stylesheet" type="text/css" href="https://the404.nl/css/sidenav.css">
+    <link rel="stylesheet" type="text/css" href="https://the404.nl/css/common.css">
+    <link rel="stylesheet" type="text/css" href="https://the404.nl/css/main.css">
+    <link rel="stylesheet" type="text/css" href="https://the404.nl/css/nav.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/a79a931136.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 </head>
 
 <body id="body">
-    <div class="header" id="head">
-        <h1 id="header-text" onclick="location.href='./index.html'">Glenn Goodwin</h1>
+    <div class="header">
+        <a href="https://gg.the404.nl">
+            <div class="logo">Glenn Goodwin</div>
+        </a>
+        <span class="navbar-toggle" id="navbar-toggle" onclick="showMainNav()">
+            <i class="open-icon fas fa-bars"></i>
+            <i class="close-icon fas fa-x"></i>
+        </span>
+        <div class="nav-wrapper" id="main-nav">
+            <a href="./index.html"><span class="nav-link"><b>HOME</b></span></a>
+            <span class="spacer"><b>⋄</b></span>
+            <a href="./hours.html"><span class="nav-link"><b>HOURS</b></span></a>
+            <span class="spacer"><b>⋄</b></span>
+            <a href="./calendar.html"><span class="nav-link active"><b>CALENDAR</b></span></a>
+            <span class="spacer"><b>⋄</b></span>
+            <a href="./map.html"><span class="nav-link"><b>MAP</b></span></a>
+            <span class="spacer"><b>⋄</b></span>
+            <a href="./invoicelist.html"><span class="nav-link"><b>INVOICES</b></span></a>
+            <span class="spacer"><b>⋄</b></span>
+            <a href="./history.html"><span class="nav-link"><b>HISTORY</b></span></a>
+        </div>
     </div>
-    <div id="main">
+    <div class="content" id="main" style="max-width: 100%; padding: 15px 0 0 0; margin-left: 1.5%; margin-right: 1.5%; width: -webkit-fill-available;">
         <div class="blob" id="loading-box" style="height: 150px;">
             <h5>Hold on, loading...</h5>
             <div id="loading-anim"></div>
@@ -39,6 +64,8 @@
             </div>
         </div>
     </div>
+
+    <script src="https://the404.nl/js/app.js"></script>
     <script src="js/common.js"></script>
     <script src="js/cal.js"></script>
 </body>

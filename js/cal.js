@@ -16,14 +16,6 @@ function loadHoursFromJSON() {
             for (let m = 0; m < months.length; m++) {
                 $("#main").append(
                     $("<div>").addClass("blob month-view").append(
-                        $("<h3>").addClass("cal-month-head")
-                        .attr("onclick", "showModal('#month-select')")
-                        .attr("title", "Click to Select Month")
-                        .html(monthNames[parseInt(months[m])] + " " + years[y])
-                    ).append(
-                        $("<div>").addClass("grid-container")
-                        .attr("id", years[y] + "-" + months[m])
-                    ).append(
                         $("<div>").addClass("prev button")
                         .attr("onclick", "switchView(1)")
                         .append(
@@ -35,6 +27,14 @@ function loadHoursFromJSON() {
                         .append(
                             $("<span>").text("❯")
                         )
+                    ).append(
+                        $("<h3>").addClass("cal-month-head")
+                        .attr("onclick", "showModal('#month-select')")
+                        .attr("title", "Click to Select Month")
+                        .html(monthNames[parseInt(months[m])] + " " + years[y])
+                    ).append(
+                        $("<div>").addClass("grid-container")
+                        .attr("id", years[y] + "-" + months[m])
                     ).append(
                         $("<div>").addClass("prev bottom button")
                         .attr("onclick", "switchView(1)")
@@ -77,52 +77,52 @@ function loadHoursFromJSON() {
 
                     $("#" + years[y] + "-" + months[m]).append(
                         $("<div>").addClass("grid-item").append(
-                            $("<h3>").html(days[d])
+                            $("<h3>").html(days[d]).addClass("cal-day")
                         ).attr("id", dateId).css("grid-column-start", index + "")
                     );
 
                     if (dateData["D"]) {
                         $("#" + dateId).append(
-                            $("<h6>").html("Work: " + dateData["D"]).css("font-weight", "bold")
+                            $("<h6>").html("Work: " + dateData["D"]).addClass('cal-d')
                         );
                     }
 
                     if (dateData["A"]) {
                         $("#" + dateId).append(
-                            $("<h6>").html("Home: " + dateData["A"]).css("font-weight", "bold")
+                            $("<h6>").html("Home: " + dateData["A"]).addClass('cal-a')
                         );
                     }
 
                     if (dateData["H"]) {
                         $("#" + dateId).append(
-                            $("<h6>").html("Worked from home.").css("font-weight", "bold").css("color", "lime")
+                            $("<h6>").html("WFH").addClass('cal-h')
                         );
                     }
 
                     if (dateData["gg"]) {
                         $("#" + dateId).append(
-                            $("<h6>").html("G&G: " + dateData["gg"] + " hours").css("font-weight", "normal")
+                            $("<h6>").html("G&G: " + dateData["gg"] + " hours").addClass('cal-gg')
                         );
                         totalHours += dateData["gg"];
                     }
 
                     if (dateData["bn"]) {
                         $("#" + dateId).append(
-                            $("<h6>").html("Bruce: " + dateData["bn"] + " hours").css("font-weight", "normal")
+                            $("<h6>").html("Bruce: " + dateData["bn"] + " hours").addClass('cal-bn')
                         );
                         totalHours += dateData["bn"];
                     }
 
                     if (dateData["ag"]) {
                         $("#" + dateId).append(
-                            $("<h6>").html("Alex: " + dateData["ag"] + " hours").css("font-weight", "normal")
+                            $("<h6>").html("Alex: " + dateData["ag"] + " hours").addClass('cal-ag')
                         );
                         totalHours += dateData["ag"];
                     }
 
                     if (dateData["ge"]) {
                         $("#" + dateId).append(
-                            $("<h6>").html("Gold: " + dateData["ge"] + " hours").css("font-weight", "normal")
+                            $("<h6>").html("Gold: " + dateData["ge"] + " hours").addClass('cal-ge')
                         );
                         totalHours += dateData["ge"];
                     }
@@ -135,12 +135,12 @@ function loadHoursFromJSON() {
                         hourColour = "orange";
                     }
                     $("#" + dateId).append(
-                        $("<h6>").html("Total: " + totalHours + " hours").css("font-weight", "bold").css("color", hourColour)
+                        $("<h6>").html("Total: " + totalHours + " hours").addClass('cal-t')
                     );
 
                     if (dateData["N"]) {
                         $("#" + dateId).append(
-                            $("<h6>").html("Notes: " + dateData["N"]).css("font-weight", "normal")
+                            $("<h6>").html("Notes: " + dateData["N"]).addClass('cal-n')
                         );
                     }
 
@@ -171,13 +171,13 @@ function loadHoursFromJSON() {
                     } else {
                         numberOfNAVGDays++;
                         $("#" + dateId).append(
-                            $("<h6>").html("This day is not included in the monthly average.").css("font-weight", "bold")
+                            $("<h6>").html("This day is not included in the monthly average.").addClass('cal-navg')
                         );
                     }
 
                     if (date >= new Date("2017-03-19")) {
                         $("#" + dateId).append(
-                            $("<button>").addClass("button").attr("onclick", "window.open('./map.html?d=" + dateId + "')").css("width", "100px").append(
+                            $("<button>").addClass("button").attr("onclick", "window.open('./map.html?d=" + dateId + "')").append(
                                 $("<span>").html("Map")
                             )
                         )
@@ -186,23 +186,22 @@ function loadHoursFromJSON() {
 
                 const monthBlob = $("#" + years[y] + "-" + months[m]);
                 const monthlyAverage = monthlyHourTotal / (days.length - numberOfNAVGDays);
+                console.log(years[y] + "-" + months[m] + ": " + monthlyAverage.toFixed(2));
                 monthBlob.append(
                     $("<div>").addClass("grid-item").append(
-                        $("<h3>").html("Totals")
+                        $("<h3>").html("Totals").addClass('cal-day')
                     ).append(
                         $("<h6>").html((days.length - numberOfNAVGDays) + " days worked.").css("font-weight", "normal")
                     ).append(
                         $("<h6>").html(monthlyHourTotal + " hours worked.").css("font-weight", "normal")
                     ).append(
-                        $("<h6>").html(monthlyAverage.toFixed(2) + " hours/day, average").css("font-weight", "bold").css("color", "yellow")
+                        $("<h6>").html(monthlyAverage.toFixed(2) + " hours/day, average").css("font-weight", "bold")
                     ).append(
-                        $("<button>").addClass("button").attr("onclick", "window.open('time/gg/" + years[y] + "-" + months[m] + "-GG.pdf')").css("width", "100px").append(
+                        $("<button>").addClass("button").attr("onclick", "window.open('time/gg/" + years[y] + "-" + months[m] + "-GG.pdf')").append(
                             $("<span>").html("G&G")
                         )
                     ).append(
-                        $("<br>")
-                    ).append(
-                        $("<button>").addClass("button").attr("onclick", "window.open('time/bn/" + years[y] + "-" + months[m] + "-BN.pdf')").css("width", "100px").append(
+                        $("<button>").addClass("button").attr("onclick", "window.open('time/bn/" + years[y] + "-" + months[m] + "-BN.pdf')").append(
                             $("<span>").html("Bruce")
                         )
                     )
@@ -247,7 +246,7 @@ const monthNames = {
     "12": "December"
 }
 
-const weekHTML = "<div class='grid-item'><h2>Sunday</h2></div><div class='grid-item'><h2>Monday</h2></div><div class='grid-item'><h2>Tuesday</h2></div><div class='grid-item'><h2>Wednesday</h2></div><div class='grid-item'><h2>Thursday</h2></div><div class='grid-item'><h2>Friday</h2></div><div class='grid-item'><h2>Saturday</h2></div>"
+const weekHTML = "<div class='grid-item weekday'><h2>Sunday</h2></div><div class='grid-item weekday'><h2>Monday</h2></div><div class='grid-item weekday'><h2>Tuesday</h2></div><div class='grid-item weekday'><h2>Wednesday</h2></div><div class='grid-item weekday'><h2>Thursday</h2></div><div class='grid-item weekday'><h2>Friday</h2></div><div class='grid-item weekday'><h2>Saturday</h2></div>"
 
 let calIndex = 0;
 
@@ -287,15 +286,15 @@ function showCalendar(id) {
 }
 
 function showModal(id) {
-    $('#main').css('filter', 'blur(25px)');
-    $('#head').css('filter', 'blur(25px)');
+    $('.content').css('filter', 'blur(25px)');
+    $('.header').css('filter', 'blur(25px)');
     $(id).fadeIn();
     $(id).css('filter', 'none');
 }
 
 function hideModal(id) {
-    $('#main').css('filter', 'none');
-    $('#head').css('filter', 'none');
+    $('.content').css('filter', 'none');
+    $('.header').css('filter', 'none');
     $(".modal").fadeOut();
 }
 

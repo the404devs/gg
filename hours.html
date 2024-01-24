@@ -2,52 +2,71 @@
 <html>
 
 <head>
-    <title>Glenn Goodwin, CPA, CGA</title>
+    <title>Hours</title>
+    <link rel="stylesheet" type="text/css" href="https://the404.nl/css/controls.css">
+    <link rel="stylesheet" type="text/css" href="https://the404.nl/css/sidenav.css">
+    <link rel="stylesheet" type="text/css" href="https://the404.nl/css/common.css">
+    <link rel="stylesheet" type="text/css" href="https://the404.nl/css/main.css">
+    <link rel="stylesheet" type="text/css" href="https://the404.nl/css/nav.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/a79a931136.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 </head>
 
 <body>
     <div class="header">
-        <h1 id="header-text" onclick="location.href='./index.html'">Glenn Goodwin</h1>
+        <a href="https://gg.the404.nl">
+            <div class="logo">Glenn Goodwin</div>
+        </a>
+        <span class="navbar-toggle" id="navbar-toggle" onclick="showMainNav()">
+            <i class="open-icon fas fa-bars"></i>
+            <i class="close-icon fas fa-x"></i>
+        </span>
+        <div class="nav-wrapper" id="main-nav">
+            <a href="./index.html"><span class="nav-link"><b>HOME</b></span></a>
+            <span class="spacer"><b>⋄</b></span>
+            <a href="./hours.html"><span class="nav-link active"><b>HOURS</b></span></a>
+            <span class="spacer"><b>⋄</b></span>
+            <a href="./calendar.html"><span class="nav-link"><b>CALENDAR</b></span></a>
+            <span class="spacer"><b>⋄</b></span>
+            <a href="./map.html"><span class="nav-link"><b>MAP</b></span></a>
+            <span class="spacer"><b>⋄</b></span>
+            <a href="./invoicelist.html"><span class="nav-link"><b>INVOICES</b></span></a>
+            <span class="spacer"><b>⋄</b></span>
+            <a href="./history.html"><span class="nav-link"><b>HISTORY</b></span></a>
+        </div>
     </div>
-    <div id="main" style="width: 60%; text-align: left;">
+    <div class="content" id="main">
         <div class="blob" id="loading-box" style="height: 150px;">
-            <h5 style="color:white">Hold on, loading...</h5>
+            <h5>Hold on, loading...</h5>
             <div id="loading-anim"></div>
         </div>
     </div>
-    <div id="side">
-        <div class="blob">
-            <h3>Jump to Date:</h3>
-            <div id="controls">
-                <input id="date-sel" type="date" onkeypress="function k(e){if (e.key=='Enter')scrollToElem($('#date-sel').val())} k(event)">
-                <button class="button" style="width:50px" onclick="scrollToElem($('#date-sel').val())">
-                    <span>Go</span>
-                </button>
-                <h5 id="errmsg">Nothing for that date!</h5>
-            </div>
-            <div id="link-zone"></div>
-            <br>
-            <div style="text-align: center; width: 100%;">
-                <h5 style="color:white;">v0.0.6 (08/21/2022)</h5>
-                <button class="button" onclick="location.href='./history.html'">
-                    <span>History Browser</span>
-                </button>
-                <br>
-                <br>
-                <button class="button" onclick="location.href='./calendar.html'">
-                    <span>Hours Calendar</span>
-                </button>
-                <br>
-                <br>
-                <button class="button" onclick="location.href='./map.html'">
-                    <span>Location History</span>
-                </button>
-            </div>
-
+    <div class="sidenav" id="side">
+        <h3 class="sidenav-head">Jump to Date:</h3>
+        <div id="controls">
+            <input id="date-sel" type="date" onkeypress="function k(e){if (e.key=='Enter')scrollToElem($('#date-sel').val())} k(event)">
+            <button class="button" style="width:50px" onclick="scrollToElem($('#date-sel').val())">
+                <span>Go</span>
+            </button>
+            <h5 id="errmsg">Nothing for that date!</h5>
         </div>
+        <div class="sidenav-list" id="link-zone"></div>
+        <div style="text-align: center; width: 100%;">
+            <h5 style="color:white;">v0.0.6 (08/21/2022)</h5>
+            <button class="button" onclick="location.href='./history.html'">
+                <span>History Browser</span>
+            </button>
+            <button class="button" onclick="location.href='./calendar.html'">
+                <span>Hours Calendar</span>
+            </button>
+            <button class="button" onclick="location.href='./map.html'">
+                <span>Location History</span>
+            </button>
+        </div>
+
     </div>
+    <script src="https://the404.nl/js/app.js"></script>
     <script src="js/common.js"></script>
     <script src="js/hours.js"></script>
 </body>

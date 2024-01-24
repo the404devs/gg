@@ -8,7 +8,7 @@ function scrollToElem(id) {
         setTimeout(() => { $("#errmsg").css("opacity", "0"); }, 2000);
         return;
     }
-    const offset = elem.offsetTop - 0;
+    const offset = elem.offsetTop - 120;
     window.scrollTo({
         top: offset,
         behavior: "smooth"
