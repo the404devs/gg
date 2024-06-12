@@ -753,3 +753,5 @@ history-2024-06-05.kml
 history-2024-06-06.kml
 history-2024-06-07.kml
 history-2024-06-08.kml
+history-2024-06-09.kml
+history-2024-06-10.kml
