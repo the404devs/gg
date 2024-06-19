@@ -28,12 +28,15 @@ let satMap = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y
     accessToken: 'pk.eyJ1IjoidGhlNDA0ZGV2cyIsImEiOiJjbDM3Z2Q4YXYzam9xM2RvNTMzZjh4b3UzIn0.nf9h5X2OtPsIZ9Q10xXb2A'
 });
 
-let map = L.map('map', { layers: streetMap }).setView([43.819, -79.237], 11);
+let map = L.map('map', { layers: darkMap }).setView([43.819, -79.237], 11);
 let mapTypes = { "Street (Light)": streetMap, "Street (Dark)": darkMap, "Satellite": satMap };
 let layerControl = L.control.layers(mapTypes).addTo(map);
 
 let lineGroup = L.layerGroup().addTo(map);
 let markerGroup = L.layerGroup().addTo(map);
+
+let rows = [];
+
 const request = new XMLHttpRequest();
 request.open("GET", "./js/data/location.csv", false);
 request.send(null);
@@ -48,6 +51,7 @@ csvData.forEach(point => {
         const timestamp = new Date(point[0]);
         const lat = +point[1];
         const lng = +point[2];
+        const src = point[3];
         let date = dateFromTimestamp(timestamp);
         if (!points[date]) {
             points[date] = [];
@@ -57,55 +61,56 @@ csvData.forEach(point => {
             lat: lat,
             lng: lng
         });
-        pusher(date, timestamp, lat, lng, "JSON");
+        pusher(date, timestamp, lat, lng, src);
     }
 });
 
-request.open("GET", "./kml/list.txt", false);
-request.send(null);
-// const kmlList = [];
-const kmlList = request.responseText.split(/\r?\n|\r/);
-kmlList.forEach(function(filename) {
-    if (filename.length <= 0) {
-        return;
-    }
-    request.open("GET", "./kml/" + filename, false);
-    request.send(null);
-    const jsonData = toGeoJSON.kml(request.responseXML);
-    jsonData.features.forEach(feature => {
-        const startTimestamp = new Date(feature.properties.timespan.begin);
-        const endTimestamp = new Date(feature.properties.timespan.end);
-        if (feature.geometry.type == "Point") {
-            const lat = feature.geometry.coordinates[1];
-            const lng = feature.geometry.coordinates[0];
-            const startDate = dateFromTimestamp(startTimestamp);
-            const endDate = dateFromTimestamp(endTimestamp);
-            pusher(startDate, startTimestamp, lat, lng, "KML - Inferred Start");
-            pusher(endDate, endTimestamp, lat, lng, "KML - Inferred End");
-        } else if (feature.geometry.type == "LineString") {
-            let inferredTimes = [];
-            inferredTimes.push(startTimestamp);
-            const delta = endTimestamp - startTimestamp;
-            const numPoints = feature.geometry.coordinates.length;
-            for (let i = 1; i < numPoints - 1; i++) {
-                inferredTimes.push(new Date(startTimestamp.getTime() + delta * i / numPoints));
-            }
-            inferredTimes.push(endTimestamp);
-            // console.log(inferredTimes);
-            let x = 0;
-            feature.geometry.coordinates.forEach(coord => {
-                const timestamp = inferredTimes[x];
-                const lat = coord[1];
-                const lng = coord[0];
-                const date = dateFromTimestamp(timestamp);
-                pusher(date, timestamp, lat, lng, "KML- LineString");
-                x++;
-            });
-        }
-    });
-});
+// request.open("GET", "./kml/list.txt", false);
+// request.send(null);
+// // const kmlList = [];
+// const kmlList = request.responseText.split(/\r?\n|\r/);
+// kmlList.forEach(function(filename) {
+//     if (filename.length <= 0) {
+//         return;
+//     }
+//     request.open("GET", "./kml/" + filename, false);
+//     request.send(null);
+//     const jsonData = toGeoJSON.kml(request.responseXML);
+//     jsonData.features.forEach(feature => {
+//         const startTimestamp = new Date(feature.properties.timespan.begin);
+//         const endTimestamp = new Date(feature.properties.timespan.end);
+//         if (feature.geometry.type == "Point") {
+//             const lat = feature.geometry.coordinates[1];
+//             const lng = feature.geometry.coordinates[0];
+//             const startDate = dateFromTimestamp(startTimestamp);
+//             const endDate = dateFromTimestamp(endTimestamp);
+//             pusher(startDate, startTimestamp, lat, lng, "KML - Inferred Start");
+//             pusher(endDate, endTimestamp, lat, lng, "KML - Inferred End");
+//         } else if (feature.geometry.type == "LineString") {
+//             let inferredTimes = [];
+//             inferredTimes.push(startTimestamp);
+//             const delta = endTimestamp - startTimestamp;
+//             const numPoints = feature.geometry.coordinates.length;
+//             for (let i = 1; i < numPoints - 1; i++) {
+//                 inferredTimes.push(new Date(startTimestamp.getTime() + delta * i / numPoints));
+//             }
+//             inferredTimes.push(endTimestamp);
+//             // console.log(inferredTimes);
+//             let x = 0;
+//             feature.geometry.coordinates.forEach(coord => {
+//                 const timestamp = inferredTimes[x];
+//                 const lat = coord[1];
+//                 const lng = coord[0];
+//                 const date = dateFromTimestamp(timestamp);
+//                 pusher(date, timestamp, lat, lng, "KML- LineString");
+//                 x++;
+//             });
+//         }
+//     });
+// });
 
 validDates = Object.keys(points);
+
 
 function pusher(date, timestamp, lat, lng, source) {
     if (!points[date]) {
@@ -117,6 +122,20 @@ function pusher(date, timestamp, lat, lng, source) {
         lng: lng,
         source: source
     });
+    // rows.push([timestamp, lat, lng, source]);
+}
+
+function doTheThing(){
+    let csvContent = "data:text/csv;charset=utf-8," 
+    + rows.map(e => e.join(",")).join("\n");
+
+    var encodedUri = encodeURI(csvContent);
+    var link = document.createElement("a");
+    link.setAttribute("href", encodedUri);
+    link.setAttribute("download", "location.csv");
+    document.body.appendChild(link); // Required for FF
+
+    link.click(); // This will download the data file named "my_data.csv".
 }
 
 function dateFromTimestamp(timestamp) {

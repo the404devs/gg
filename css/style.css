@@ -14,30 +14,34 @@
 }
 
 * {
-    --foreground: #ffffff;
+    --background-image: black;
+    --background-gradient: linear-gradient(0deg, #001c31 0%, #0b5875 90%);
+    --background-alt: #111111a0;
+    --background-alt2: #00000000;
     --background: #151824;
-    --background-alt: lightslategrey;
-    --background-transparent: rgba(21, 24, 36, 0.75);
-    --background-alt-2: darkslategrey;
-    --highlight: #06e0d0;
+    --bold: #cb8784;
+    --foreground: #f5f5f5;
+    --highlight-transparent: rgba(128, 0, 128, 0.8);
+    --highlight: #ff8879;
+    --important: #b20acb;
+    --link: #60ecff;
     --theme: #06e0d0;
-    --theme-alt: #c779ce;
-    --theme-alt-2: #85328c;
-    --text: #ffffff;
     --text-alt: #151824;
-    --border: #ffffff;
-    --border-alt: rgba(255,255,255,0.3);
-    --border-radius: 8px;
-    --scrollbar: rgba(21, 24, 36, 0.75);
-    --shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
-    --shadow-alt: 0 3px 6px rgba(6, 224, 208, 0.5);
-    --err: #f45a5a;
-    --background-gradient: linear-gradient(0deg, #151824 0%, rgb(0, 89, 161) 33%, rgb(38, 126, 177) 100%)
+    --text: #f5f5f5;
+    --border: #508d9b;
+    --border-alt: #508d9b55;
+    --border-radius: 0px;
+    --primary: silver;
+    --shadow: none;
+    --shadow-color: #111;
+    --shadow-color-alt: #222;
+    --shadow-alt: var(--shadow-color-alt) 0px 2px 10px, var(--shadow-color-alt) 0px -2px 10px;
+    --blur: blur(10px);
     
 }
 
 body {
-    background: rgb(0, 89, 161);
+    background: var(--background-image);
     overflow-y: scroll;
     height: auto;
     min-height: 100%;
@@ -47,6 +51,7 @@ body {
     height: 100%;
     max-width: 60%;
     overflow: hidden;
+    margin-top: 75px;
 }
 
 .content.mainpage {
@@ -526,7 +531,7 @@ input::-webkit-datetime-edit-minute-field:focus {
 
 .invlink {
     font-weight: bold;
-    color: gold;
+    color: var(--theme);
     font-size: 20px!important;
 }
 
@@ -543,7 +548,7 @@ input::-webkit-datetime-edit-minute-field:focus {
 
 .date-tag {
     font-size: 34px;
-    color: gold;
+    color: var(--theme);
     font-family: "Gilroy";
     font-weight: bold;
     text-shadow: 1px 2px 2px black, -1px 2px 2px black;
@@ -566,11 +571,11 @@ input::-webkit-datetime-edit-minute-field:focus {
 }
 
 .map-desc {
-    color: gold!important;
+    color: var(--theme)!important;
 }
 
 .map-desc b {
-    color: cyan;
+    color: var(--highlight);
 }
 
 .leaflet-control-attribution,
@@ -623,11 +628,11 @@ h6.cal-h {
 }
 
 h6.cal-d {
-    border-color: cyan;
+    border-color: var(--highlight);
 }
 
 h6.cal-a {
-    border-color: cyan;
+    border-color: var(--highlight);
 }
 
 h6.cal-gg {
@@ -643,7 +648,7 @@ h6.cal-ag {
 }
 
 h6.cal-ge {
-    border-color: goldenrod;
+    border-color: var(--theme)enrod;
 }
 
 h6.cal-t {
@@ -652,7 +657,7 @@ h6.cal-t {
 }
 
 h6.cal-n {
-    border-color: cyan;
+    border-color: var(--highlight);
 }
 
 h6.cal-navg {
@@ -677,4 +682,16 @@ h6.cal-navg {
 
 .link {
     cursor: pointer;
+}
+
+.header {
+    z-index: 9999;
+}
+
+.nav-wrapper {
+    justify-content: center;
+}
+
+.navbar-toggle .close-icon {
+    z-index: 10000;
 }
