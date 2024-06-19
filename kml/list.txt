@@ -755,3 +755,10 @@ history-2024-06-07.kml
 history-2024-06-08.kml
 history-2024-06-09.kml
 history-2024-06-10.kml
+history-2024-06-12.kml
+history-2024-06-13.kml
+history-2024-06-14.kml
+history-2024-06-15.kml
+history-2024-06-16.kml
+history-2024-06-17.kml
+history-2024-06-18.kml
